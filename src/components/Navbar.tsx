@@ -20,7 +20,7 @@ const Navbar = () => {
             <a href="#services" className="text-primary hover:text-primary-light">{t('nav.services')}</a>
             <a href="#pricing" className="text-primary hover:text-primary-light">{t('nav.pricing')}</a>
             
-            {/* Blog Dropdown */}
+            {/* Blog Dropdown with Subsections */}
             <div className="relative">
               <button
                 onClick={() => setIsBlogOpen(!isBlogOpen)}
@@ -31,35 +31,78 @@ const Navbar = () => {
               </button>
               
               {isBlogOpen && (
-                <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-md shadow-lg py-2 z-50">
+                <div className="absolute top-full left-0 mt-2 w-96 bg-white rounded-md shadow-lg py-2 z-50 border border-gray-200">
                   <a
                     href="/blog"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    className="block px-4 py-2 text-sm font-semibold text-primary hover:bg-gray-100 border-b border-gray-100"
                     onClick={() => setIsBlogOpen(false)}
                   >
-                    All Articles
+                    📚 All Articles
                   </a>
-                  <a
-                    href="/blog/free-zone-vs-mainland"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={() => setIsBlogOpen(false)}
-                  >
-                    Free Zone vs Mainland: Which is Right?
-                  </a>
-                  <a
-                    href="/blog/mainland-business-license-dubai"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={() => setIsBlogOpen(false)}
-                  >
-                    How to Open a Mainland Business License
-                  </a>
-                  <a
-                    href="/blog/starting-business-uae-foreigner"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={() => setIsBlogOpen(false)}
-                  >
-                    Starting a Business as a Foreigner
-                  </a>
+                  
+                  {/* Getting Started Section */}
+                  <div className="px-4 py-2">
+                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Getting Started</h4>
+                    <a
+                      href="/blog/free-zone-vs-mainland"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      🏢 Free Zone vs Mainland: Which is Right?
+                    </a>
+                    <a
+                      href="/blog/starting-business-uae-foreigner"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      🌍 Starting a Business as a Foreigner
+                    </a>
+                    <a
+                      href="/blog/business-activities-licensing"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      📊 Business Activities & Licensing Categories
+                    </a>
+                  </div>
+                  
+                  {/* Setup Guides Section */}
+                  <div className="px-4 py-2 border-t border-gray-100">
+                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Setup Guides</h4>
+                    <a
+                      href="/blog/mainland-business-license-dubai"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      📋 How to Open a Mainland Business License
+                    </a>
+                    <a
+                      href="/blog/free-zone-company-setup"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      🏢 Step-by-Step Free Zone Company Setup
+                    </a>
+                  </div>
+                  
+                  {/* Operations & Compliance Section */}
+                  <div className="px-4 py-2 border-t border-gray-100">
+                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Operations & Compliance</h4>
+                    <a
+                      href="/blog/government-approvals-streamlined"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      ⚙️ How AEFastLane Streamlines Approvals
+                    </a>
+                    <a
+                      href="/blog/company-renewals-closures"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      🔁 Company Renewals & Closures
+                    </a>
+                  </div>
                 </div>
               )}
             </div>

@@ -15,6 +15,10 @@ import Blog from './pages/Blog';
 import FreeZoneVsMainland from './pages/blog/FreeZoneVsMainland';
 import MainlandBusinessLicense from './pages/blog/MainlandBusinessLicense';
 import StartingBusinessForeigner from './pages/blog/StartingBusinessForeigner';
+import BusinessActivitiesLicensing from './pages/blog/BusinessActivitiesLicensing';
+import FreeZoneCompanySetup from './pages/blog/FreeZoneCompanySetup';
+import GovernmentApprovalsStreamlined from './pages/blog/GovernmentApprovalsStreamlined';
+import CompanyRenewalsClosures from './pages/blog/CompanyRenewalsClosures';
 
 function App() {
   return (
@@ -39,6 +43,10 @@ function App() {
             <Route path="/blog/free-zone-vs-mainland" element={<FreeZoneVsMainland />} />
             <Route path="/blog/mainland-business-license-dubai" element={<MainlandBusinessLicense />} />
             <Route path="/blog/starting-business-uae-foreigner" element={<StartingBusinessForeigner />} />
+            <Route path="/blog/business-activities-licensing" element={<BusinessActivitiesLicensing />} />
+            <Route path="/blog/free-zone-company-setup" element={<FreeZoneCompanySetup />} />
+            <Route path="/blog/government-approvals-streamlined" element={<GovernmentApprovalsStreamlined />} />
+            <Route path="/blog/company-renewals-closures" element={<CompanyRenewalsClosures />} />
           </Routes>
           <Footer />
         </div>
