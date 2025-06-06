@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitch from './LanguageSwitch';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isBlogOpen, setIsBlogOpen] = useState(false);
   const { t, language } = useLanguage();
 
   return (
@@ -18,6 +19,51 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-primary hover:text-primary-light">{t('nav.services')}</a>
             <a href="#pricing" className="text-primary hover:text-primary-light">{t('nav.pricing')}</a>
+            
+            {/* Blog Dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => setIsBlogOpen(!isBlogOpen)}
+                className="flex items-center text-primary hover:text-primary-light"
+              >
+                Blog
+                <ChevronDown className="ml-1 h-4 w-4" />
+              </button>
+              
+              {isBlogOpen && (
+                <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-md shadow-lg py-2 z-50">
+                  <a
+                    href="/blog"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsBlogOpen(false)}
+                  >
+                    All Articles
+                  </a>
+                  <a
+                    href="/blog/free-zone-vs-mainland"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsBlogOpen(false)}
+                  >
+                    Free Zone vs Mainland: Which is Right?
+                  </a>
+                  <a
+                    href="/blog/mainland-business-license-dubai"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsBlogOpen(false)}
+                  >
+                    How to Open a Mainland Business License
+                  </a>
+                  <a
+                    href="/blog/starting-business-uae-foreigner"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsBlogOpen(false)}
+                  >
+                    Starting a Business as a Foreigner
+                  </a>
+                </div>
+              )}
+            </div>
+            
             <a href="#hr-services" className="text-primary hover:text-primary-light">{t('nav.hrServices')}</a>
             <LanguageSwitch />
             <a href="#contact" className="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary-light">
@@ -36,11 +82,13 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#services" className="block px-3 py-2 text-primary hover:text-primary-light">{t('nav.services')}</a>
             <a href="#pricing" className="block px-3 py-2 text-primary hover:text-primary-light">{t('nav.pricing')}</a>
+            <a href="/blog" className="block px-3 py-2 text-primary hover:text-primary-light">Blog</a>
             <a href="#hr-services" className="block px-3 py-2 text-primary hover:text-primary-light">{t('nav.hrServices')}</a>
             <a href="#contact" className="block px-3 py-2 text-primary hover:text-primary-light">{t('nav.contactUs')}</a>
             <div className="px-3 py-2">
