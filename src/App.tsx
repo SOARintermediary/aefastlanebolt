@@ -19,6 +19,10 @@ import BusinessActivitiesLicensing from './pages/blog/BusinessActivitiesLicensin
 import FreeZoneCompanySetup from './pages/blog/FreeZoneCompanySetup';
 import GovernmentApprovalsStreamlined from './pages/blog/GovernmentApprovalsStreamlined';
 import CompanyRenewalsClosures from './pages/blog/CompanyRenewalsClosures';
+import VisaTypesBusinessOwners from './pages/blog/VisaTypesBusinessOwners';
+import UAEResidenceVisaApplication from './pages/blog/UAEResidenceVisaApplication';
+import GoldenVisaEligibility from './pages/blog/GoldenVisaEligibility';
+import FamilyDependentsVisa from './pages/blog/FamilyDependentsVisa';
 
 function App() {
   return (
@@ -47,6 +51,10 @@ function App() {
             <Route path="/blog/free-zone-company-setup" element={<FreeZoneCompanySetup />} />
             <Route path="/blog/government-approvals-streamlined" element={<GovernmentApprovalsStreamlined />} />
             <Route path="/blog/company-renewals-closures" element={<CompanyRenewalsClosures />} />
+            <Route path="/blog/visa-types-business-owners" element={<VisaTypesBusinessOwners />} />
+            <Route path="/blog/uae-residence-visa-application" element={<UAEResidenceVisaApplication />} />
+            <Route path="/blog/golden-visa-eligibility" element={<GoldenVisaEligibility />} />
+            <Route path="/blog/family-dependents-visa" element={<FamilyDependentsVisa />} />
           </Routes>
           <Footer />
         </div>

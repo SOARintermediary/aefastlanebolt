@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Calendar, ArrowRight, Building2, FileText, Globe, BarChart3, Settings, RefreshCw } from 'lucide-react';
+import { Calendar, ArrowRight, Building2, FileText, Globe, BarChart3, Settings, RefreshCw, Plane, Star, Users, Heart } from 'lucide-react';
 
 const blogPosts = [
   // Getting Started
@@ -52,6 +52,44 @@ const blogPosts = [
     path: '/blog/free-zone-company-setup'
   },
   
+  // Visa & Immigration
+  {
+    id: 'visa-types-business-owners',
+    title: 'Visa Types and Their Benefits for Business Owners',
+    excerpt: 'Understanding the different visa options available to business owners in the UAE, from investor visas to Golden Visa opportunities.',
+    icon: Plane,
+    readTime: '11 min read',
+    category: 'Visa & Immigration',
+    path: '/blog/visa-types-business-owners'
+  },
+  {
+    id: 'uae-residence-visa-application',
+    title: 'How to Apply for UAE Residence Visa Through Your Company',
+    excerpt: 'Once your business license is issued, learn how to apply for UAE residence visa through your company with AEFastLane\'s expert guidance.',
+    icon: FileText,
+    readTime: '9 min read',
+    category: 'Visa & Immigration',
+    path: '/blog/uae-residence-visa-application'
+  },
+  {
+    id: 'golden-visa-eligibility',
+    title: 'Golden Visa Eligibility & Application Process Explained',
+    excerpt: 'The UAE\'s Golden Visa offers long-term residency to investors, entrepreneurs, and professionals. Find out if you qualify and how to apply.',
+    icon: Star,
+    readTime: '13 min read',
+    category: 'Visa & Immigration',
+    path: '/blog/golden-visa-eligibility'
+  },
+  {
+    id: 'family-dependents-visa',
+    title: 'Family and Dependents Visa Sponsorship Made Easy',
+    excerpt: 'Want to bring your family to the UAE? Learn how AEFastLane can help you sponsor dependents smoothly and efficiently.',
+    icon: Heart,
+    readTime: '10 min read',
+    category: 'Visa & Immigration',
+    path: '/blog/family-dependents-visa'
+  },
+  
   // Operations & Compliance
   {
     id: 'government-approvals-streamlined',
@@ -73,7 +111,7 @@ const blogPosts = [
   }
 ];
 
-const categories = ['Getting Started', 'Setup Guides', 'Operations & Compliance'];
+const categories = ['Getting Started', 'Setup Guides', 'Visa & Immigration', 'Operations & Compliance'];
 
 const Blog = () => {
   const navigate = useNavigate();
@@ -157,10 +195,10 @@ const Blog = () => {
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold text-primary mb-2">Advanced Topics</h4>
               <ul className="space-y-1">
-                <li>• Golden Visa Requirements & Process</li>
                 <li>• VAT Registration & Compliance</li>
                 <li>• Banking Setup & Requirements</li>
                 <li>• Intellectual Property Protection</li>
+                <li>• Corporate Tax Implications</li>
               </ul>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">

@@ -85,6 +85,39 @@ const Navbar = () => {
                     </a>
                   </div>
                   
+                  {/* Visa & Immigration Section */}
+                  <div className="px-4 py-2 border-t border-gray-100">
+                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Visa & Immigration</h4>
+                    <a
+                      href="/blog/visa-types-business-owners"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      🛃 Visa Types for Business Owners
+                    </a>
+                    <a
+                      href="/blog/uae-residence-visa-application"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      🛂 UAE Residence Visa Application
+                    </a>
+                    <a
+                      href="/blog/golden-visa-eligibility"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      🏅 Golden Visa Eligibility & Process
+                    </a>
+                    <a
+                      href="/blog/family-dependents-visa"
+                      className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                      onClick={() => setIsBlogOpen(false)}
+                    >
+                      👨‍👩‍👧 Family & Dependents Visa Sponsorship
+                    </a>
+                  </div>
+                  
                   {/* Operations & Compliance Section */}
                   <div className="px-4 py-2 border-t border-gray-100">
                     <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Operations & Compliance</h4>
