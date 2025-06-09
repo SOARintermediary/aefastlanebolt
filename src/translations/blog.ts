@@ -27,7 +27,7 @@ export const blogTranslations = {
     'blog.goldenVisa.categories.students.title': 'Outstanding Students',
     'blog.goldenVisa.categories.students.duration': '5 Years',
     'blog.goldenVisa.categories.students.requirements': 'Top graduates from UAE universities (GPA 3.75+)|Graduates from top 100 world universities|Outstanding students in secondary schools|Students with exceptional achievements',
-    'blog.goldenVisa.categories.students.benefits': 'Study and work rights|Career opportunities|Family sponsorship|Academic support',
+    'blog.goldenVisa.categories.students.benefits': 'حقوق الدراسة والعمل|فرص وظيفية|كفالة العائلة|دعم أكاديمي',
 
     'blog.goldenVisa.requirements.title': 'Requirements',
     'blog.goldenVisa.benefits.title': 'Benefits',
@@ -937,573 +937,113 @@ export const blogTranslations = {
     'blog.familyVisa.cta.title': 'هل أنت مستعد لإحضار عائلتك إلى الإمارات؟',
     'blog.familyVisa.cta.description': 'يمكن لمتخصصي تأشيرات العائلة لدينا التعامل مع كامل عملية الكفالة نيابة عنك، مع ضمان تلبية جميع المتطلبات وإتمام لم شمل العائلة بسلاسة وكفاءة.',
     'blog.familyVisa.cta.button1': 'ابدأ كفالة العائلة',
-    'blog.familyVisa.cta.button2': 'احصل على استشارة متخصصة'
+    'blog.familyVisa.cta.button2': 'احصل على استشارة متخصصة',
+
+    // Blog Posts - Free Zone vs Mainland
+    'blog.freeZoneVsMainland.basics.title': 'Understanding the Basics',
+    'blog.freeZoneVsMainland.basics.description': 'The UAE offers two main business setup options: Free Zones and Mainland. Each has distinctive advantages and limitations that can impact your business strategy.',
+    
+    'blog.freeZoneVsMainland.freeZone.title': 'Free Zone Companies',
+    'blog.freeZoneVsMainland.freeZone.benefits': '100% Foreign Ownership|No Corporate Tax (in most zones)|No Personal Income Tax|Full Profit Repatriation|Simplified Setup Process|No Currency Restrictions',
+    
+    'blog.freeZoneVsMainland.mainland.title': 'Mainland Companies',
+    'blog.freeZoneVsMainland.mainland.benefits': 'Access to UAE Local Market|Ability to Deal with Government|Wide Range of Business Activities|Can Open Offices Anywhere in UAE|Direct Import/Export Capabilities|No Location Restrictions',
+    
+    'blog.freeZoneVsMainland.differences.title': 'Key Differences Analysis',
+    'blog.freeZoneVsMainland.differences.aspect': 'Aspect',
+    'blog.freeZoneVsMainland.differences.freeZone': 'Free Zone',
+    'blog.freeZoneVsMainland.differences.mainland': 'Mainland',
+    
+    'blog.freeZoneVsMainland.differences.ownership': 'Ownership',
+    'blog.freeZoneVsMainland.differences.ownershipFreeZone': '100% Foreign Ownership',
+    'blog.freeZoneVsMainland.differences.ownershipMainland': '100% Foreign Ownership (since 2021)',
+    
+    'blog.freeZoneVsMainland.differences.marketAccess': 'Market Access',
+    'blog.freeZoneVsMainland.differences.marketAccessFreeZone': 'Limited to Free Zone & Export',
+    'blog.freeZoneVsMainland.differences.marketAccessMainland': 'Full UAE Market Access',
+    
+    'blog.freeZoneVsMainland.differences.location': 'Office Location',
+    'blog.freeZoneVsMainland.differences.locationFreeZone': 'Must be within Free Zone',
+    'blog.freeZoneVsMainland.differences.locationMainland': 'Anywhere in Emirate',
+    
+    'blog.freeZoneVsMainland.differences.visa': 'Visa Quota',
+    'blog.freeZoneVsMainland.differences.visaFreeZone': 'Based on Office Size/License',
+    'blog.freeZoneVsMainland.differences.visaMainland': 'Based on Business Activity',
+    
+    'blog.freeZoneVsMainland.consideration.title': 'Important Consideration',
+    'blog.freeZoneVsMainland.consideration.description': 'Recent changes in UAE law now allow 100% foreign ownership of mainland companies in most sectors, making this option more attractive than ever. However, some strategic sectors still require local partnership.',
+    
+    'blog.freeZoneVsMainland.choose.title': 'Which Option Should You Choose?',
+    'blog.freeZoneVsMainland.chooseFreeZone.title': 'Choose Free Zone if:',
+    'blog.freeZoneVsMainland.chooseFreeZone.points': 'Your business is primarily export-oriented|You want to minimize setup complexity and time|Tax optimization is a priority|You\'re in tech, media, or specialized industries|You don\'t need immediate UAE market access',
+    
+    'blog.freeZoneVsMainland.chooseMainland.title': 'Choose Mainland if:',
+    'blog.freeZoneVsMainland.chooseMainland.points': 'You want to serve the UAE local market|You plan to work with government entities|You need flexibility in office location|Your business requires extensive local partnerships|You\'re in retail, hospitality, or services',
+    
+    'blog.freeZoneVsMainland.freeZones.title': 'Popular Free Zones to Consider',
+    'blog.freeZoneVsMainland.freeZones.dmcc': 'Dubai Multi Commodities Centre',
+    'blog.freeZoneVsMainland.freeZones.dmccDesc': 'Dubai\'s leading free zone for commodities and trade',
+    'blog.freeZoneVsMainland.freeZones.difc': 'Dubai International Financial Centre',
+    'blog.freeZoneVsMainland.freeZones.difcDesc': 'Hub for financial services and fintech',
+    'blog.freeZoneVsMainland.freeZones.rakez': 'RAKEZ',
+    'blog.freeZoneVsMainland.freeZones.rakezDesc': 'Cost-effective option with flexible packages',
+    
+    'blog.freeZoneVsMainland.needHelp.title': 'Need Expert Guidance?',
+    'blog.freeZoneVsMainland.needHelp.description': 'Choosing between free zone and mainland setup is a crucial decision that depends on your specific business model, target market, and long-term goals. Our experts can help you analyze your requirements and make the right choice.',
+    'blog.freeZoneVsMainland.needHelp.cta': 'Get Free Consultation'
   },
   ar: {
-    // Golden Visa Article
-    'blog.goldenVisa.overview.title': 'نظرة عامة على التأشيرة الذهبية',
-    'blog.goldenVisa.overview.duration': 'المدة',
-    'blog.goldenVisa.overview.durationValue': '5-10 سنوات',
-    'blog.goldenVisa.overview.family': 'شمول العائلة',
-    'blog.goldenVisa.overview.familyValue': 'الزوج/الزوجة والأطفال',
-    'blog.goldenVisa.overview.renewable': 'قابلة للتجديد',
-    'blog.goldenVisa.overview.renewableValue': 'نعم',
-
-    'blog.goldenVisa.categories.investors.title': 'المستثمرون',
-    'blog.goldenVisa.categories.investors.duration': '10 سنوات',
-    'blog.goldenVisa.categories.investors.requirements': 'استثمار 10 ملايين درهم في صندوق استثمار عام|استثمار 10 ملايين درهم في شركة إماراتية (51% ملكية إماراتية)|تأسيس شركة برأس مال 10 ملايين درهم|شريك في شركة قائمة بقيمة 10 ملايين درهم',
-    'blog.goldenVisa.categories.investors.benefits': 'لا يحتاج إلى كفيل|تأشيرة دخول متعددة|كفالة أفراد العائلة|تصريح عمل مشمول',
-
-    'blog.goldenVisa.categories.entrepreneurs.title': 'رواد الأعمال',
-    'blog.goldenVisa.categories.entrepreneurs.duration': '5 سنوات',
-    'blog.goldenVisa.categories.entrepreneurs.requirements': 'امتلاك مشروع بقيمة 500,000 درهم كحد أدنى|موافقة من حاضنة أو مسرع أعمال إماراتي|بيع مشروع سابق بقيمة 7 ملايين درهم كحد أدنى|مؤسس شركة ناشئة بتمويل 500,000 درهم',
-    'blog.goldenVisa.categories.entrepreneurs.benefits': 'حقوق تشغيل الأعمال|كفالة العائلة|تأشيرة قابلة للتجديد|فرص استثمارية',
-
-    'blog.goldenVisa.categories.talents.title': 'المواهب المتخصصة',
-    'blog.goldenVisa.categories.talents.duration': '10 سنوات',
-    'blog.goldenVisa.categories.talents.requirements': 'الأطباء والمتخصصون في المجالات ذات الأولوية|العلماء والباحثون|المبدعون في الثقافة والفنون|المخترعون بحقوق براءات اختراع قيمة',
-    'blog.goldenVisa.categories.talents.benefits': 'حقوق الممارسة المهنية|فرص البحث|المساهمات الثقافية|دعم الابتكار',
-
-    'blog.goldenVisa.categories.students.title': 'الطلاب المتفوقون',
-    'blog.goldenVisa.categories.students.duration': '5 سنوات',
-    'blog.goldenVisa.categories.students.requirements': 'خريجو الجامعات الإماراتية المتفوقون (معدل 3.75+)|خريجو أفضل 100 جامعة عالمياً|الطلاب المتفوقون في المدارس الثانوية|الطلاب ذوو الإنجازات الاستثنائية',
-    'blog.goldenVisa.categories.students.benefits': 'حقوق الدراسة والعمل|فرص وظيفية|كفالة العائلة|دعم أكاديمي',
-
-    'blog.goldenVisa.requirements.title': 'المتطلبات',
-    'blog.goldenVisa.benefits.title': 'المزايا',
-
-    // Starting Business Article
-    'blog.startingBusiness.overview.title': 'تأسيس شركة في الإمارات كأجنبي',
-    'blog.startingBusiness.overview.description': 'ترحب دولة الإمارات بالمستثمرين الدوليين بأذرع مفتوحة، وتقدم واحدة من أكثر البيئات الصديقة للأعمال في العالم. إليك كل ما تحتاج إلى معرفته حول بدء رحلة عملك في الإمارات.',
-    'blog.startingBusiness.overview.category': 'الاستثمار الأجنبي',
-
-    'blog.startingBusiness.why.title': 'لماذا تختار الإمارات لمشروعك؟',
-    'blog.startingBusiness.why.stability.title': 'الاستقرار السياسي والاقتصادي',
-    'blog.startingBusiness.why.stability.description': 'توفر الإمارات بيئة سياسية مستقرة واقتصاداً قوياً',
-    'blog.startingBusiness.why.location.title': 'موقع استراتيجي',
-    'blog.startingBusiness.why.location.description': 'بوابة بين الشرق والغرب، تربط الأسواق العالمية',
-    'blog.startingBusiness.why.workforce.title': 'قوى عاملة متنوعة',
-    'blog.startingBusiness.why.workforce.description': 'الوصول إلى المهنيين المهرة من جميع أنحاء العالم',
-    'blog.startingBusiness.why.policies.title': 'سياسات صديقة للأعمال',
-    'blog.startingBusiness.why.policies.description': 'قوانين تقدمية تدعم الاستثمار الأجنبي وريادة الأعمال',
-
-    'blog.startingBusiness.stats.title': 'إحصائيات رئيسية',
-    'blog.startingBusiness.stats.nationalities': 'جنسية',
-    'blog.startingBusiness.stats.freezones': 'منطقة حرة',
-    'blog.startingBusiness.stats.tax': 'ضريبة الدخل الشخصي',
-
-    'blog.startingBusiness.structure.title': 'خيارات الهيكل التجاري',
-    'blog.startingBusiness.structure.type': 'نوع النشاط',
-    'blog.startingBusiness.structure.ownership': 'الملكية',
-    'blog.startingBusiness.structure.capital': 'الحد الأدنى لرأس المال',
-    'blog.startingBusiness.structure.liability': 'المسؤولية',
-    'blog.startingBusiness.structure.suitability': 'الأنسب لـ',
-
-    'blog.startingBusiness.types.sole.title': 'مؤسسة فردية',
-    'blog.startingBusiness.types.sole.ownership': '100% أجنبي',
-    'blog.startingBusiness.types.sole.capital': 'لا يوجد حد أدنى',
-    'blog.startingBusiness.types.sole.liability': 'غير محدودة',
-    'blog.startingBusiness.types.sole.suitability': 'الشركات الصغيرة والمستقلين',
-
-    'blog.startingBusiness.types.llc.title': 'شركة ذات مسؤولية محدودة',
-    'blog.startingBusiness.types.llc.ownership': '100% أجنبي (معظم القطاعات)',
-    'blog.startingBusiness.types.llc.capital': '300,000 درهم',
-    'blog.startingBusiness.types.llc.liability': 'محدودة برأس المال',
-    'blog.startingBusiness.types.llc.suitability': 'الخيار الأكثر شيوعاً للشركات الصغيرة والمتوسطة',
-
-    'blog.startingBusiness.types.freezone.title': 'شركة المنطقة الحرة',
-    'blog.startingBusiness.types.freezone.ownership': '100% أجنبي',
-    'blog.startingBusiness.types.freezone.capital': 'يختلف حسب المنطقة',
-    'blog.startingBusiness.types.freezone.liability': 'محدودة',
-    'blog.startingBusiness.types.freezone.suitability': 'الشركات الموجهة للتصدير',
-
-    'blog.startingBusiness.types.branch.title': 'فرع شركة',
-    'blog.startingBusiness.types.branch.ownership': '100% للشركة الأم الأجنبية',
-    'blog.startingBusiness.types.branch.capital': '150,000 درهم',
-    'blog.startingBusiness.types.branch.liability': 'الشركة الأم مسؤولة',
-    'blog.startingBusiness.types.branch.suitability': 'الشركات الأجنبية القائمة',
-
-    'blog.startingBusiness.legal.title': 'المتطلبات القانونية للمستثمرين الأجانب',
-    'blog.startingBusiness.legal.eligibility': 'معايير الأهلية',
-    'blog.startingBusiness.legal.requirements': 'يجب أن يكون عمره 18 عاماً أو أكثر|جواز سفر ساري المفعول لمدة 6 أشهر على الأقل|شهادة حسن سيرة وسلوك|إثبات القدرة المالية',
-
-    // Business Activities Article
-    'blog.businessActivities.overview.title': 'شرح فئات الأنشطة التجارية والترخيص',
-    'blog.businessActivities.overview.description': 'قبل تسجيل شركتك في الإمارات، من الضروري اختيار النشاط التجاري المناسب من القائمة المعتمدة. يؤثر هذا القرار على نوع الترخيص ونطاق العمليات ومتطلبات الامتثال.',
-    'blog.businessActivities.overview.category': 'البداية',
-
-    'blog.businessActivities.understanding.title': 'فهم الأنشطة التجارية',
-    'blog.businessActivities.understanding.description': 'تحتفظ الإمارات بقائمة شاملة من الأنشطة التجارية المعتمدة، ولكل منها رمز وتصنيف محدد. تحدد الأنشطة التي تختارها ليس فقط ما يمكن لعملك القيام به قانونياً، ولكن أيضاً:',
-
-    'blog.businessActivities.affects.title': 'ما يؤثر عليه',
-    'blog.businessActivities.affects.items': 'نوع وفئة الترخيص|الرسوم والتكاليف الحكومية|الموافقات والتصاريح المطلوبة|متطلبات المساحة المكتبية|حصص التأشيرات|احتياجات البنوك والتأمين',
-
-    'blog.businessActivities.considerations.title': 'اعتبارات رئيسية',
-    'blog.businessActivities.considerations.items': 'خطط العمل الحالية والمستقبلية|السوق المستهدف والعملاء|المؤهلات المهنية المطلوبة|متطلبات رأس المال|احتياجات الامتثال التنظيمي|إمكانيات التوسع',
-
-    'blog.businessActivities.licenses.title': 'فئات الترخيص الرئيسية',
-    'blog.businessActivities.licenses.commercial.title': 'الرخصة التجارية',
-    'blog.businessActivities.licenses.commercial.description': 'للتجارة والاستيراد/التصدير وتجارة التجزئة',
-    'blog.businessActivities.licenses.commercial.activities': 'التجارة العامة|الاستيراد/التصدير|مبيعات التجزئة|التوزيع بالجملة',
-
-    'blog.businessActivities.licenses.professional.title': 'الرخصة المهنية',
-    'blog.businessActivities.licenses.professional.description': 'للأعمال القائمة على الخدمات والاستشارات',
-    'blog.businessActivities.licenses.professional.activities': 'الخدمات القانونية|المحاسبة|الهندسة|الخدمات الطبية',
-
-    'blog.businessActivities.licenses.industrial.title': 'الرخصة الصناعية',
-    'blog.businessActivities.licenses.industrial.description': 'لأنشطة التصنيع والإنتاج',
-    'blog.businessActivities.licenses.industrial.activities': 'التصنيع|إنتاج الأغذية|إنتاج المنسوجات|المعالجة الكيميائية',
-
-    'blog.businessActivities.licenses.tourism.title': 'رخصة السياحة',
-    'blog.businessActivities.licenses.tourism.description': 'للأعمال المتعلقة بالضيافة والسياحة',
-    'blog.businessActivities.licenses.tourism.activities': 'الفنادق|وكالات السفر|العمليات السياحية|إدارة الفعاليات',
-
-    'blog.businessActivities.popular.title': 'الأنشطة التجارية الشائعة',
-    'blog.businessActivities.popular.activity': 'النشاط',
-    'blog.businessActivities.popular.code': 'الرمز',
-    'blog.businessActivities.popular.description': 'الوصف',
-
-    'blog.businessActivities.popular.items': [
-      { activity: 'التجارة العامة', code: '4690', description: 'تجارة الجملة غير المتخصصة' },
-      { activity: 'الاستشارات الإدارية', code: '7020', description: 'أنشطة الاستشارات الإدارية' },
-      { activity: 'تكنولوجيا المعلومات', code: '6201', description: 'أنشطة برمجة الحاسوب' },
-      { activity: 'العقارات', code: '6810', description: 'الأنشطة العقارية في الممتلكات الخاصة' },
-      { activity: 'خدمات التسويق', code: '7310', description: 'أنشطة الإعلان' },
-      { activity: 'الاستيراد/التصدير', code: '4690', description: 'تجارة الجملة المتخصصة' }
-    ],
-
-    'blog.businessActivities.selection.title': 'كيفية اختيار الأنشطة المناسبة',
-    'blog.businessActivities.selection.step1.title': 'تحديد نطاق عملك',
-    'blog.businessActivities.selection.step1.description': 'حدد بوضوح ما سيقوم به عملك الآن وفي المستقبل. ضع في اعتبارك جميع مصادر الدخل والخدمات التي تخطط لتقديمها.',
-    'blog.businessActivities.selection.step2.title': 'البحث عن رموز النشاط',
-    'blog.businessActivities.selection.step2.description': 'استخدم نظام تصنيف الأنشطة التجارية الرسمي في الإمارات للعثور على الرموز التي تتطابق مع عملياتك التجارية.',
-    'blog.businessActivities.selection.step3.title': 'التحقق من المتطلبات',
-    'blog.businessActivities.selection.step3.description': 'تحقق من المتطلبات والموافقات والمؤهلات المحددة المطلوبة لأنشطتك المختارة.',
-
-    // Mainland License Guide Article
-    'blog.mainlandLicense.overview.title': 'كيفية الحصول على رخصة تجارية في البر الرئيسي بدبي',
-    'blog.mainlandLicense.overview.description': 'يعد بدء نشاط تجاري في البر الرئيسي بدبي أحد أهم الخطوات الاستراتيجية التي يمكنك اتخاذها كرائد أعمال أو مستثمر. يرشدك هذا الدليل الشامل خلال كل خطوة من العملية.',
-    'blog.mainlandLicense.overview.category': 'دليل الترخيص',
-
-    'blog.mainlandLicense.quickOverview.title': 'نظرة عامة سريعة',
-    'blog.mainlandLicense.quickOverview.timeline.title': 'المدة الزمنية',
-    'blog.mainlandLicense.quickOverview.timeline.value': '15-30 يوم عمل',
-    'blog.mainlandLicense.quickOverview.cost.title': 'التكلفة المبدئية',
-    'blog.mainlandLicense.quickOverview.cost.value': 'من 15,000 درهم',
-    'blog.mainlandLicense.quickOverview.ownership.title': 'الملكية',
-    'blog.mainlandLicense.quickOverview.ownership.value': 'ملكية أجنبية 100%',
-
-    'blog.mainlandLicense.steps.title': 'خطوات العملية',
-    'blog.mainlandLicense.steps.items': [
-      {
-        step: 1,
-        title: 'اختيار النشاط التجاري',
-        description: 'اختر من بين أكثر من 2,000 نشاط تجاري معتمد',
-        duration: '1-2 يوم'
-      },
-      {
-        step: 2,
-        title: 'حجز الاسم التجاري',
-        description: 'تقديم والحصول على موافقة لاسم شركتك',
-        duration: '1-3 أيام'
-      },
-      {
-        step: 3,
-        title: 'تجهيز المستندات المطلوبة',
-        description: 'جمع وتصديق جميع الوثائق اللازمة',
-        duration: '3-7 أيام'
-      },
-      {
-        step: 4,
-        title: 'تقديم طلب الترخيص',
-        description: 'تقديم طلبك إلى دائرة التنمية الاقتصادية',
-        duration: '5-10 أيام'
-      },
-      {
-        step: 5,
-        title: 'تأمين مساحة مكتبية',
-        description: 'الحصول على عقد إيجار لمقر عملك',
-        duration: '1-5 أيام'
-      },
-      {
-        step: 6,
-        title: 'Complete Final Approvals',
-        description: 'Get final approvals and collect your license',
-        duration: '2-5 days'
-      }
-    ],
-
-    'blog.mainlandLicense.documents.title': 'المستندات المطلوبة',
-    'blog.mainlandLicense.documents.individual.title': 'للمستثمرين الأفراد',
-    'blog.mainlandLicense.documents.individual.items': [
-      'نسخة من جواز السفر (مصدقة)',
-      'نسخة من تأشيرة الإقامة في الإمارات',
-      'نسخة من الهوية الإماراتية',
-      'شهادة عدم ممانعة (إذا كنت موظفاً)',
-      'كشف حساب بنكي (6 أشهر)'
-    ],
-    'blog.mainlandLicense.documents.corporate.title': 'للمستثمرين من الشركات',
-    'blog.mainlandLicense.documents.corporate.items': [
-      'شهادة التأسيس',
-      'عقد التأسيس والنظام الأساسي',
-      'قرار مجلس الإدارة',
-      'جواز سفر المفوض بالتوقيع',
-      'كشوف حساب الشركة'
-    ],
-
-    'blog.mainlandLicense.costs.title': 'تفصيل التكاليف',
-    'blog.mainlandLicense.costs.headers.item': 'البند',
-    'blog.mainlandLicense.costs.headers.cost': 'التكلفة (درهم)',
-    'blog.mainlandLicense.costs.items': [
-      { item: 'الموافقة المبدئية', cost: '1,500' },
-      { item: 'حجز الاسم التجاري', cost: '2,000' },
-      { item: 'الرخصة التجارية', cost: '10,000' },
-      { item: 'بطاقة الهجرة', cost: '2,000' },
-      { item: 'بطاقة المنشأة', cost: '2,500' }
-    ],
-
-    // Free Zone Company Setup Article
-    'blog.freeZoneSetup.overview.title': 'دليل خطوة بخطوة لتأسيس شركة في المنطقة الحرة',
-    'blog.freeZoneSetup.overview.description': 'توفر المناطق الحرة في الإمارات ملكية أجنبية 100%، وترخيص سريع، وإجراءات مبسطة. يرشدك هذا الدليل الشامل خلال كل خطوة من خطوات تأسيس شركتك في المنطقة الحرة.',
-    'blog.freeZoneSetup.overview.category': 'أدلة التأسيس',
-
-    'blog.freeZoneSetup.why.title': 'لماذا تختار التأسيس في المنطقة الحرة؟',
-    'blog.freeZoneSetup.why.advantages': [
-      {
-        icon: 'Shield',
-        title: 'ملكية أجنبية 100%',
-        description: 'ملكية وتحكم كامل في عملك'
-      },
-      {
-        icon: 'DollarSign',
-        title: 'مزايا ضريبية',
-        description: 'صفر ضريبة شركات وضريبة دخل شخصي'
-      },
-      {
-        icon: 'Zap',
-        title: 'تأسيس سريع',
-        description: 'إجراءات مبسطة لإطلاق الأعمال بشكل أسرع'
-      },
-      {
-        icon: 'Users',
-        title: 'إجراءات تأشيرة سهلة',
-        description: 'إجراءات مبسطة للتأشيرات للموظفين والمستثمرين'
-      }
-    ],
-
-    'blog.freeZoneSetup.stats.title': 'إحصائيات رئيسية',
-    'blog.freeZoneSetup.stats.items': [
-      { value: '+50', label: 'منطقة حرة متاحة' },
-      { value: '7-14', label: 'يوم مدة التأسيس' },
-      { value: '0%', label: 'ضريبة الشركات (معظم المناطق)' }
-    ],
-
-    'blog.freeZoneSetup.zones.title': 'المناطق الحرة الشائعة',
-    'blog.freeZoneSetup.zones.items': [
-      {
-        name: 'DMCC',
-        fullName: 'مركز دبي للسلع المتعددة',
-        specialty: 'السلع والتجارة',
-        minCost: '15,000 درهم',
-        benefits: ['موقع متميز', 'مرافق عالمية المستوى', 'مجتمع أعمال قوي'],
-        color: 'blue'
-      },
-      {
-        name: 'DIFC',
-        fullName: 'مركز دبي المالي العالمي',
-        specialty: 'الخدمات المالية',
-        minCost: '35,000 درهم',
-        benefits: ['مركز مالي', 'نظام قانوني مشترك', 'مزايا ضريبية'],
-        color: 'green'
-      },
-      {
-        name: 'RAKEZ',
-        fullName: 'المنطقة الاقتصادية برأس الخيمة',
-        specialty: 'الأعمال العامة',
-        minCost: '8,500 درهم',
-        benefits: ['فعالة من حيث التكلفة', 'باقات مرنة', 'تأسيس سريع'],
-        color: 'purple'
-      },
-      {
-        name: 'IFZA',
-        fullName: 'هيئة المنطقة الحرة الدولية',
-        specialty: 'التكنولوجيا والابتكار',
-        minCost: '9,971 درهم',
-        benefits: ['خدمات رقمية', 'حلول مبتكرة', 'أسعار تنافسية'],
-        color: 'orange'
-      }
-    ],
-
-    'blog.freeZoneSetup.steps.title': 'عملية التأسيس',
-    'blog.freeZoneSetup.steps.items': [
-      {
-        step: 1,
-        title: 'اختيار المنطقة الحرة',
-        description: 'اختر المنطقة الحرة الأنسب بناءً على نشاطك التجاري ومتطلباتك',
-        duration: '1-2 يوم',
-        details: ['البحث عن المناطق الحرة المختلفة', 'مقارنة الباقات والمزايا', 'دراسة الموقع والمرافق']
-      },
-      {
-        step: 2,
-        title: 'اختيار النشاط التجاري',
-        description: 'اختر من قائمة الأنشطة التجارية المعتمدة للمنطقة الحرة المختارة',
-        duration: 'يوم واحد',
-        details: ['مراجعة تصنيفات الأنشطة', 'ضمان الامتثال للوائح المنطقة', 'التخطيط للتوسع المستقبلي']
-      },
-      {
-        step: 3,
-        title: 'حجز اسم الشركة',
-        description: 'تقديم اسم الشركة المفضل للموافقة والحجز',
-        duration: '1-3 أيام',
-        details: ['التحقق من توفر الاسم', 'تقديم حجز الاسم', 'استلام تأكيد الموافقة']
-      },
-      {
-        step: 4,
-        title: 'تجهيز المستندات',
-        description: 'جمع وتجهيز جميع المستندات المطلوبة للطلب',
-        duration: '3-5 أيام',
-        details: ['نسخ جواز السفر والصور', 'الشهادات التعليمية', 'شهادات الخبرة', 'كشوف الحساب البنكي']
-      },
-      {
-        step: 5,
-        title: 'تقديم الطلب',
-        description: 'تقديم طلبك الكامل إلى هيئة المنطقة الحرة',
-        duration: 'يوم واحد',
-        details: ['إكمال نماذج الطلب', 'تقديم جميع المستندات', 'دفع الرسوم المطلوبة']
-      },
-      {
-        step: 6,
-        title: 'الموافقة على الرخصة',
-        description: 'استلام رخصتك التجارية وإكمال عملية التأسيس',
-        duration: '3-7 أيام',
-        details: ['معالجة الرخصة', 'الموافقات النهائية', 'استلام الرخصة']
-      }
-    ],
-
-    // Visa Types Article
-    'blog.visaTypes.overview.title': 'أنواع التأشيرات ومزاياها لأصحاب الأعمال',
-    'blog.visaTypes.overview.description': 'فهم خيارات التأشيرات المختلفة المتاحة لأصحاب الأعمال في الإمارات أمر ضروري لاتخاذ قرارات مدروسة بشأن وضع إقامتك وعملياتك التجارية.',
-    'blog.visaTypes.overview.category': 'التأشيرات والهجرة',
-
-    'blog.visaTypes.quickStats.title': 'نظرة عامة سريعة',
-    'blog.visaTypes.quickStats.processing': 'وقت المعالجة',
-    'blog.visaTypes.quickStats.processingValue': '2-3 أسابيع',
-    'blog.visaTypes.quickStats.validity': 'فترة الصلاحية',
-    'blog.visaTypes.quickStats.validityValue': '2-3 سنوات',
-    'blog.visaTypes.quickStats.sponsorship': 'كفالة العائلة',
-    'blog.visaTypes.quickStats.sponsorshipValue': 'متاحة',
-
-    'blog.visaTypes.types.title': 'أنواع التأشيرات المتاحة',
-    'blog.visaTypes.types.investor.title': 'تأشيرة المستثمر',
-    'blog.visaTypes.types.investor.duration': '2-3 سنوات',
-    'blog.visaTypes.types.investor.eligibility': 'أصحاب الأعمال مع رخصة تجارية سارية',
-    'blog.visaTypes.types.investor.benefits': 'دخول متعدد|كفالة أفراد العائلة|لا يحتاج إلى كفيل|تصريح عمل مشمول',
-    'blog.visaTypes.types.investor.requirements': 'رخصة تجارية سارية|نسخة جواز السفر|طلب الهوية الإماراتية|شهادة طبية',
-    'blog.visaTypes.types.investor.cost': '2,000 - 5,000 درهم',
-
-    'blog.visaTypes.types.employment.title': 'تأشيرة العمل',
-    'blog.visaTypes.types.employment.duration': '2-3 سنوات',
-    'blog.visaTypes.types.employment.eligibility': 'موظفو الشركات الإماراتية',
-    'blog.visaTypes.types.employment.benefits': 'تصريح عمل|قابلة للتجديد|أهلية كفالة العائلة|تغطية صحية',
-    'blog.visaTypes.types.employment.requirements': 'عقد عمل|شهادات تعليمية|شهادة طبية|نسخة جواز السفر',
-    'blog.visaTypes.types.employment.cost': '3,000 - 6,000 درهم',
-
-    'blog.visaTypes.types.golden.title': 'التأشيرة الذهبية',
-    'blog.visaTypes.types.golden.duration': '5-10 سنوات',
-    'blog.visaTypes.types.golden.eligibility': 'المستثمرون ورواد الأعمال والمتخصصون',
-    'blog.visaTypes.types.golden.benefits': 'إقامة طويلة الأمد|لا يحتاج إلى كفيل|دخول متعدد|كفالة العائلة الموسعة',
-    'blog.visaTypes.types.golden.requirements': 'إثبات الاستثمار|خطة عمل|بيانات مالية|مؤهلات مهنية',
-    'blog.visaTypes.types.golden.cost': '5,000 - 10,000 درهم',
-
-    'blog.visaTypes.types.family.title': 'تأشيرة العائلة',
-    'blog.visaTypes.types.family.duration': '1-3 سنوات',
-    'blog.visaTypes.types.family.eligibility': 'المعالون من المقيمين في الإمارات',
-    'blog.visaTypes.types.family.benefits': 'تصريح إقامة|الوصول للتعليم|مزايا صحية|حرية السفر',
-    'blog.visaTypes.types.family.requirements': 'وثائق الكفيل|إثبات العلاقة|شهادة طبية|شهادة راتب',
-    'blog.visaTypes.types.family.cost': '2,500 - 4,000 درهم',
-
-    'blog.visaTypes.benefits.title': 'مزايا الأعمال',
-    'blog.visaTypes.benefits.flexibility.title': 'مرونة الأعمال',
-    'blog.visaTypes.benefits.flexibility.description': 'تشغيل عملك مع الحفاظ على وضع إقامة قانوني',
-    'blog.visaTypes.benefits.team.title': 'بناء الفريق',
-    'blog.visaTypes.benefits.team.description': 'كفالة الموظفين الرئيسيين وبناء فريقك في الإمارات',
-    'blog.visaTypes.benefits.quality.title': 'جودة الحياة',
-    'blog.visaTypes.benefits.quality.description': 'الوصول إلى الرعاية الصحية والتعليم ونمط الحياة العالمي',
-    'blog.visaTypes.benefits.mobility.title': 'التنقل العالمي',
-    'blog.visaTypes.benefits.mobility.description': 'السفر بحرية مع إقامة إماراتية وجواز سفر قوي',
-
-    'blog.visaTypes.process.title': 'عملية التقديم',
-    'blog.visaTypes.process.step1.title': 'تجهيز المستندات',
-    'blog.visaTypes.process.step1.description': 'جمع جميع المستندات المطلوبة وضمان التصديق المناسب',
-    'blog.visaTypes.process.step1.duration': '3-5 أيام',
-
-    'blog.visaTypes.process.step2.title': 'الفحص الطبي',
-    'blog.visaTypes.process.step2.description': 'إكمال الفحوصات الطبية في المراكز المعتمدة',
-    'blog.visaTypes.process.step2.duration': '1-2 days',
-
-    'blog.visaTypes.process.step3.title': 'تقديم الطلب',
-    'blog.visaTypes.process.step3.description': 'تقديم طلب التأشيرة مع جميع المستندات الداعمة',
-    'blog.visaTypes.process.step3.duration': 'يوم واحد',
-
-    'blog.visaTypes.process.step4.title': 'المعالجة والموافقة',
-    'blog.visaTypes.process.step4.description': 'مراجعة ومعالجة الطلب من قبل سلطات الهجرة',
-    'blog.visaTypes.process.step4.duration': '5-15 days',
-
-    'blog.visaTypes.process.step5.title': 'طلب الهوية الإماراتية',
-    'blog.visaTypes.process.step5.description': 'التقدم للحصول على الهوية الإماراتية بعد الموافقة على التأشيرة',
-    'blog.visaTypes.process.step5.duration': '7-14 days',
-
-    'blog.visaTypes.process.step6.title': 'ختم التأشيرة',
-    'blog.visaTypes.process.step6.description': 'ختم التأشيرة في جواز السفر واستلام الهوية الإماراتية',
-    'blog.visaTypes.process.step6.duration': '1-3 أيام',
-
-    'blog.visaTypes.choosing.title': 'كيفية اختيار التأشيرة المناسبة',
-    'blog.visaTypes.choosing.investor.title': 'اختر تأشيرة المستثمر إذا:',
-    'blog.visaTypes.choosing.investor.points': 'كنت تمتلك شركة إماراتية برخصة تجارية سارية|كنت تريد كفالة أفراد العائلة|كنت تحتاج إلى مرونة للعمل في شركتك الخاصة|كنت تفضل عملية تقديم مباشرة',
-
-    'blog.visaTypes.choosing.golden.title': 'اختر التأشيرة الذهبية إذا:',
-    'blog.visaTypes.choosing.golden.points': 'كنت تستوفي معايير الاستثمار أو المهنية|كنت تريد استقراراً طويل الأمد (5-10 سنوات)|كنت تفضل عدم الحاجة إلى كفيل|كنت تريد كفالة أفراد العائلة الموسعة',
-
-    'blog.visaTypes.choosing.employment.title': 'اختر تأشيرة العمل إذا:',
-    'blog.visaTypes.choosing.employment.points': 'كنت تعمل لدى شركة إماراتية كموظف|كان صاحب العمل يتولى الكفالة|كنت تريد مزايا التوظيف القياسية|كنت تبني خبرة قبل بدء عملك الخاص',
-
-    // UAE Residence Visa Application Article Arabic Translations
-    'blog.residenceVisa.overview.category': 'التأشيرات والهجرة',
-    'blog.residenceVisa.overview.title': 'كيفية التقدم للحصول على تأشيرة إقامة في الإمارات من خلال شركتك',
-    'blog.residenceVisa.overview.description': 'بمجرد إصدار رخصة عملك، يحق لك التقدم للحصول على تأشيرة إقامة في الإمارات. تجعل AEFastLane هذه العملية سلسة وفعالة، حيث تتولى جميع الإجراءات المعقدة نيابة عنك.',
-
-    'blog.residenceVisa.quickStats.title': 'نظرة عامة على العملية',
-    'blog.residenceVisa.quickStats.timeline': 'الجدول الزمني',
-    'blog.residenceVisa.quickStats.timelineValue': '15-25 يوم عمل',
-    'blog.residenceVisa.quickStats.success': 'معدل النجاح',
-    'blog.residenceVisa.quickStats.successValue': '99.5% مع AEFastLane',
-    'blog.residenceVisa.quickStats.processing': 'المعالجة',
-    'blog.residenceVisa.quickStats.processingValue': 'خدمة التسريع متاحة',
-
-    'blog.residenceVisa.types.title': 'أنواع التأشيرات المتاحة',
-    'blog.residenceVisa.types.items': [
-      {
-        type: "تأشيرة المستثمر",
-        description: "لأصحاب الأعمال والشركاء",
-        validity: "2-3 سنوات",
-        benefits: ["لا يحتاج إلى كفيل", "يمكن كفالة العائلة", "دخول متعدد", "تصريح عمل"]
-      },
-      {
-        type: "تأشيرة العمل",
-        description: "لموظفي الشركة",
-        validity: "2-3 سنوات",
-        benefits: ["تصريح عمل مشمول", "قابلة للتجديد", "كفالة العائلة متاحة", "تغطية صحية"]
-      },
-      {
-        type: "تأشيرة الشريك",
-        description: "لشركاء الأعمال",
-        validity: "2-3 سنوات",
-        benefits: ["حقوق تشغيل الأعمال", "كفالة العائلة", "دخول متعدد", "خدمات مصرفية"]
-      }
-    ],
-
-    'blog.residenceVisa.process.title': 'عملية التقديم خطوة بخطوة',
-    'blog.residenceVisa.process.items': [
-      {
-        step: 1,
-        title: "الحصول على الرخصة التجارية",
-        description: "التأكد من اعتماد وتفعيل رخصة عملك",
-        duration: "مكتمل بالفعل",
-        requirements: ["رخصة تجارية سارية", "تسجيل الأعمال", "موافقة عقد التأسيس"]
-      },
-      {
-        step: 2,
-        title: "التقدم للحصول على إذن دخول",
-        description: "تقديم طلب إذن دخول لك ولموظفيك",
-        duration: "3-5 أيام عمل",
-        requirements: ["نسخة جواز السفر", "صور شخصية", "نموذج الطلب", "نسخة الرخصة"]
-      },
-      {
-        step: 3,
-        title: "الفحص الطبي",
-        description: "إكمال الفحوصات الطبية في المراكز الصحية المعتمدة",
-        duration: "1-2 يوم",
-        requirements: ["إذن الدخول", "جواز السفر", "النموذج الطبي", "سجلات التطعيم"]
-      },
-      {
-        step: 4,
-        title: "طلب الهوية الإماراتية",
-        description: "التقدم للحصول على الهوية الإماراتية في مراكز الطباعة",
-        duration: "تقديم في نفس اليوم",
-        requirements: ["الشهادة الطبية", "إذن الدخول", "صور شخصية", "عقد الإيجار"]
-      },
-      {
-        step: 5,
-        title: "ختم التأشيرة",
-        description: "الحصول على ختم تأشيرة الإقامة في جواز السفر",
-        duration: "1-2 يوم",
-        requirements: ["الشهادة الطبية", "إيصال الهوية الإماراتية", "جواز السفر", "دفع الرسوم"]
-      },
-      {
-        step: 6,
-        title: "استلام الهوية الإماراتية",
-        description: "استلام بطاقة الهوية الإماراتية عند جاهزيتها",
-        duration: "7-14 يوم بعد التقديم",
-        requirements: ["إشعار SMS", "الإيصال", "جواز السفر", "المستندات الأصلية"]
-      }
-    ],
-
-    'blog.residenceVisa.documents.title': 'قائمة المستندات المطلوبة',
-    'blog.residenceVisa.documents.items': [
-      {
-        category: "الوثائق الشخصية",
-        documents: [
-          "جواز سفر صالح لمدة 6 أشهر على الأقل",
-          "صور شخصية (خلفية بيضاء)",
-          "الشهادات التعليمية (مصدقة)",
-          "شهادة الزواج (إن وجدت)",
-          "شهادات ميلاد الأطفال"
-        ]
-      },
-      {
-        category: "وثائق الأعمال",
-        documents: [
-          "نسخة الرخصة التجارية",
-          "عقد التأسيس",
-          "عقد الإيجار (إيجار المكتب)",
-          "خطاب فتح الحساب المصرفي",
-          "شهادة الراتب أو عقد العمل"
-        ]
-      },
-      {
-        category: "المتطلبات الطبية",
-        documents: [
-          "شهادة اللياقة الطبية",
-          "نتائج فحص الدم",
-          "الأشعة السينية للصدر",
-          "سجلات التطعيم",
-          "التأمين الصحي (موصى به)"
-        ]
-      }
-    ],
-
-    'blog.residenceVisa.challenges.title': 'التحديات الشائعة والحلول',
-    'blog.residenceVisa.challenges.items': [
-      {
-        challenge: "تصديق المستندات",
-        solution: "التأكد من تصديق جميع المستندات الأجنبية من سفارة الإمارات",
-        prevention: "بدء عملية التصديق مبكراً، استخدام وكلاء معتمدين"
-      },
-      {
-        challenge: "تأخيرات الفحص الطبي",
-        solution: "حجز المواعيد مسبقاً في المراكز المعتمدة",
-        prevention: "إكمال الفحوصات الطبية فور الموافقة على إذن الدخول"
-      },
-      {
-        challenge: "تأخيرات الهوية الإماراتية",
-        solution: "التقديم فوراً بعد الموافقة الطبية",
-        prevention: "التأكد من اكتمال ودقة جميع المستندات"
-      },
-      {
-        challenge: "مشاكل ختم التأشيرة",
-        solution: "التحقق المزدوج من جميع المتطلبات قبل التقديم",
-        prevention: "استخدام الخدمات المهنية للحالات المعقدة"
-      }
-    ]
+    // Blog Posts - Free Zone vs Mainland
+    'blog.freeZoneVsMainland.basics.title': 'فهم الأساسيات',
+    'blog.freeZoneVsMainland.basics.description': 'توفر دولة الإمارات خيارين رئيسيين لتأسيس الأعمال: المناطق الحرة والبر الرئيسي. لكل منهما مزايا وقيود مميزة يمكن أن تؤثر على استراتيجية عملك.',
+    
+    'blog.freeZoneVsMainland.freeZone.title': 'شركات المناطق الحرة',
+    'blog.freeZoneVsMainland.freeZone.benefits': 'ملكية أجنبية 100%|لا ضرائب على الشركات (في معظم المناطق)|لا ضريبة دخل شخصية|إعادة الأرباح بالكامل|عملية تأسيس مبسطة|لا قيود على العملات',
+    
+    'blog.freeZoneVsMainland.mainland.title': 'شركات البر الرئيسي',
+    'blog.freeZoneVsMainland.mainland.benefits': 'الوصول إلى السوق المحلي الإماراتي|إمكانية التعامل مع الجهات الحكومية|مجموعة واسعة من الأنشطة التجارية|إمكانية فتح مكاتب في أي مكان بالإمارات|قدرات استيراد/تصدير مباشرة|لا قيود على موقع العمل',
+    
+    'blog.freeZoneVsMainland.differences.title': 'تحليل الفروق الرئيسية',
+    'blog.freeZoneVsMainland.differences.aspect': 'الجانب',
+    'blog.freeZoneVsMainland.differences.freeZone': 'المنطقة الحرة',
+    'blog.freeZoneVsMainland.differences.mainland': 'البر الرئيسي',
+    
+    'blog.freeZoneVsMainland.differences.ownership': 'الملكية',
+    'blog.freeZoneVsMainland.differences.ownershipFreeZone': 'ملكية أجنبية 100%',
+    'blog.freeZoneVsMainland.differences.ownershipMainland': 'ملكية أجنبية 100% (منذ 2021)',
+    
+    'blog.freeZoneVsMainland.differences.marketAccess': 'الوصول للسوق',
+    'blog.freeZoneVsMainland.differences.marketAccessFreeZone': 'محدود للمنطقة الحرة والتصدير',
+    'blog.freeZoneVsMainland.differences.marketAccessMainland': 'وصول كامل للسوق الإماراتي',
+    
+    'blog.freeZoneVsMainland.differences.location': 'موقع المكتب',
+    'blog.freeZoneVsMainland.differences.locationFreeZone': 'يجب أن يكون داخل المنطقة الحرة',
+    'blog.freeZoneVsMainland.differences.locationMainland': 'في أي مكان بالإمارة',
+    
+    'blog.freeZoneVsMainland.differences.visa': 'حصة التأشيرات',
+    'blog.freeZoneVsMainland.differences.visaFreeZone': 'حسب حجم المكتب/الرخصة',
+    'blog.freeZoneVsMainland.differences.visaMainland': 'حسب النشاط التجاري',
+    
+    'blog.freeZoneVsMainland.consideration.title': 'اعتبار مهم',
+    'blog.freeZoneVsMainland.consideration.description': 'التغييرات الأخيرة في قانون الإمارات تسمح الآن بملكية أجنبية 100% للشركات في البر الرئيسي في معظم القطاعات، مما يجعل هذا الخيار أكثر جاذبية من أي وقت مضى. ومع ذلك، لا تزال بعض القطاعات الاستراتيجية تتطلب شراكة محلية.',
+    
+    'blog.freeZoneVsMainland.choose.title': 'أي خيار يجب أن تختار؟',
+    'blog.freeZoneVsMainland.chooseFreeZone.title': 'اختر المنطقة الحرة إذا:',
+    'blog.freeZoneVsMainland.chooseFreeZone.points': 'عملك موجه بشكل رئيسي للتصدير|تريد تقليل تعقيد وزمن التأسيس|تحسين الضرائب هو أولوية|أنت في مجال التكنولوجيا أو الإعلام أو الصناعات المتخصصة|لا تحتاج للوصول إلى السوق المحلي الإماراتي فوراً',
+    
+    'blog.freeZoneVsMainland.chooseMainland.title': 'اختر البر الرئيسي إذا:',
+    'blog.freeZoneVsMainland.chooseMainland.points': 'تريد خدمة السوق المحلي الإماراتي|تخطط للعمل مع الجهات الحكومية|تحتاج إلى مرونة في موقع المكتب|عملك يتطلب شراكات محلية واسعة|أنت في مجال التجزئة أو الضيافة أو الخدمات',
+    
+    'blog.freeZoneVsMainland.freeZones.title': 'مناطق حرة شهيرة للنظر فيها',
+    'blog.freeZoneVsMainland.freeZones.dmcc': 'مركز دبي للسلع المتعددة',
+    'blog.freeZoneVsMainland.freeZones.dmccDesc': 'المنطقة الحرة الرائدة في دبي للسلع والتجارة',
+    'blog.freeZoneVsMainland.freeZones.difc': 'مركز دبي المالي العالمي',
+    'blog.freeZoneVsMainland.freeZones.difcDesc': 'مركز للخدمات المالية والتكنولوجيا المالية',
+    'blog.freeZoneVsMainland.freeZones.rakez': 'راكز',
+    'blog.freeZoneVsMainland.freeZones.rakezDesc': 'خيار فعال من حيث التكلفة مع باقات مرنة',
+    
+    'blog.freeZoneVsMainland.needHelp.title': 'تحتاج إلى توجيه متخصص؟',
+    'blog.freeZoneVsMainland.needHelp.description': 'الاختيار بين تأسيس المنطقة الحرة والبر الرئيسي قرار حاسم يعتمد على نموذج عملك المحدد والسوق المستهدف وأهدافك طويلة المدى. يمكن لخبرائنا مساعدتك في تحليل متطلباتك واتخاذ الخيار الصحيح.',
+    'blog.freeZoneVsMainland.needHelp.cta': 'احصل على استشارة مجانية'
   }
 }; 

@@ -12,6 +12,22 @@ interface LanguageContextType {
 const translations = {
   en: {
     ...blogTranslations.en,
+    // Features Section
+    'features.title': 'AEFastLane – Your Trusted UAE Business Setup Partner',
+    'features.subtitle': 'Empowering Enterprises to Thrive in the Emirates',
+    'features.service.title': 'All-in-One Business Services',
+    'features.service.description': 'Complete support from company formation to bank account opening',
+    'features.plans.title': 'Tailored & Affordable Plans',
+    'features.plans.description': 'Budget-friendly solutions designed around your business needs',
+    'features.track.title': 'Global Track Record',
+    'features.track.description': 'Trusted by clients worldwide',
+    'features.client.title': 'Client-First Approach',
+    'features.client.description': 'Personalized service focused on your success and peace of mind',
+    'features.onboarding.title': 'Effortless Onboarding',
+    'features.onboarding.description': 'Easy adaptation to UAE\'s legal and operational landscape',
+    'features.network.title': 'Extensive Network Advantage',
+    'features.network.description': 'Accelerated setup through deep regional and international ties',
+
     // Navigation
     'nav.services': 'Services',
     'nav.pricing': 'Pricing',
@@ -308,6 +324,22 @@ const translations = {
   },
   ar: {
     ...blogTranslations.ar,
+    // Features Section
+    'features.title': 'AEFastLane - شريكك الموثوق في تأسيس الأعمال في الإمارات',
+    'features.subtitle': 'تمكين المؤسسات من الازدهار في الإمارات',
+    'features.service.title': 'خدمات الأعمال الشاملة',
+    'features.service.description': 'دعم كامل من تأسيس الشركة إلى فتح الحساب المصرفي',
+    'features.plans.title': 'خطط مخصصة وبأسعار معقولة',
+    'features.plans.description': 'حلول اقتصادية مصممة حسب احتياجات عملك',
+    'features.track.title': 'سجل عالمي',
+    'features.track.description': 'موثوق به من قبل العملاء في جميع أنحاء العالم',
+    'features.client.title': 'نهج العميل أولاً',
+    'features.client.description': 'خدمة شخصية تركز على نجاحك وراحة بالك',
+    'features.onboarding.title': 'انضمام سهل',
+    'features.onboarding.description': 'تكيف سهل مع المشهد القانوني والتشغيلي في الإمارات',
+    'features.network.title': 'ميزة الشبكة الواسعة',
+    'features.network.description': 'إعداد سريع من خلال علاقات إقليمية ودولية عميقة',
+
     // Navigation
     'nav.services': 'الخدمات',
     'nav.pricing': 'الأسعار',
@@ -547,7 +579,8 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   }, [language]);
 
   const t = (key: string): string => {
-    return translations[language][key as keyof typeof translations[typeof language]] || key;
+    const currentTranslations = translations[language];
+    return currentTranslations[key as keyof typeof currentTranslations] || key;
   };
 
   return (
