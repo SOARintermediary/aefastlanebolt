@@ -152,31 +152,31 @@ const FamilyDependentsVisa = () => {
     {
       service: "Entry Permit (Spouse)",
       government: 1190,
-      service: 500,
+      serviceFee: 500,
       total: 1690
     },
     {
       service: "Entry Permit (Child)",
       government: 1190,
-      service: 500,
+      serviceFee: 500,
       total: 1690
     },
     {
       service: "Medical Examination",
       government: 310,
-      service: 200,
+      serviceFee: 200,
       total: 510
     },
     {
       service: "Visa Stamping",
       government: 580,
-      service: 300,
+      serviceFee: 300,
       total: 880
     },
     {
       service: "Emirates ID",
       government: 380,
-      service: 150,
+      serviceFee: 150,
       total: 530
     }
   ];
@@ -409,7 +409,7 @@ const FamilyDependentsVisa = () => {
                   <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{cost.service}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">{cost.government.toLocaleString()}</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">{cost.service.toLocaleString()}</td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">{cost.serviceFee.toLocaleString()}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">{cost.total.toLocaleString()}</td>
                   </tr>
                 ))}
