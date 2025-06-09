@@ -940,59 +940,100 @@ export const blogTranslations = {
     'blog.familyVisa.cta.button2': 'احصل على استشارة متخصصة',
 
     // Blog Posts - Free Zone vs Mainland
-    'blog.freeZoneVsMainland.basics.title': 'Understanding the Basics',
-    'blog.freeZoneVsMainland.basics.description': 'The UAE offers two main business setup options: Free Zones and Mainland. Each has distinctive advantages and limitations that can impact your business strategy.',
+    'blog.posts.freeZoneVsMainland.title': 'Free Zone vs Mainland: Which is Right for Your UAE Business?',
+    'blog.posts.freeZoneVsMainland.excerpt': 'Discover the key differences between free zone and mainland business setup in the UAE, and learn which option best suits your business goals and requirements.',
     
-    'blog.freeZoneVsMainland.freeZone.title': 'Free Zone Companies',
-    'blog.freeZoneVsMainland.freeZone.benefits': '100% Foreign Ownership|No Corporate Tax (in most zones)|No Personal Income Tax|Full Profit Repatriation|Simplified Setup Process|No Currency Restrictions',
+    // Starting a Business
+    'blog.posts.startingBusiness.title': 'Starting a Business in the UAE as a Foreigner',
+    'blog.posts.startingBusiness.excerpt': 'Everything foreign entrepreneurs need to know about starting a business in the UAE, from legal requirements to practical considerations.',
     
-    'blog.freeZoneVsMainland.mainland.title': 'Mainland Companies',
-    'blog.freeZoneVsMainland.mainland.benefits': 'Access to UAE Local Market|Ability to Deal with Government|Wide Range of Business Activities|Can Open Offices Anywhere in UAE|Direct Import/Export Capabilities|No Location Restrictions',
+    // Business Activities
+    'blog.posts.businessActivities.title': 'Business Activities & Licensing Categories Explained',
+    'blog.posts.businessActivities.excerpt': 'Navigate the complex world of UAE business activities and licensing categories. Learn how to choose the right classification for your venture.',
     
-    'blog.freeZoneVsMainland.differences.title': 'Key Differences Analysis',
-    'blog.freeZoneVsMainland.differences.aspect': 'Aspect',
-    'blog.freeZoneVsMainland.differences.freeZone': 'Free Zone',
-    'blog.freeZoneVsMainland.differences.mainland': 'Mainland',
+    // Mainland License
+    'blog.posts.mainlandLicense.title': 'How to Get a Mainland Business License in Dubai',
+    'blog.posts.mainlandLicense.excerpt': 'A comprehensive guide to obtaining a mainland business license in Dubai, including requirements, costs, and step-by-step procedures.',
     
-    'blog.freeZoneVsMainland.differences.ownership': 'Ownership',
-    'blog.freeZoneVsMainland.differences.ownershipFreeZone': '100% Foreign Ownership',
-    'blog.freeZoneVsMainland.differences.ownershipMainland': '100% Foreign Ownership (since 2021)',
+    // Free Zone Setup
+    'blog.posts.freeZoneSetup.title': 'Step-by-Step Guide to Setting Up a Free Zone Company',
+    'blog.posts.freeZoneSetup.excerpt': 'Learn how to establish your business in UAE free zones with our detailed guide covering all aspects of the setup process.',
     
-    'blog.freeZoneVsMainland.differences.marketAccess': 'Market Access',
-    'blog.freeZoneVsMainland.differences.marketAccessFreeZone': 'Limited to Free Zone & Export',
-    'blog.freeZoneVsMainland.differences.marketAccessMainland': 'Full UAE Market Access',
+    // Visa Types
+    'blog.posts.visaTypes.title': 'Visa Types and Benefits for Business Owners',
+    'blog.posts.visaTypes.excerpt': 'Understand different UAE visa options available for business owners and their advantages.',
     
-    'blog.freeZoneVsMainland.differences.location': 'Office Location',
-    'blog.freeZoneVsMainland.differences.locationFreeZone': 'Must be within Free Zone',
-    'blog.freeZoneVsMainland.differences.locationMainland': 'Anywhere in Emirate',
+    // Residence Visa
+    'blog.posts.residenceVisa.title': 'How to Apply for UAE Residence Visa',
+    'blog.posts.residenceVisa.excerpt': 'Complete guide to obtaining UAE residence visas for business owners and their families.',
     
-    'blog.freeZoneVsMainland.differences.visa': 'Visa Quota',
-    'blog.freeZoneVsMainland.differences.visaFreeZone': 'Based on Office Size/License',
-    'blog.freeZoneVsMainland.differences.visaMainland': 'Based on Business Activity',
+    // Golden Visa
+    'blog.posts.goldenVisa.title': 'Golden Visa Eligibility & Application Process Explained',
+    'blog.posts.goldenVisa.excerpt': 'Everything you need to know about the UAE Golden Visa program, including eligibility criteria and application procedures.',
     
-    'blog.freeZoneVsMainland.consideration.title': 'Important Consideration',
-    'blog.freeZoneVsMainland.consideration.description': 'Recent changes in UAE law now allow 100% foreign ownership of mainland companies in most sectors, making this option more attractive than ever. However, some strategic sectors still require local partnership.',
+    // Family Visa
+    'blog.posts.familyVisa.title': 'Family & Dependents Visa Guide',
+    'blog.posts.familyVisa.excerpt': 'How to sponsor your family members and obtain dependent visas in the UAE, including eligibility requirements and procedures.',
     
-    'blog.freeZoneVsMainland.choose.title': 'Which Option Should You Choose?',
-    'blog.freeZoneVsMainland.chooseFreeZone.title': 'Choose Free Zone if:',
-    'blog.freeZoneVsMainland.chooseFreeZone.points': 'Your business is primarily export-oriented|You want to minimize setup complexity and time|Tax optimization is a priority|You\'re in tech, media, or specialized industries|You don\'t need immediate UAE market access',
+    // AE Fastlane Services
+    'blog.posts.aeFastlane.title': 'How AE Fastlane Streamlines Your Business Setup',
+    'blog.posts.aeFastlane.excerpt': 'Discover how our professional services can help you navigate the UAE business setup process efficiently and hassle-free.',
     
-    'blog.freeZoneVsMainland.chooseMainland.title': 'Choose Mainland if:',
-    'blog.freeZoneVsMainland.chooseMainland.points': 'You want to serve the UAE local market|You plan to work with government entities|You need flexibility in office location|Your business requires extensive local partnerships|You\'re in retail, hospitality, or services',
-    
-    'blog.freeZoneVsMainland.freeZones.title': 'Popular Free Zones to Consider',
-    'blog.freeZoneVsMainland.freeZones.dmcc': 'Dubai Multi Commodities Centre',
-    'blog.freeZoneVsMainland.freeZones.dmccDesc': 'Dubai\'s leading free zone for commodities and trade',
-    'blog.freeZoneVsMainland.freeZones.difc': 'Dubai International Financial Centre',
-    'blog.freeZoneVsMainland.freeZones.difcDesc': 'Hub for financial services and fintech',
-    'blog.freeZoneVsMainland.freeZones.rakez': 'RAKEZ',
-    'blog.freeZoneVsMainland.freeZones.rakezDesc': 'Cost-effective option with flexible packages',
-    
-    'blog.freeZoneVsMainland.needHelp.title': 'Need Expert Guidance?',
-    'blog.freeZoneVsMainland.needHelp.description': 'Choosing between free zone and mainland setup is a crucial decision that depends on your specific business model, target market, and long-term goals. Our experts can help you analyze your requirements and make the right choice.',
-    'blog.freeZoneVsMainland.needHelp.cta': 'Get Free Consultation'
+    // Company Formation
+    'blog.posts.companyFormation.title': 'Understanding Company Formation Options',
+    'blog.posts.companyFormation.excerpt': 'Compare different company formation options in the UAE and choose the best structure for your business.',
+
+    // Categories
+    'blog.categories.gettingStarted': 'Getting Started',
+    'blog.categories.setupGuides': 'Setup Guides',
+    'blog.categories.visaImmigration': 'Visa & Immigration',
+    'blog.categories.operations': 'Operations & Compliance'
   },
   ar: {
+    // Blog Posts - Free Zone vs Mainland
+    'blog.posts.freeZoneVsMainland.title': 'المنطقة الحرة مقابل البر الرئيسي: أيهما أنسب لشركتك في الإمارات؟',
+    'blog.posts.freeZoneVsMainland.excerpt': 'اكتشف الفروق الرئيسية بين تأسيس الأعمال في المنطقة الحرة والبر الرئيسي في الإمارات، وتعرف على الخيار الأنسب لأهداف ومتطلبات عملك.',
+    
+    // Starting a Business
+    'blog.posts.startingBusiness.title': 'تأسيس شركة في الإمارات كأجنبي',
+    'blog.posts.startingBusiness.excerpt': 'كل ما يحتاج رواد الأعمال الأجانب معرفته عن تأسيس شركة في الإمارات، من المتطلبات القانونية إلى الاعتبارات العملية.',
+    
+    // Business Activities
+    'blog.posts.businessActivities.title': 'شرح الأنشطة التجارية وفئات الترخيص',
+    'blog.posts.businessActivities.excerpt': 'تصفح عالم الأنشطة التجارية وفئات الترخيص في الإمارات. تعلم كيفية اختيار التصنيف المناسب لمشروعك.',
+    
+    // Mainland License
+    'blog.posts.mainlandLicense.title': 'كيفية الحصول على رخصة تجارية في البر الرئيسي بدبي',
+    'blog.posts.mainlandLicense.excerpt': 'دليل شامل للحصول على رخصة تجارية في البر الرئيسي بدبي، يشمل المتطلبات والتكاليف والإجراءات خطوة بخطوة.',
+    
+    // Free Zone Setup
+    'blog.posts.freeZoneSetup.title': 'دليل خطوة بخطوة لتأسيس شركة في المنطقة الحرة',
+    'blog.posts.freeZoneSetup.excerpt': 'تعلم كيفية تأسيس شركتك في المناطق الحرة الإماراتية مع دليلنا المفصل الذي يغطي جميع جوانب عملية التأسيس.',
+    
+    // Visa Types
+    'blog.posts.visaTypes.title': 'أنواع التأشيرات ومزاياها لأصحاب الأعمال',
+    'blog.posts.visaTypes.excerpt': 'فهم خيارات التأشيرات المختلفة المتاحة لأصحاب الأعمال والمستثمرين في الإمارات، بما في ذلك المزايا ومعايير الأهلية.',
+    
+    // Residence Visa
+    'blog.posts.residenceVisa.title': 'كيفية التقدم للإقامة في الإمارات',
+    'blog.posts.residenceVisa.excerpt': 'دليل كامل للحصول على الإقامة في الإمارات من خلال ملكية الأعمال، يشمل المتطلبات والإجراءات والجدول الزمني.',
+    
+    // Golden Visa
+    'blog.posts.goldenVisa.title': 'شرح أهلية وإجراءات التأشيرة الذهبية',
+    'blog.posts.goldenVisa.excerpt': 'كل ما تحتاج معرفته عن برنامج التأشيرة الذهبية في الإمارات، بما في ذلك معايير الأهلية والمزايا وإجراءات التقديم.',
+    
+    // Family Visa
+    'blog.posts.familyVisa.title': 'دليل تأشيرات العائلة والمعالين',
+    'blog.posts.familyVisa.excerpt': 'كيفية كفالة أفراد عائلتك والحصول على تأشيرات المعالين في الإمارات، بما في ذلك متطلبات الأهلية والإجراءات.',
+    
+    // AE Fastlane Services
+    'blog.posts.aeFastlane.title': 'كيف تسهل AE Fastlane عملية تأسيس أعمالك',
+    'blog.posts.aeFastlane.excerpt': 'اكتشف كيف يمكن لخدماتنا المهنية مساعدتك في التنقل عبر عملية تأسيس الأعمال في الإمارات بكفاءة وسهولة.',
+    
+    // Company Formation
+    'blog.posts.companyFormation.title': 'فهم خيارات تأسيس الشركات',
+    'blog.posts.companyFormation.excerpt': 'قارن بين خيارات تأسيس الشركات المختلفة في الإمارات واختر الهيكل الأفضل لعملك.',
+
     // Golden Visa Article
     'blog.goldenVisa.overview.title': 'نظرة عامة على التأشيرة الذهبية',
     'blog.goldenVisa.overview.duration': 'المدة',
@@ -1000,59 +1041,6 @@ export const blogTranslations = {
     'blog.goldenVisa.overview.family': 'شمول العائلة',
     'blog.goldenVisa.overview.familyValue': 'الزوج/الزوجة والأطفال',
     'blog.goldenVisa.overview.renewable': 'قابلة للتجديد',
-    'blog.goldenVisa.overview.renewableValue': 'نعم',
-
-    // Blog Posts - Free Zone vs Mainland
-    'blog.freeZoneVsMainland.basics.title': 'فهم الأساسيات',
-    'blog.freeZoneVsMainland.basics.description': 'توفر دولة الإمارات خيارين رئيسيين لتأسيس الأعمال: المناطق الحرة والبر الرئيسي. لكل منهما مزايا وقيود مميزة يمكن أن تؤثر على استراتيجية عملك.',
-    
-    'blog.freeZoneVsMainland.freeZone.title': 'شركات المناطق الحرة',
-    'blog.freeZoneVsMainland.freeZone.benefits': 'ملكية أجنبية 100%|لا ضرائب على الشركات (في معظم المناطق)|لا ضريبة دخل شخصية|إعادة الأرباح بالكامل|عملية تأسيس مبسطة|لا قيود على العملات',
-    
-    'blog.freeZoneVsMainland.mainland.title': 'شركات البر الرئيسي',
-    'blog.freeZoneVsMainland.mainland.benefits': 'الوصول إلى السوق المحلي الإماراتي|إمكانية التعامل مع الجهات الحكومية|مجموعة واسعة من الأنشطة التجارية|إمكانية فتح مكاتب في أي مكان بالإمارات|قدرات استيراد/تصدير مباشرة|لا قيود على موقع العمل',
-    
-    'blog.freeZoneVsMainland.differences.title': 'تحليل الفروق الرئيسية',
-    'blog.freeZoneVsMainland.differences.aspect': 'الجانب',
-    'blog.freeZoneVsMainland.differences.freeZone': 'المنطقة الحرة',
-    'blog.freeZoneVsMainland.differences.mainland': 'البر الرئيسي',
-    
-    'blog.freeZoneVsMainland.differences.ownership': 'الملكية',
-    'blog.freeZoneVsMainland.differences.ownershipFreeZone': 'ملكية أجنبية 100%',
-    'blog.freeZoneVsMainland.differences.ownershipMainland': 'ملكية أجنبية 100% (منذ 2021)',
-    
-    'blog.freeZoneVsMainland.differences.marketAccess': 'الوصول للسوق',
-    'blog.freeZoneVsMainland.differences.marketAccessFreeZone': 'محدود للمنطقة الحرة والتصدير',
-    'blog.freeZoneVsMainland.differences.marketAccessMainland': 'وصول كامل للسوق الإماراتي',
-    
-    'blog.freeZoneVsMainland.differences.location': 'موقع المكتب',
-    'blog.freeZoneVsMainland.differences.locationFreeZone': 'يجب أن يكون داخل المنطقة الحرة',
-    'blog.freeZoneVsMainland.differences.locationMainland': 'في أي مكان بالإمارة',
-    
-    'blog.freeZoneVsMainland.differences.visa': 'حصة التأشيرات',
-    'blog.freeZoneVsMainland.differences.visaFreeZone': 'حسب حجم المكتب/الرخصة',
-    'blog.freeZoneVsMainland.differences.visaMainland': 'حسب النشاط التجاري',
-    
-    'blog.freeZoneVsMainland.consideration.title': 'اعتبار مهم',
-    'blog.freeZoneVsMainland.consideration.description': 'التغييرات الأخيرة في قانون الإمارات تسمح الآن بملكية أجنبية 100% للشركات في البر الرئيسي في معظم القطاعات، مما يجعل هذا الخيار أكثر جاذبية من أي وقت مضى. ومع ذلك، لا تزال بعض القطاعات الاستراتيجية تتطلب شراكة محلية.',
-    
-    'blog.freeZoneVsMainland.choose.title': 'أي خيار يجب أن تختار؟',
-    'blog.freeZoneVsMainland.chooseFreeZone.title': 'اختر المنطقة الحرة إذا:',
-    'blog.freeZoneVsMainland.chooseFreeZone.points': 'عملك موجه بشكل رئيسي للتصدير|تريد تقليل تعقيد وزمن التأسيس|تحسين الضرائب هو أولوية|أنت في مجال التكنولوجيا أو الإعلام أو الصناعات المتخصصة|لا تحتاج للوصول إلى السوق المحلي الإماراتي فوراً',
-    
-    'blog.freeZoneVsMainland.chooseMainland.title': 'اختر البر الرئيسي إذا:',
-    'blog.freeZoneVsMainland.chooseMainland.points': 'تريد خدمة السوق المحلي الإماراتي|تخطط للعمل مع الجهات الحكومية|تحتاج إلى مرونة في موقع المكتب|عملك يتطلب شراكات محلية واسعة|أنت في مجال التجزئة أو الضيافة أو الخدمات',
-    
-    'blog.freeZoneVsMainland.freeZones.title': 'مناطق حرة شهيرة للنظر فيها',
-    'blog.freeZoneVsMainland.freeZones.dmcc': 'مركز دبي للسلع المتعددة',
-    'blog.freeZoneVsMainland.freeZones.dmccDesc': 'المنطقة الحرة الرائدة في دبي للسلع والتجارة',
-    'blog.freeZoneVsMainland.freeZones.difc': 'مركز دبي المالي العالمي',
-    'blog.freeZoneVsMainland.freeZones.difcDesc': 'مركز للخدمات المالية والتكنولوجيا المالية',
-    'blog.freeZoneVsMainland.freeZones.rakez': 'راكز',
-    'blog.freeZoneVsMainland.freeZones.rakezDesc': 'خيار فعال من حيث التكلفة مع باقات مرنة',
-    
-    'blog.freeZoneVsMainland.needHelp.title': 'تحتاج إلى توجيه متخصص؟',
-    'blog.freeZoneVsMainland.needHelp.description': 'الاختيار بين تأسيس المنطقة الحرة والبر الرئيسي قرار حاسم يعتمد على نموذج عملك المحدد والسوق المستهدف وأهدافك طويلة المدى. يمكن لخبرائنا مساعدتك في تحليل متطلباتك واتخاذ الخيار الصحيح.',
-    'blog.freeZoneVsMainland.needHelp.cta': 'احصل على استشارة مجانية'
+    'blog.goldenVisa.overview.renewableValue': 'نعم'
   }
 }; 
