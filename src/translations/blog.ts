@@ -989,7 +989,51 @@ export const blogTranslations = {
     'blog.categories.visaImmigration': 'Visa & Immigration',
     'blog.categories.operations': 'Operations & Compliance',
     'blog.categories.visaGuides': 'Visa Guides',
-    'blog.categories.services': 'Our Services'
+    'blog.categories.services': 'Our Services',
+
+    // Free Zone vs Mainland
+    'blog.freeZoneVsMainland.overview.title': 'Quick Overview',
+    'blog.freeZoneVsMainland.overview.timeline': 'Setup Timeline',
+    'blog.freeZoneVsMainland.overview.timelineValue': '7-14 days',
+    'blog.freeZoneVsMainland.overview.cost': 'Starting Cost',
+    'blog.freeZoneVsMainland.overview.costValue': 'From AED 15,000',
+    'blog.freeZoneVsMainland.overview.ownership': 'Ownership',
+    'blog.freeZoneVsMainland.overview.ownershipValue': '100% Foreign',
+
+    'blog.freeZoneVsMainland.advantages.title': 'Key Advantages',
+    'blog.freeZoneVsMainland.advantages.ownership.title': '100% Foreign Ownership',
+    'blog.freeZoneVsMainland.advantages.ownership.description': 'Full control and ownership of your business without local partner requirements',
+    'blog.freeZoneVsMainland.advantages.tax.title': 'Tax Benefits',
+    'blog.freeZoneVsMainland.advantages.tax.description': 'Zero corporate and personal income tax in most free zones',
+    'blog.freeZoneVsMainland.advantages.visas.title': 'Visa Benefits',
+    'blog.freeZoneVsMainland.advantages.visas.description': 'Streamlined visa processing for you and your employees',
+    'blog.freeZoneVsMainland.advantages.setup.title': 'Quick Setup',
+    'blog.freeZoneVsMainland.advantages.setup.description': 'Fast and efficient company registration process',
+
+    'blog.freeZoneVsMainland.comparison.title': 'Free Zone vs Mainland Comparison',
+    'blog.freeZoneVsMainland.comparison.freeZoneTitle': 'Free Zone',
+    'blog.freeZoneVsMainland.comparison.mainlandTitle': 'Mainland',
+
+    'blog.freeZoneVsMainland.comparison.ownership.aspect': 'Ownership Structure',
+    'blog.freeZoneVsMainland.comparison.ownership.freeZone': '100% foreign ownership|No local sponsor required|Flexible shareholding structure',
+    'blog.freeZoneVsMainland.comparison.ownership.mainland': '100% foreign ownership in most sectors|Local service agent may be required|Multiple shareholders allowed',
+
+    'blog.freeZoneVsMainland.comparison.location.aspect': 'Business Location',
+    'blog.freeZoneVsMainland.comparison.location.freeZone': 'Must be within free zone|Premium business clusters|Modern infrastructure',
+    'blog.freeZoneVsMainland.comparison.location.mainland': 'Anywhere in UAE|Direct access to local market|Multiple branch options',
+
+    'blog.freeZoneVsMainland.comparison.trading.aspect': 'Trading Capabilities',
+    'blog.freeZoneVsMainland.comparison.trading.freeZone': 'Limited to free zone and international|Export-focused operations|B2B transactions',
+    'blog.freeZoneVsMainland.comparison.trading.mainland': 'Unrestricted UAE market access|Direct local market trading|Government contract eligibility',
+
+    'blog.freeZoneVsMainland.comparison.visas.aspect': 'Visa Allocation',
+    'blog.freeZoneVsMainland.comparison.visas.freeZone': 'Based on office space|Flexible visa packages|Cost-effective options',
+    'blog.freeZoneVsMainland.comparison.visas.mainland': 'Based on office space and activity|Higher visa quota potential|More employee sponsorship options',
+
+    'blog.freeZoneVsMainland.conclusion.title': 'Ready to Start Your Business?',
+    'blog.freeZoneVsMainland.conclusion.description': 'Let our experts help you choose the right jurisdiction and guide you through the entire setup process.',
+    'blog.freeZoneVsMainland.conclusion.cta1': 'Get Free Consultation',
+    'blog.freeZoneVsMainland.conclusion.cta2': 'Compare Packages',
   },
   ar: {
     // Blog Categories
