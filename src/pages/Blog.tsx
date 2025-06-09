@@ -1,123 +1,130 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Calendar, ArrowRight, Building2, FileText, Globe, BarChart3, Settings, RefreshCw, Plane, Star, Users, Heart } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const blogPosts = [
   // Getting Started
   {
     id: 'free-zone-vs-mainland',
-    title: 'Free Zone vs Mainland: Which is Right for Your UAE Business?',
-    excerpt: 'Discover the key differences between free zone and mainland business setup in the UAE, and learn which option best suits your business goals and requirements.',
+    titleKey: 'blog.posts.freeZoneVsMainland.title',
+    excerptKey: 'blog.posts.freeZoneVsMainland.excerpt',
     icon: Building2,
-    readTime: '8 min read',
-    category: 'Getting Started',
+    readTime: 8,
+    categoryKey: 'blog.categories.gettingStarted',
     path: '/blog/free-zone-vs-mainland'
   },
   {
     id: 'starting-business-uae-foreigner',
-    title: 'Starting a Business in the UAE as a Foreigner',
-    excerpt: 'Everything foreign entrepreneurs need to know about starting a business in the UAE, from legal requirements to practical considerations.',
+    titleKey: 'blog.posts.startingBusiness.title',
+    excerptKey: 'blog.posts.startingBusiness.excerpt',
     icon: Globe,
-    readTime: '12 min read',
-    category: 'Getting Started',
+    readTime: 12,
+    categoryKey: 'blog.categories.gettingStarted',
     path: '/blog/starting-business-uae-foreigner'
   },
   {
     id: 'business-activities-licensing',
-    title: 'Business Activities & Licensing Categories Explained',
-    excerpt: 'Navigate the complex world of UAE business activities and licensing categories. Learn how to choose the right classification for your venture.',
+    titleKey: 'blog.posts.businessActivities.title',
+    excerptKey: 'blog.posts.businessActivities.excerpt',
     icon: BarChart3,
-    readTime: '10 min read',
-    category: 'Getting Started',
+    readTime: 10,
+    categoryKey: 'blog.categories.gettingStarted',
     path: '/blog/business-activities-licensing'
   },
   
   // Setup Guides
   {
     id: 'mainland-business-license-dubai',
-    title: 'How to Open a Mainland Business License in Dubai',
-    excerpt: 'A comprehensive step-by-step guide to obtaining your mainland business license in Dubai, including requirements, procedures, and expert tips.',
+    titleKey: 'blog.posts.mainlandLicense.title',
+    excerptKey: 'blog.posts.mainlandLicense.excerpt',
     icon: FileText,
-    readTime: '10 min read',
-    category: 'Setup Guides',
+    readTime: 10,
+    categoryKey: 'blog.categories.setupGuides',
     path: '/blog/mainland-business-license-dubai'
   },
   {
     id: 'free-zone-company-setup',
-    title: 'Step-by-Step Guide to Setting Up a Free Zone Company',
-    excerpt: 'Complete walkthrough of the free zone company setup process, from choosing the right zone to final license approval.',
+    titleKey: 'blog.posts.freeZoneSetup.title',
+    excerptKey: 'blog.posts.freeZoneSetup.excerpt',
     icon: Building2,
-    readTime: '9 min read',
-    category: 'Setup Guides',
+    readTime: 9,
+    categoryKey: 'blog.categories.setupGuides',
     path: '/blog/free-zone-company-setup'
   },
   
   // Visa & Immigration
   {
     id: 'visa-types-business-owners',
-    title: 'Visa Types and Their Benefits for Business Owners',
-    excerpt: 'Understanding the different visa options available to business owners in the UAE, from investor visas to Golden Visa opportunities.',
+    titleKey: 'blog.posts.visaTypes.title',
+    excerptKey: 'blog.posts.visaTypes.excerpt',
     icon: Plane,
-    readTime: '11 min read',
-    category: 'Visa & Immigration',
+    readTime: 11,
+    categoryKey: 'blog.categories.visaImmigration',
     path: '/blog/visa-types-business-owners'
   },
   {
     id: 'uae-residence-visa-application',
-    title: 'How to Apply for UAE Residence Visa Through Your Company',
-    excerpt: 'Once your business license is issued, learn how to apply for UAE residence visa through your company with AEFastLane\'s expert guidance.',
+    titleKey: 'blog.posts.residenceVisa.title',
+    excerptKey: 'blog.posts.residenceVisa.excerpt',
     icon: FileText,
-    readTime: '9 min read',
-    category: 'Visa & Immigration',
+    readTime: 9,
+    categoryKey: 'blog.categories.visaImmigration',
     path: '/blog/uae-residence-visa-application'
   },
   {
     id: 'golden-visa-eligibility',
-    title: 'Golden Visa Eligibility & Application Process Explained',
-    excerpt: 'The UAE\'s Golden Visa offers long-term residency to investors, entrepreneurs, and professionals. Find out if you qualify and how to apply.',
+    titleKey: 'blog.posts.goldenVisa.title',
+    excerptKey: 'blog.posts.goldenVisa.excerpt',
     icon: Star,
-    readTime: '13 min read',
-    category: 'Visa & Immigration',
+    readTime: 13,
+    categoryKey: 'blog.categories.visaImmigration',
     path: '/blog/golden-visa-eligibility'
   },
   {
     id: 'family-dependents-visa',
-    title: 'Family and Dependents Visa Sponsorship Made Easy',
-    excerpt: 'Want to bring your family to the UAE? Learn how AEFastLane can help you sponsor dependents smoothly and efficiently.',
+    titleKey: 'blog.posts.familyVisa.title',
+    excerptKey: 'blog.posts.familyVisa.excerpt',
     icon: Heart,
-    readTime: '10 min read',
-    category: 'Visa & Immigration',
+    readTime: 10,
+    categoryKey: 'blog.categories.visaImmigration',
     path: '/blog/family-dependents-visa'
   },
   
   // Operations & Compliance
   {
     id: 'government-approvals-streamlined',
-    title: 'How AEFastLane Streamlines Government Approvals & Documentation',
-    excerpt: 'Learn how our expert team simplifies complex government procedures and ensures your business stays compliant with UAE regulations.',
+    titleKey: 'blog.posts.govApprovals.title',
+    excerptKey: 'blog.posts.govApprovals.excerpt',
     icon: Settings,
-    readTime: '7 min read',
-    category: 'Operations & Compliance',
+    readTime: 7,
+    categoryKey: 'blog.categories.operations',
     path: '/blog/government-approvals-streamlined'
   },
   {
     id: 'company-renewals-closures',
-    title: 'Understanding UAE Company Renewals, Modifications & Closures',
-    excerpt: 'Essential guide to maintaining your UAE business license, making modifications, and understanding closure procedures when needed.',
+    titleKey: 'blog.posts.renewals.title',
+    excerptKey: 'blog.posts.renewals.excerpt',
     icon: RefreshCw,
-    readTime: '11 min read',
-    category: 'Operations & Compliance',
+    readTime: 11,
+    categoryKey: 'blog.categories.operations',
     path: '/blog/company-renewals-closures'
   }
 ];
 
-const categories = ['Getting Started', 'Setup Guides', 'Visa & Immigration', 'Operations & Compliance'];
+const categories = [
+  'blog.categories.gettingStarted',
+  'blog.categories.setupGuides',
+  'blog.categories.visaImmigration',
+  'blog.categories.operations'
+];
 
 const Blog = () => {
   const navigate = useNavigate();
+  const { t } = useLanguage();
 
-  const getPostsByCategory = (category: string) => {
-    return blogPosts.filter(post => post.category === category);
+  const getPostsByCategory = (categoryKey: string) => {
+    return blogPosts.filter(post => post.categoryKey === categoryKey);
   };
 
   return (
@@ -126,26 +133,25 @@ const Blog = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-extrabold text-primary sm:text-5xl">
-            UAE Business Insights & Guides
+            {t('blog.title')}
           </h1>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Expert insights, practical guides, and answers to your most important questions about doing business in the UAE. 
-            Stay informed with the latest regulations, best practices, and strategic advice from our experienced team.
+            {t('blog.subtitle')}
           </p>
         </div>
 
         {/* Articles by Category */}
-        {categories.map((category, categoryIndex) => (
-          <div key={category} className="mb-16">
+        {categories.map((categoryKey, categoryIndex) => (
+          <div key={categoryKey} className="mb-16">
             <h2 className="text-2xl font-bold text-primary mb-8 flex items-center">
               <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-lg mr-3">
                 {categoryIndex + 1}
               </span>
-              {category}
+              {t(categoryKey)}
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {getPostsByCategory(category).map((post) => (
+              {getPostsByCategory(categoryKey).map((post) => (
                 <article
                   key={post.id}
                   className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer group overflow-hidden"
@@ -156,25 +162,25 @@ const Blog = () => {
                       <div className="flex items-center space-x-2">
                         <post.icon className="h-6 w-6 text-primary" />
                         <span className="text-sm font-medium text-primary bg-primary/10 px-2 py-1 rounded-full">
-                          {post.category}
+                          {t(post.categoryKey)}
                         </span>
                       </div>
                       <div className="flex items-center text-gray-500 text-sm">
                         <Calendar className="h-4 w-4 mr-1" />
-                        {post.readTime}
+                        {post.readTime} {t('blog.readTime')}
                       </div>
                     </div>
                     
                     <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors duration-200">
-                      {post.title}
+                      {t(post.titleKey)}
                     </h3>
                     
                     <p className="text-gray-600 mb-4 line-clamp-3">
-                      {post.excerpt}
+                      {t(post.excerptKey)}
                     </p>
                     
                     <div className="flex items-center text-primary font-medium group-hover:text-primary-light transition-colors duration-200">
-                      Read Article
+                      {t('blog.readMore')}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
                     </div>
                   </div>
@@ -186,37 +192,33 @@ const Blog = () => {
 
         {/* Coming Soon Section */}
         <div className="bg-white rounded-lg shadow-md p-8 text-center">
-          <h3 className="text-2xl font-bold text-primary mb-4">More Expert Content Coming Soon</h3>
+          <h3 className="text-2xl font-bold text-primary mb-4">{t('blog.comingSoon.title')}</h3>
           <p className="text-gray-600 mb-6">
-            We're constantly expanding our knowledge base with new insights and guides to help you navigate the UAE business landscape. 
-            Stay tuned for more expert content covering advanced topics and industry-specific guidance.
+            {t('blog.comingSoon.description')}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-500">
             <div className="p-4 bg-gray-50 rounded-lg">
-              <h4 className="font-semibold text-primary mb-2">Advanced Topics</h4>
+              <h4 className="font-semibold text-primary mb-2">{t('blog.comingSoon.advanced.title')}</h4>
               <ul className="space-y-1">
-                <li>• VAT Registration & Compliance</li>
-                <li>• Banking Setup & Requirements</li>
-                <li>• Intellectual Property Protection</li>
-                <li>• Corporate Tax Implications</li>
+                {['vat', 'banking', 'ip', 'tax'].map(topic => (
+                  <li key={topic}>• {t(`blog.comingSoon.advanced.${topic}`)}</li>
+                ))}
               </ul>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
-              <h4 className="font-semibold text-primary mb-2">Industry Insights</h4>
+              <h4 className="font-semibold text-primary mb-2">{t('blog.comingSoon.industry.title')}</h4>
               <ul className="space-y-1">
-                <li>• Tech Startups in UAE</li>
-                <li>• E-commerce Licensing Guide</li>
-                <li>• Professional Services Setup</li>
-                <li>• Healthcare Business Licensing</li>
+                {['tech', 'ecommerce', 'professional', 'healthcare'].map(topic => (
+                  <li key={topic}>• {t(`blog.comingSoon.industry.${topic}`)}</li>
+                ))}
               </ul>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
-              <h4 className="font-semibold text-primary mb-2">Strategic Guidance</h4>
+              <h4 className="font-semibold text-primary mb-2">{t('blog.comingSoon.strategy.title')}</h4>
               <ul className="space-y-1">
-                <li>• Market Entry Strategies</li>
-                <li>• Cost Optimization Tips</li>
-                <li>• Scaling Your UAE Business</li>
-                <li>• Exit Strategies & Procedures</li>
+                {['entry', 'cost', 'scaling', 'exit'].map(topic => (
+                  <li key={topic}>• {t(`blog.comingSoon.strategy.${topic}`)}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -225,16 +227,15 @@ const Blog = () => {
         {/* CTA Section */}
         <div className="mt-16 text-center">
           <div className="bg-primary rounded-lg p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Need Personalized Guidance?</h3>
+            <h3 className="text-2xl font-bold mb-4">{t('blog.cta.title')}</h3>
             <p className="text-gray-300 mb-6">
-              While our articles provide comprehensive information, every business situation is unique. 
-              Get personalized advice from our UAE business setup experts who have helped hundreds of companies succeed.
+              {t('blog.cta.description')}
             </p>
             <a
               href="#contact"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-accent hover:bg-accent-dark transition-colors duration-200"
             >
-              Schedule Free Consultation
+              {t('blog.cta.button')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </div>
