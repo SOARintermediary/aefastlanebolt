@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { blogTranslations } from '../translations/blog';
 
 type Language = 'en' | 'ar';
 
@@ -10,6 +11,7 @@ interface LanguageContextType {
 
 const translations = {
   en: {
+    ...blogTranslations.en,
     // Navigation
     'nav.services': 'Services',
     'nav.pricing': 'Pricing',
@@ -154,9 +156,158 @@ const translations = {
     // Blog CTA
     'blog.cta.title': 'Need Personalized Guidance?',
     'blog.cta.description': 'While our articles provide comprehensive information, every business situation is unique. Get personalized advice from our UAE business setup experts who have helped hundreds of companies succeed.',
-    'blog.cta.button': 'Schedule Free Consultation'
+    'blog.cta.button': 'Schedule Free Consultation',
+
+    // Blog Posts - Free Zone vs Mainland
+    'blog.freeZoneVsMainland.basics.title': 'فهم الأساسيات',
+    'blog.freeZoneVsMainland.basics.description': 'توفر دولة الإمارات خيارين رئيسيين لتأسيس الأعمال: المناطق الحرة والبر الرئيسي. لكل منهما مزايا وقيود مميزة يمكن أن تؤثر على استراتيجية عملك.',
+    
+    'blog.freeZoneVsMainland.freeZone.title': 'شركات المناطق الحرة',
+    'blog.freeZoneVsMainland.freeZone.benefits': 'ملكية أجنبية 100%|لا ضرائب على الشركات (في معظم المناطق)|لا ضريبة دخل شخصية|إعادة الأرباح بالكامل|عملية تأسيس مبسطة|لا قيود على العملات',
+    
+    'blog.freeZoneVsMainland.mainland.title': 'شركات البر الرئيسي',
+    'blog.freeZoneVsMainland.mainland.benefits': 'الوصول إلى السوق المحلي الإماراتي|إمكانية التعامل مع الجهات الحكومية|مجموعة واسعة من الأنشطة التجارية|إمكانية فتح مكاتب في أي مكان بالإمارات|قدرات استيراد/تصدير مباشرة|لا قيود على موقع العمل',
+    
+    'blog.freeZoneVsMainland.differences.title': 'تحليل الفروق الرئيسية',
+    'blog.freeZoneVsMainland.differences.aspect': 'الجانب',
+    'blog.freeZoneVsMainland.differences.freeZone': 'المنطقة الحرة',
+    'blog.freeZoneVsMainland.differences.mainland': 'البر الرئيسي',
+    
+    'blog.freeZoneVsMainland.differences.ownership': 'الملكية',
+    'blog.freeZoneVsMainland.differences.ownershipFreeZone': 'ملكية أجنبية 100%',
+    'blog.freeZoneVsMainland.differences.ownershipMainland': 'ملكية أجنبية 100% (منذ 2021)',
+    
+    'blog.freeZoneVsMainland.differences.marketAccess': 'الوصول للسوق',
+    'blog.freeZoneVsMainland.differences.marketAccessFreeZone': 'محدود للمنطقة الحرة والتصدير',
+    'blog.freeZoneVsMainland.differences.marketAccessMainland': 'وصول كامل للسوق الإماراتي',
+    
+    'blog.freeZoneVsMainland.differences.location': 'موقع المكتب',
+    'blog.freeZoneVsMainland.differences.locationFreeZone': 'يجب أن يكون داخل المنطقة الحرة',
+    'blog.freeZoneVsMainland.differences.locationMainland': 'في أي مكان بالإمارة',
+    
+    'blog.freeZoneVsMainland.differences.visa': 'حصة التأشيرات',
+    'blog.freeZoneVsMainland.differences.visaFreeZone': 'حسب حجم المكتب/الرخصة',
+    'blog.freeZoneVsMainland.differences.visaMainland': 'حسب النشاط التجاري',
+    
+    'blog.freeZoneVsMainland.consideration.title': 'اعتبار مهم',
+    'blog.freeZoneVsMainland.consideration.description': 'التغييرات الأخيرة في قانون الإمارات تسمح الآن بملكية أجنبية 100% للشركات في البر الرئيسي في معظم القطاعات، مما يجعل هذا الخيار أكثر جاذبية من أي وقت مضى. ومع ذلك، لا تزال بعض القطاعات الاستراتيجية تتطلب شراكة محلية.',
+    
+    'blog.freeZoneVsMainland.choose.title': 'أي خيار يجب أن تختار؟',
+    'blog.freeZoneVsMainland.chooseFreeZone.title': 'اختر المنطقة الحرة إذا:',
+    'blog.freeZoneVsMainland.chooseFreeZone.points': 'عملك موجه بشكل رئيسي للتصدير|تريد تقليل تعقيد وزمن التأسيس|تحسين الضرائب هو أولوية|أنت في مجال التكنولوجيا أو الإعلام أو الصناعات المتخصصة|لا تحتاج للوصول إلى السوق المحلي الإماراتي فوراً',
+    
+    'blog.freeZoneVsMainland.chooseMainland.title': 'اختر البر الرئيسي إذا:',
+    'blog.freeZoneVsMainland.chooseMainland.points': 'تريد خدمة السوق المحلي الإماراتي|تخطط للعمل مع الجهات الحكومية|تحتاج إلى مرونة في موقع المكتب|عملك يتطلب شراكات محلية واسعة|أنت في مجال التجزئة أو الضيافة أو الخدمات',
+    
+    'blog.freeZoneVsMainland.freeZones.title': 'مناطق حرة شهيرة للنظر فيها',
+    'blog.freeZoneVsMainland.freeZones.dmcc': 'مركز دبي للسلع المتعددة',
+    'blog.freeZoneVsMainland.freeZones.dmccDesc': 'المنطقة الحرة الرائدة في دبي للسلع والتجارة',
+    'blog.freeZoneVsMainland.freeZones.difc': 'مركز دبي المالي العالمي',
+    'blog.freeZoneVsMainland.freeZones.difcDesc': 'مركز للخدمات المالية والتكنولوجيا المالية',
+    'blog.freeZoneVsMainland.freeZones.rakez': 'راكز',
+    'blog.freeZoneVsMainland.freeZones.rakezDesc': 'خيار فعال من حيث التكلفة مع باقات مرنة',
+    
+    'blog.freeZoneVsMainland.needHelp.title': 'تحتاج إلى توجيه متخصص؟',
+    'blog.freeZoneVsMainland.needHelp.description': 'الاختيار بين تأسيس المنطقة الحرة والبر الرئيسي قرار حاسم يعتمد على نموذج عملك المحدد والسوق المستهدف وأهدافك طويلة المدى. يمكن لخبرائنا مساعدتك في تحليل متطلباتك واتخاذ الخيار الصحيح.',
+    'blog.freeZoneVsMainland.needHelp.cta': 'احصل على استشارة مجانية',
+
+    // Golden Visa Article
+    'blog.goldenVisa.overview.title': 'نظرة عامة على التأشيرة الذهبية',
+    'blog.goldenVisa.overview.duration': 'المدة',
+    'blog.goldenVisa.overview.durationValue': '5-10 سنوات',
+    'blog.goldenVisa.overview.family': 'شمول العائلة',
+    'blog.goldenVisa.overview.familyValue': 'الزوج/الزوجة والأطفال',
+    'blog.goldenVisa.overview.renewable': 'قابلة للتجديد',
+    'blog.goldenVisa.overview.renewableValue': 'نعم',
+
+    'blog.goldenVisa.categories.investors.title': 'المستثمرون',
+    'blog.goldenVisa.categories.investors.duration': '10 سنوات',
+    'blog.goldenVisa.categories.investors.requirements': 'استثمار 10 ملايين درهم في صندوق استثمار عام|استثمار 10 ملايين درهم في شركة إماراتية (51% ملكية إماراتية)|تأسيس شركة برأس مال 10 ملايين درهم|شريك في شركة قائمة بقيمة 10 ملايين درهم',
+    'blog.goldenVisa.categories.investors.benefits': 'لا يحتاج إلى كفيل|تأشيرة دخول متعددة|كفالة أفراد العائلة|تصريح عمل مشمول',
+
+    'blog.goldenVisa.categories.entrepreneurs.title': 'رواد الأعمال',
+    'blog.goldenVisa.categories.entrepreneurs.duration': '5 سنوات',
+    'blog.goldenVisa.categories.entrepreneurs.requirements': 'امتلاك مشروع بقيمة 500,000 درهم كحد أدنى|موافقة من حاضنة أو مسرع أعمال إماراتي|بيع مشروع سابق بقيمة 7 ملايين درهم كحد أدنى|مؤسس شركة ناشئة بتمويل 500,000 درهم',
+    'blog.goldenVisa.categories.entrepreneurs.benefits': 'حقوق تشغيل الأعمال|كفالة العائلة|تأشيرة قابلة للتجديد|فرص استثمارية',
+
+    'blog.goldenVisa.categories.talents.title': 'المواهب المتخصصة',
+    'blog.goldenVisa.categories.talents.duration': '10 سنوات',
+    'blog.goldenVisa.categories.talents.requirements': 'الأطباء والمتخصصون في المجالات ذات الأولوية|العلماء والباحثون|المبدعون في الثقافة والفنون|المخترعون بحقوق براءات اختراع قيمة',
+    'blog.goldenVisa.categories.talents.benefits': 'حقوق الممارسة المهنية|فرص البحث|المساهمات الثقافية|دعم الابتكار',
+
+    'blog.goldenVisa.categories.students.title': 'الطلاب المتفوقون',
+    'blog.goldenVisa.categories.students.duration': '5 سنوات',
+    'blog.goldenVisa.categories.students.requirements': 'خريجو الجامعات الإماراتية المتفوقون (معدل 3.75+)|خريجو أفضل 100 جامعة عالمياً|الطلاب المتفوقون في المدارس الثانوية|الطلاب ذوو الإنجازات الاستثنائية',
+    'blog.goldenVisa.categories.students.benefits': 'حقوق الدراسة والعمل|فرص وظيفية|كفالة العائلة|دعم أكاديمي',
+
+    'blog.goldenVisa.process.title': 'خطوات التقديم',
+    'blog.goldenVisa.process.step1.title': 'تقييم الأهلية',
+    'blog.goldenVisa.process.step1.description': 'تحديد فئة التأشيرة الذهبية التي تتأهل لها',
+    'blog.goldenVisa.process.step1.duration': '1-2 يوم',
+    'blog.goldenVisa.process.step1.documents': 'شهادات المؤهلات|إثباتات الاستثمار|الوثائق المهنية',
+
+    'blog.goldenVisa.process.step2.title': 'تحضير المستندات',
+    'blog.goldenVisa.process.step2.description': 'جمع وتصديق جميع المستندات المطلوبة',
+    'blog.goldenVisa.process.step2.duration': '1-2 أسبوع',
+    'blog.goldenVisa.process.step2.documents': 'نسخ جواز السفر|الشهادات التعليمية|البيانات المالية|الشهادات الطبية',
+
+    'blog.goldenVisa.process.step3.title': 'تقديم الطلب',
+    'blog.goldenVisa.process.step3.description': 'تقديم الطلب عبر القنوات الرسمية',
+    'blog.goldenVisa.process.step3.duration': 'يوم واحد',
+    'blog.goldenVisa.process.step3.documents': 'نموذج الطلب المكتمل|المستندات الداعمة|دفع الرسوم|البيانات البيومترية',
+
+    'blog.goldenVisa.process.step4.title': 'المراجعة والتحقق',
+    'blog.goldenVisa.process.step4.description': 'مراجعة السلطات للطلب والتحقق من الوثائق',
+    'blog.goldenVisa.process.step4.duration': '30-60 يوم',
+    'blog.goldenVisa.process.step4.documents': 'التحقق من الخلفية|التحقق من الوثائق|التحقق من الاستثمار',
+
+    'blog.goldenVisa.process.step5.title': 'الموافقة والإصدار',
+    'blog.goldenVisa.process.step5.description': 'استلام الموافقة وختم التأشيرة',
+    'blog.goldenVisa.process.step5.duration': '5-10 أيام',
+    'blog.goldenVisa.process.step5.documents': 'خطاب الموافقة|ختم التأشيرة|طلب الهوية الإماراتية',
+
+    'blog.goldenVisa.investment.title': 'خيارات الاستثمار',
+    'blog.goldenVisa.investment.realEstate.title': 'الاستثمار العقاري',
+    'blog.goldenVisa.investment.realEstate.amount': '2 مليون درهم',
+    'blog.goldenVisa.investment.realEstate.duration': '5 سنوات',
+    'blog.goldenVisa.investment.realEstate.conditions': 'قيمة العقار 2 مليون درهم كحد أدنى|القرض 70% كحد أقصى|الاحتفاظ بالعقار لمدة 3 سنوات',
+    'blog.goldenVisa.investment.realEstate.benefits': 'دخل الإيجار|ارتفاع قيمة العقار|إقامة للعائلة',
+
+    'blog.goldenVisa.investment.business.title': 'الاستثمار في الأعمال',
+    'blog.goldenVisa.investment.business.amount': '10 ملايين درهم',
+    'blog.goldenVisa.investment.business.duration': '10 سنوات',
+    'blog.goldenVisa.investment.business.conditions': 'تأسيس شركة جديدة|51% ملكية إماراتية|خلق فرص عمل',
+    'blog.goldenVisa.investment.business.benefits': 'ملكية الأعمال|إقامة طويلة الأمد|مساهمة اقتصادية',
+
+    'blog.goldenVisa.investment.fund.title': 'صندوق الاستثمار',
+    'blog.goldenVisa.investment.fund.amount': '10 ملايين درهم',
+    'blog.goldenVisa.investment.fund.duration': '10 سنوات',
+    'blog.goldenVisa.investment.fund.conditions': 'الاستثمار في صندوق معتمد|التزام 3 سنوات كحد أدنى|صندوق يركز على الاقتصاد الإماراتي',
+    'blog.goldenVisa.investment.fund.benefits': 'إدارة محترفة|محفظة متنوعة|مشاركة اقتصادية',
+
+    'blog.goldenVisa.family.title': 'كفالة العائلة',
+    'blog.goldenVisa.family.spouse.title': 'الزوج/الزوجة',
+    'blog.goldenVisa.family.spouse.eligibility': 'متزوج قانونياً',
+    'blog.goldenVisa.family.spouse.duration': 'نفس مدة مقدم الطلب الرئيسي',
+    'blog.goldenVisa.family.spouse.requirements': 'شهادة الزواج|نسخة جواز السفر|شهادة طبية',
+
+    'blog.goldenVisa.family.children.title': 'الأطفال',
+    'blog.goldenVisa.family.children.eligibility': 'تحت 18 سنة أو يدرسون',
+    'blog.goldenVisa.family.children.duration': 'حتى 18 سنة أو التخرج',
+    'blog.goldenVisa.family.children.requirements': 'شهادة الميلاد|التسجيل المدرسي|شهادة طبية',
+
+    'blog.goldenVisa.family.parents.title': 'الوالدين',
+    'blog.goldenVisa.family.parents.eligibility': 'فوق 60 سنة',
+    'blog.goldenVisa.family.parents.duration': 'سنة قابلة للتجديد',
+    'blog.goldenVisa.family.parents.requirements': 'شهادة الميلاد|نسخة جواز السفر|تأمين صحي',
+
+    'blog.goldenVisa.family.workers.title': 'العمال المنزليون',
+    'blog.goldenVisa.family.workers.eligibility': 'موظفو المنزل',
+    'blog.goldenVisa.family.workers.duration': 'حسب العقد',
+    'blog.goldenVisa.family.workers.requirements': 'عقد العمل|شهادة الراتب|شهادة طبية',
   },
   ar: {
+    ...blogTranslations.ar,
     // Navigation
     'nav.services': 'الخدمات',
     'nav.pricing': 'الأسعار',
@@ -301,7 +452,60 @@ const translations = {
     // Blog CTA
     'blog.cta.title': 'هل تحتاج إلى توجيه شخصي؟',
     'blog.cta.description': 'بينما توفر مقالاتنا معلومات شاملة، كل حالة عمل فريدة من نوعها. احصل على نصائح شخصية من خبراء تأسيس الأعمال في الإمارات الذين ساعدوا مئات الشركات على النجاح.',
-    'blog.cta.button': 'جدول استشارة مجانية'
+    'blog.cta.button': 'جدول استشارة مجانية',
+
+    // Blog Posts - Free Zone vs Mainland
+    'blog.freeZoneVsMainland.basics.title': 'فهم الأساسيات',
+    'blog.freeZoneVsMainland.basics.description': 'توفر دولة الإمارات خيارين رئيسيين لتأسيس الأعمال: المناطق الحرة والبر الرئيسي. لكل منهما مزايا وقيود مميزة يمكن أن تؤثر على استراتيجية عملك.',
+    
+    'blog.freeZoneVsMainland.freeZone.title': 'شركات المناطق الحرة',
+    'blog.freeZoneVsMainland.freeZone.benefits': 'ملكية أجنبية 100%|لا ضرائب على الشركات (في معظم المناطق)|لا ضريبة دخل شخصية|إعادة الأرباح بالكامل|عملية تأسيس مبسطة|لا قيود على العملات',
+    
+    'blog.freeZoneVsMainland.mainland.title': 'شركات البر الرئيسي',
+    'blog.freeZoneVsMainland.mainland.benefits': 'الوصول إلى السوق المحلي الإماراتي|إمكانية التعامل مع الجهات الحكومية|مجموعة واسعة من الأنشطة التجارية|إمكانية فتح مكاتب في أي مكان بالإمارات|قدرات استيراد/تصدير مباشرة|لا قيود على موقع العمل',
+    
+    'blog.freeZoneVsMainland.differences.title': 'تحليل الفروق الرئيسية',
+    'blog.freeZoneVsMainland.differences.aspect': 'الجانب',
+    'blog.freeZoneVsMainland.differences.freeZone': 'المنطقة الحرة',
+    'blog.freeZoneVsMainland.differences.mainland': 'البر الرئيسي',
+    
+    'blog.freeZoneVsMainland.differences.ownership': 'الملكية',
+    'blog.freeZoneVsMainland.differences.ownershipFreeZone': 'ملكية أجنبية 100%',
+    'blog.freeZoneVsMainland.differences.ownershipMainland': 'ملكية أجنبية 100% (منذ 2021)',
+    
+    'blog.freeZoneVsMainland.differences.marketAccess': 'الوصول للسوق',
+    'blog.freeZoneVsMainland.differences.marketAccessFreeZone': 'محدود للمنطقة الحرة والتصدير',
+    'blog.freeZoneVsMainland.differences.marketAccessMainland': 'وصول كامل للسوق الإماراتي',
+    
+    'blog.freeZoneVsMainland.differences.location': 'موقع المكتب',
+    'blog.freeZoneVsMainland.differences.locationFreeZone': 'يجب أن يكون داخل المنطقة الحرة',
+    'blog.freeZoneVsMainland.differences.locationMainland': 'في أي مكان بالإمارة',
+    
+    'blog.freeZoneVsMainland.differences.visa': 'حصة التأشيرات',
+    'blog.freeZoneVsMainland.differences.visaFreeZone': 'حسب حجم المكتب/الرخصة',
+    'blog.freeZoneVsMainland.differences.visaMainland': 'حسب النشاط التجاري',
+    
+    'blog.freeZoneVsMainland.consideration.title': 'اعتبار مهم',
+    'blog.freeZoneVsMainland.consideration.description': 'التغييرات الأخيرة في قانون الإمارات تسمح الآن بملكية أجنبية 100% للشركات في البر الرئيسي في معظم القطاعات، مما يجعل هذا الخيار أكثر جاذبية من أي وقت مضى. ومع ذلك، لا تزال بعض القطاعات الاستراتيجية تتطلب شراكة محلية.',
+    
+    'blog.freeZoneVsMainland.choose.title': 'أي خيار يجب أن تختار؟',
+    'blog.freeZoneVsMainland.chooseFreeZone.title': 'اختر المنطقة الحرة إذا:',
+    'blog.freeZoneVsMainland.chooseFreeZone.points': 'عملك موجه بشكل رئيسي للتصدير|تريد تقليل تعقيد وزمن التأسيس|تحسين الضرائب هو أولوية|أنت في مجال التكنولوجيا أو الإعلام أو الصناعات المتخصصة|لا تحتاج للوصول إلى السوق المحلي الإماراتي فوراً',
+    
+    'blog.freeZoneVsMainland.chooseMainland.title': 'اختر البر الرئيسي إذا:',
+    'blog.freeZoneVsMainland.chooseMainland.points': 'تريد خدمة السوق المحلي الإماراتي|تخطط للعمل مع الجهات الحكومية|تحتاج إلى مرونة في موقع المكتب|عملك يتطلب شراكات محلية واسعة|أنت في مجال التجزئة أو الضيافة أو الخدمات',
+    
+    'blog.freeZoneVsMainland.freeZones.title': 'مناطق حرة شهيرة للنظر فيها',
+    'blog.freeZoneVsMainland.freeZones.dmcc': 'مركز دبي للسلع المتعددة',
+    'blog.freeZoneVsMainland.freeZones.dmccDesc': 'المنطقة الحرة الرائدة في دبي للسلع والتجارة',
+    'blog.freeZoneVsMainland.freeZones.difc': 'مركز دبي المالي العالمي',
+    'blog.freeZoneVsMainland.freeZones.difcDesc': 'مركز للخدمات المالية والتكنولوجيا المالية',
+    'blog.freeZoneVsMainland.freeZones.rakez': 'راكز',
+    'blog.freeZoneVsMainland.freeZones.rakezDesc': 'خيار فعال من حيث التكلفة مع باقات مرنة',
+    
+    'blog.freeZoneVsMainland.needHelp.title': 'تحتاج إلى توجيه متخصص؟',
+    'blog.freeZoneVsMainland.needHelp.description': 'الاختيار بين تأسيس المنطقة الحرة والبر الرئيسي قرار حاسم يعتمد على نموذج عملك المحدد والسوق المستهدف وأهدافك طويلة المدى. يمكن لخبرائنا مساعدتك في تحليل متطلباتك واتخاذ الخيار الصحيح.',
+    'blog.freeZoneVsMainland.needHelp.cta': 'احصل على استشارة مجانية',
   }
 };
 

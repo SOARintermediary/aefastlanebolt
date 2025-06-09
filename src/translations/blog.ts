@@ -693,7 +693,251 @@ export const blogTranslations = {
         solution: 'Stay updated with regulatory newsletters',
         impact: 'Non-compliance risks'
       }
-    ]
+    ],
+
+    'blog.familyVisa.overview.title': 'تسهيل كفالة التأشيرات العائلية والمعالين',
+    'blog.familyVisa.overview.category': 'التأشيرات والهجرة',
+    'blog.familyVisa.overview.description': 'هل تريد إحضار عائلتك إلى الإمارات؟ يمكن لـ AEFastLane مساعدتك في كفالة معاليك بسلاسة، مع ضمان تلبية جميع المتطلبات لجمع شمل العائلة بنجاح في الإمارات.',
+
+    // Eligible Dependents Section
+    'blog.familyVisa.dependents.spouse.type': 'الزوج/الزوجة',
+    'blog.familyVisa.dependents.spouse.requirements': [
+      'زواج قانوني',
+      'شهادة زواج مصدقة',
+      'راتب لا يقل عن 4,000 درهم',
+      'سكن مناسب'
+    ],
+    'blog.familyVisa.dependents.spouse.duration': 'نفس مدة تأشيرة الكفيل',
+    'blog.familyVisa.dependents.spouse.benefits': [
+      'أهلية تصريح العمل',
+      'الوصول للرعاية الصحية',
+      'التعليم للأطفال',
+      'حرية السفر'
+    ],
+
+    'blog.familyVisa.dependents.children.type': 'الأطفال',
+    'blog.familyVisa.dependents.children.requirements': [
+      'تحت سن 18 عاماً',
+      'شهادة الميلاد',
+      'راتب الكفيل 4,000+ درهم',
+      'التسجيل المدرسي'
+    ],
+    'blog.familyVisa.dependents.children.duration': 'حتى سن 18 أو الزواج',
+    'blog.familyVisa.dependents.children.benefits': [
+      'الوصول للتعليم',
+      'التغطية الصحية',
+      'تصريح الإقامة',
+      'وحدة العائلة'
+    ],
+
+    'blog.familyVisa.dependents.parents.type': 'الوالدين',
+    'blog.familyVisa.dependents.parents.requirements': [
+      'فوق 60 عاماً',
+      'راتب الكفيل 20,000+ درهم',
+      'تأمين صحي',
+      'إثبات السكن'
+    ],
+    'blog.familyVisa.dependents.parents.duration': 'سنة قابلة للتجديد',
+    'blog.familyVisa.dependents.parents.benefits': [
+      'الوصول للرعاية الصحية',
+      'لم شمل العائلة',
+      'تصريح الإقامة',
+      'خدمات الدعم'
+    ],
+
+    'blog.familyVisa.dependents.workers.type': 'العمال المنزليون',
+    'blog.familyVisa.dependents.workers.requirements': [
+      'عقد عمل',
+      'راتب الكفيل 10,000+ درهم',
+      'سكن مناسب',
+      'شهادة طبية'
+    ],
+    'blog.familyVisa.dependents.workers.duration': 'حسب العقد',
+    'blog.familyVisa.dependents.workers.benefits': [
+      'تصريح العمل',
+      'تصريح الإقامة',
+      'الوصول للرعاية الصحية',
+      'الحماية القانونية'
+    ],
+
+    // Application Process Section
+    'blog.familyVisa.process.title': 'خطوات تقديم الطلب',
+    'blog.familyVisa.process.steps': [
+      {
+        step: 1,
+        title: 'التحقق من الأهلية',
+        description: 'التحقق من متطلبات الراتب ووثائق إثبات العلاقة',
+        duration: 'يوم واحد',
+        requirements: ['شهادة الراتب', 'إثبات العلاقة', 'تفاصيل السكن']
+      },
+      {
+        step: 2,
+        title: 'تجهيز المستندات',
+        description: 'جمع وتصديق جميع المستندات المطلوبة',
+        duration: '1-2 أسبوع',
+        requirements: ['الشهادات المصدقة', 'نسخ جوازات السفر', 'الشهادات الطبية', 'الصور']
+      },
+      {
+        step: 3,
+        title: 'طلب إذن الدخول',
+        description: 'التقدم بطلب إذن دخول لأفراد العائلة',
+        duration: '3-5 أيام',
+        requirements: ['نموذج الطلب', 'المستندات الداعمة', 'دفع الرسوم']
+      },
+      {
+        step: 4,
+        title: 'الفحص الطبي',
+        description: 'إكمال الفحوصات الطبية في المراكز المعتمدة',
+        duration: '1-2 يوم',
+        requirements: ['إذن الدخول', 'جواز السفر', 'نموذج الفحص الطبي']
+      },
+      {
+        step: 5,
+        title: 'ختم التأشيرة',
+        description: 'ختم تأشيرة الإقامة في جواز السفر',
+        duration: '2-3 أيام',
+        requirements: ['الشهادة الطبية', 'إذن الدخول', 'جواز السفر', 'الرسوم']
+      },
+      {
+        step: 6,
+        title: 'الهوية الإماراتية',
+        description: 'التقدم بطلب الهوية الإماراتية لأفراد العائلة',
+        duration: '7-14 يوم',
+        requirements: ['تأشيرة الإقامة', 'صور شخصية', 'نموذج الطلب']
+      }
+    ],
+
+    // Salary Requirements Section
+    'blog.familyVisa.salary.title': 'متطلبات الراتب',
+    'blog.familyVisa.salary.requirements': [
+      {
+        dependents: 'الزوج/الزوجة فقط',
+        minSalary: '4,000 درهم',
+        accommodation: 'شقة بغرفة نوم واحدة',
+        additionalNotes: 'كفالة عائلية أساسية'
+      },
+      {
+        dependents: 'الزوج/الزوجة + طفل واحد',
+        minSalary: '5,000 درهم',
+        accommodation: 'شقة بغرفتي نوم',
+        additionalNotes: 'مراعاة الرسوم المدرسية'
+      },
+      {
+        dependents: 'الزوج/الزوجة + طفلين',
+        minSalary: '6,000 درهم',
+        accommodation: 'شقة 2-3 غرف نوم',
+        additionalNotes: 'تكاليف التعليم والرعاية الصحية'
+      },
+      {
+        dependents: 'الوالدين (فوق 60)',
+        minSalary: '20,000 درهم',
+        accommodation: 'سكن عائلي مناسب',
+        additionalNotes: 'التأمين الصحي إلزامي'
+      }
+    ],
+
+    // Document Checklist Section
+    'blog.familyVisa.documents.title': 'قائمة المستندات المطلوبة',
+    'blog.familyVisa.documents.categories': [
+      {
+        category: 'وثائق الكفيل',
+        documents: [
+          'نسخة جواز السفر مع تأشيرة الإقامة',
+          'نسخة الهوية الإماراتية',
+          'شهادة الراتب (مصدقة)',
+          'عقد العمل',
+          'كشوف الحساب البنكي (6 أشهر)',
+          'عقد الإيجار'
+        ]
+      },
+      {
+        category: 'وثائق المعال',
+        documents: [
+          'جواز سفر صالح لمدة 6 أشهر على الأقل',
+          'صور شخصية',
+          'شهادة الميلاد (للأطفال)',
+          'شهادة الزواج (للزوج/الزوجة)',
+          'الشهادات التعليمية',
+          'الشهادة الطبية'
+        ]
+      },
+      {
+        category: 'إثبات العلاقة',
+        documents: [
+          'شهادة الزواج (مصدقة)',
+          'شهادات الميلاد (مصدقة)',
+          'دفتر العائلة أو ما يعادله',
+          'أوراق التبني (إن وجدت)',
+          'وثيقة الطلاق (إن وجدت)',
+          'شهادة الوفاة (إن وجدت)'
+        ]
+      }
+    ],
+
+    // Cost Breakdown Section
+    'blog.familyVisa.costs.title': 'تفصيل التكاليف',
+    'blog.familyVisa.costs.items': [
+      {
+        service: 'إذن الدخول (الزوج/الزوجة)',
+        government: 1190,
+        serviceFee: 500,
+        total: 1690
+      },
+      {
+        service: 'إذن الدخول (الطفل)',
+        government: 1190,
+        serviceFee: 500,
+        total: 1690
+      },
+      {
+        service: 'الفحص الطبي',
+        government: 310,
+        serviceFee: 200,
+        total: 510
+      },
+      {
+        service: 'ختم التأشيرة',
+        government: 580,
+        serviceFee: 300,
+        total: 880
+      },
+      {
+        service: 'الهوية الإماراتية',
+        government: 380,
+        serviceFee: 150,
+        total: 530
+      }
+    ],
+
+    // Important Notes Section
+    'blog.familyVisa.notes.title': 'ملاحظات هامة',
+    'blog.familyVisa.notes.items': [
+      'يجب تصديق جميع المستندات الأجنبية من سفارة الإمارات في بلد المنشأ',
+      'يجب على الكفيل الحفاظ على الحد الأدنى للراتب طوال مدة صلاحية التأشيرة',
+      'يجب توفير سكن مناسب لأفراد العائلة',
+      'يوصى بالتأمين الصحي لجميع أفراد العائلة',
+      'يجب مراعاة تكاليف تعليم الأطفال في التخطيط المالي',
+      'يعتمد تجديد تأشيرة العائلة على وضع تأشيرة الكفيل'
+    ],
+
+    // Success Tips Section
+    'blog.familyVisa.tips.title': 'نصائح للنجاح في كفالة العائلة',
+    'blog.familyVisa.tips.items': [
+      'التأكد من استيفاء متطلبات الراتب باستمرار',
+      'تجهيز جميع المستندات مسبقاً',
+      'النظر في التأمين الصحي لأفراد العائلة',
+      'التخطيط لتكاليف التعليم عند كفالة الأطفال',
+      'الحفاظ على معايير السكن المناسبة',
+      'الحفاظ على تحديث وصلاحية جميع المستندات',
+      'استخدام الخدمات المهنية للحالات المعقدة',
+      'التخطيط لعملية التجديد مسبقاً'
+    ],
+
+    // CTA Section
+    'blog.familyVisa.cta.title': 'هل أنت مستعد لإحضار عائلتك إلى الإمارات؟',
+    'blog.familyVisa.cta.description': 'يمكن لمتخصصي تأشيرات العائلة لدينا التعامل مع كامل عملية الكفالة نيابة عنك، مع ضمان تلبية جميع المتطلبات وإتمام لم شمل العائلة بسلاسة وكفاءة.',
+    'blog.familyVisa.cta.button1': 'ابدأ كفالة العائلة',
+    'blog.familyVisa.cta.button2': 'احصل على استشارة متخصصة'
   },
   ar: {
     // Golden Visa Article
