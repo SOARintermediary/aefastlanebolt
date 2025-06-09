@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import PricingTable from './components/PricingTable';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/Hero';
+import Services from './components/services/Services';
+import PricingTable from './components/pricing/PricingTable';
+import ContactForm from './components/contact/ContactForm';
+import Footer from './components/footer/Footer';
 import CompanyFormation from './pages/CompanyFormation';
 import VisaServices from './pages/VisaServices';
 import ProServices from './pages/ProServices';

@@ -1,0 +1,22 @@
+import { type FC } from 'react';
+import { Mail, Phone } from 'lucide-react';
+
+const ContactInfo: FC = () => {
+  return (
+    <div>
+      <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+      <div className="space-y-2">
+        <a href="mailto:contact@aefastlane.com" className="flex items-center text-gray-300 hover:text-accent">
+          <Mail size={20} className="mr-2" />
+          contact@aefastlane.com
+        </a>
+        <div className="flex items-center text-gray-300">
+          <Phone size={20} className="mr-2" />
+          +971-XXX-XXX-XXX
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ContactInfo; 
