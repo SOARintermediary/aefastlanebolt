@@ -16,7 +16,11 @@ export default {
           DEFAULT: '#008080',
           dark: '#006666'
         }
-      }
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        arabic: ['Noto Sans Arabic', 'system-ui', 'sans-serif'],
+      },
     },
   },
   plugins: [],

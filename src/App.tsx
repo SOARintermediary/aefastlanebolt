@@ -27,14 +27,19 @@ import FamilyDependentsVisa from './pages/blog/FamilyDependentsVisa';
 
 const AppContent = () => {
   const { language } = useLanguage();
+  const isRTL = language === 'ar';
 
   return (
     <Router basename={import.meta.env.BASE_URL}>
-      <div className="min-h-screen bg-white" dir={language === 'ar' ? 'rtl' : 'ltr'}>
+      <div 
+        className={`min-h-screen bg-white ${isRTL ? 'font-arabic' : 'font-sans'}`}
+        dir={isRTL ? 'rtl' : 'ltr'}
+        lang={isRTL ? 'ar' : 'en'}
+      >
         <Navbar />
         <Routes>
           <Route path="/" element={
-            <main>
+            <main className={isRTL ? 'text-right' : 'text-left'}>
               <Hero />
               <Services />
               <PricingTable />
