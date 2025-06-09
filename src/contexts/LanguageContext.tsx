@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 type Language = 'en' | 'ar';
 
@@ -305,19 +305,45 @@ const translations = {
   }
 };
 
-const LanguageContext = createContext<LanguageContextType>({
-  language: 'en',
-  setLanguage: () => {},
-  t: () => '',
-});
-
-export const useLanguage = () => useContext(LanguageContext);
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  // Initialize from localStorage or default to 'en'
+  const [language, setLanguageState] = useState<Language>(() => {
+    const savedLanguage = localStorage.getItem('language');
+    return (savedLanguage === 'ar' || savedLanguage === 'en') ? savedLanguage : 'en';
+  });
+
+  const setLanguage = (lang: Language) => {
+    setLanguageState(lang);
+    localStorage.setItem('language', lang);
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    
+    // Force reload styles for RTL/LTR switch
+    const links = document.getElementsByTagName('link');
+    for (let i = 0; i < links.length; i++) {
+      const link = links[i];
+      if (link.rel === 'stylesheet') {
+        link.href = link.href.split('?')[0] + '?v=' + new Date().getTime();
+      }
+    }
+  };
+
+  useEffect(() => {
+    // Set initial direction and language
+    document.documentElement.lang = language;
+    document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
+    
+    // Add CSS variables for RTL support
+    document.documentElement.style.setProperty('--direction', language === 'ar' ? 'rtl' : 'ltr');
+    document.documentElement.style.setProperty('--reverse-direction', language === 'ar' ? 'ltr' : 'rtl');
+    document.documentElement.style.setProperty('--start', language === 'ar' ? 'right' : 'left');
+    document.documentElement.style.setProperty('--end', language === 'ar' ? 'left' : 'right');
+  }, [language]);
 
   const t = (key: string): string => {
-    return translations[language][key as keyof typeof translations['en']] || key;
+    return translations[language][key as keyof typeof translations[typeof language]] || key;
   };
 
   return (
@@ -325,4 +351,12 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       {children}
     </LanguageContext.Provider>
   );
+};
+
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (context === undefined) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
 };
