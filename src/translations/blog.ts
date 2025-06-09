@@ -949,90 +949,97 @@ export const blogTranslations = {
     
     // Business Activities
     'blog.posts.businessActivities.title': 'Business Activities & Licensing Categories Explained',
-    'blog.posts.businessActivities.excerpt': 'Navigate the complex world of UAE business activities and licensing categories. Learn how to choose the right classification for your venture.',
+    'blog.posts.businessActivities.excerpt': 'A comprehensive guide to understanding business activities and licensing categories in the UAE.',
     
     // Mainland License
-    'blog.posts.mainlandLicense.title': 'How to Get a Mainland Business License in Dubai',
-    'blog.posts.mainlandLicense.excerpt': 'A comprehensive guide to obtaining a mainland business license in Dubai, including requirements, costs, and step-by-step procedures.',
+    'blog.posts.mainlandLicense.title': 'How to Open a Mainland Business in Dubai',
+    'blog.posts.mainlandLicense.excerpt': 'Step-by-step guide to obtaining a mainland business license in Dubai.',
     
     // Free Zone Setup
-    'blog.posts.freeZoneSetup.title': 'Step-by-Step Guide to Setting Up a Free Zone Company',
-    'blog.posts.freeZoneSetup.excerpt': 'Learn how to establish your business in UAE free zones with our detailed guide covering all aspects of the setup process.',
+    'blog.posts.freeZoneSetup.title': 'Step-by-Step Guide to Free Zone Company Setup',
+    'blog.posts.freeZoneSetup.excerpt': 'Complete guide to setting up your business in UAE free zones.',
     
     // Visa Types
     'blog.posts.visaTypes.title': 'Visa Types and Benefits for Business Owners',
-    'blog.posts.visaTypes.excerpt': 'Understand different UAE visa options available for business owners and their advantages.',
+    'blog.posts.visaTypes.excerpt': 'Overview of different visa options available for business owners in the UAE.',
     
     // Residence Visa
-    'blog.posts.residenceVisa.title': 'How to Apply for UAE Residence Visa',
-    'blog.posts.residenceVisa.excerpt': 'Complete guide to obtaining UAE residence visas for business owners and their families.',
+    'blog.posts.residenceVisa.title': 'How to Apply for UAE Residency',
+    'blog.posts.residenceVisa.excerpt': 'Comprehensive guide to obtaining UAE residency visas.',
     
     // Golden Visa
     'blog.posts.goldenVisa.title': 'Golden Visa Eligibility & Application Process Explained',
-    'blog.posts.goldenVisa.excerpt': 'Everything you need to know about the UAE Golden Visa program, including eligibility criteria and application procedures.',
+    'blog.posts.goldenVisa.excerpt': 'Everything you need to know about the UAE Golden Visa program.',
     
     // Family Visa
     'blog.posts.familyVisa.title': 'Family & Dependents Visa Guide',
-    'blog.posts.familyVisa.excerpt': 'How to sponsor your family members and obtain dependent visas in the UAE, including eligibility requirements and procedures.',
+    'blog.posts.familyVisa.excerpt': 'How to sponsor your family members for UAE residency.',
     
     // AE Fastlane Services
-    'blog.posts.aeFastlane.title': 'How AE Fastlane Streamlines Your Business Setup',
-    'blog.posts.aeFastlane.excerpt': 'Discover how our professional services can help you navigate the UAE business setup process efficiently and hassle-free.',
+    'blog.posts.services.title': 'How AE Fastlane Streamlines Your Business Setup',
+    'blog.posts.services.excerpt': 'Discover how our services make business setup in the UAE quick and hassle-free.',
     
     // Company Formation
-    'blog.posts.companyFormation.title': 'Understanding Company Formation Options',
-    'blog.posts.companyFormation.excerpt': 'Compare different company formation options in the UAE and choose the best structure for your business.',
+    'blog.posts.company.title': 'Understanding Company Formation in the UAE',
+    'blog.posts.company.excerpt': 'A detailed look at the company formation process in the UAE.',
 
     // Categories
     'blog.categories.gettingStarted': 'Getting Started',
     'blog.categories.setupGuides': 'Setup Guides',
     'blog.categories.visaImmigration': 'Visa & Immigration',
-    'blog.categories.operations': 'Operations & Compliance'
+    'blog.categories.operations': 'Operations & Compliance',
+    'blog.categories.visaGuides': 'Visa Guides',
+    'blog.categories.services': 'Our Services'
   },
   ar: {
-    // Blog Posts - Free Zone vs Mainland
+    // Blog Categories
+    'blog.categories.setupGuides': 'أدلة التأسيس',
+    'blog.categories.visaGuides': 'أدلة التأشيرات',
+    'blog.categories.services': 'خدماتنا',
+
+    // Free Zone vs Mainland
     'blog.posts.freeZoneVsMainland.title': 'المنطقة الحرة مقابل البر الرئيسي: أيهما أنسب لشركتك في الإمارات؟',
-    'blog.posts.freeZoneVsMainland.excerpt': 'اكتشف الفروق الرئيسية بين تأسيس الأعمال في المنطقة الحرة والبر الرئيسي في الإمارات، وتعرف على الخيار الأنسب لأهداف ومتطلبات عملك.',
+    'blog.posts.freeZoneVsMainland.excerpt': 'اكتشف الفروق الرئيسية بين تأسيس الشركات في المناطق الحرة والبر الرئيسي في الإمارات، وتعرف على الخيار الأنسب لأهداف عملك ومتطلباتك.',
     
     // Starting a Business
     'blog.posts.startingBusiness.title': 'تأسيس شركة في الإمارات كأجنبي',
-    'blog.posts.startingBusiness.excerpt': 'كل ما يحتاج رواد الأعمال الأجانب معرفته عن تأسيس شركة في الإمارات، من المتطلبات القانونية إلى الاعتبارات العملية.',
+    'blog.posts.startingBusiness.excerpt': 'كل ما يحتاج رواد الأعمال الأجانب معرفته عن تأسيس الأعمال في الإمارات، من المتطلبات القانونية إلى الاعتبارات العملية.',
     
     // Business Activities
     'blog.posts.businessActivities.title': 'شرح الأنشطة التجارية وفئات الترخيص',
-    'blog.posts.businessActivities.excerpt': 'تصفح عالم الأنشطة التجارية وفئات الترخيص في الإمارات. تعلم كيفية اختيار التصنيف المناسب لمشروعك.',
+    'blog.posts.businessActivities.excerpt': 'دليل شامل لفهم الأنشطة التجارية وفئات الترخيص في الإمارات.',
     
     // Mainland License
-    'blog.posts.mainlandLicense.title': 'كيفية الحصول على رخصة تجارية في البر الرئيسي بدبي',
-    'blog.posts.mainlandLicense.excerpt': 'دليل شامل للحصول على رخصة تجارية في البر الرئيسي بدبي، يشمل المتطلبات والتكاليف والإجراءات خطوة بخطوة.',
+    'blog.posts.mainlandLicense.title': 'كيفية فتح شركة في البر الرئيسي بدبي',
+    'blog.posts.mainlandLicense.excerpt': 'دليل خطوة بخطوة للحصول على رخصة تجارية في البر الرئيسي بدبي.',
     
     // Free Zone Setup
     'blog.posts.freeZoneSetup.title': 'دليل خطوة بخطوة لتأسيس شركة في المنطقة الحرة',
-    'blog.posts.freeZoneSetup.excerpt': 'تعلم كيفية تأسيس شركتك في المناطق الحرة الإماراتية مع دليلنا المفصل الذي يغطي جميع جوانب عملية التأسيس.',
+    'blog.posts.freeZoneSetup.excerpt': 'دليل كامل لتأسيس شركتك في المناطق الحرة الإماراتية.',
     
     // Visa Types
     'blog.posts.visaTypes.title': 'أنواع التأشيرات ومزاياها لأصحاب الأعمال',
-    'blog.posts.visaTypes.excerpt': 'فهم خيارات التأشيرات المختلفة المتاحة لأصحاب الأعمال والمستثمرين في الإمارات، بما في ذلك المزايا ومعايير الأهلية.',
+    'blog.posts.visaTypes.excerpt': 'نظرة عامة على خيارات التأشيرات المختلفة المتاحة لأصحاب الأعمال في الإمارات.',
     
     // Residence Visa
     'blog.posts.residenceVisa.title': 'كيفية التقدم للإقامة في الإمارات',
-    'blog.posts.residenceVisa.excerpt': 'دليل كامل للحصول على الإقامة في الإمارات من خلال ملكية الأعمال، يشمل المتطلبات والإجراءات والجدول الزمني.',
+    'blog.posts.residenceVisa.excerpt': 'دليل شامل للحصول على تأشيرات الإقامة في الإمارات.',
     
     // Golden Visa
-    'blog.posts.goldenVisa.title': 'شرح أهلية وإجراءات التأشيرة الذهبية',
-    'blog.posts.goldenVisa.excerpt': 'كل ما تحتاج معرفته عن برنامج التأشيرة الذهبية في الإمارات، بما في ذلك معايير الأهلية والمزايا وإجراءات التقديم.',
+    'blog.posts.goldenVisa.title': 'شرح أهلية وإجراءات التقدم للتأشيرة الذهبية',
+    'blog.posts.goldenVisa.excerpt': 'كل ما تحتاج معرفته عن برنامج التأشيرة الذهبية في الإمارات.',
     
     // Family Visa
     'blog.posts.familyVisa.title': 'دليل تأشيرات العائلة والمعالين',
-    'blog.posts.familyVisa.excerpt': 'كيفية كفالة أفراد عائلتك والحصول على تأشيرات المعالين في الإمارات، بما في ذلك متطلبات الأهلية والإجراءات.',
+    'blog.posts.familyVisa.excerpt': 'كيفية كفالة أفراد عائلتك للإقامة في الإمارات.',
     
     // AE Fastlane Services
-    'blog.posts.aeFastlane.title': 'كيف تسهل AE Fastlane عملية تأسيس أعمالك',
-    'blog.posts.aeFastlane.excerpt': 'اكتشف كيف يمكن لخدماتنا المهنية مساعدتك في التنقل عبر عملية تأسيس الأعمال في الإمارات بكفاءة وسهولة.',
+    'blog.posts.services.title': 'كيف تسهل AE Fastlane تأسيس أعمالك',
+    'blog.posts.services.excerpt': 'اكتشف كيف تجعل خدماتنا تأسيس الأعمال في الإمارات سريعاً وخالياً من المتاعب.',
     
     // Company Formation
-    'blog.posts.companyFormation.title': 'فهم خيارات تأسيس الشركات',
-    'blog.posts.companyFormation.excerpt': 'قارن بين خيارات تأسيس الشركات المختلفة في الإمارات واختر الهيكل الأفضل لعملك.',
+    'blog.posts.company.title': 'فهم عملية تأسيس الشركات',
+    'blog.posts.company.excerpt': 'نظرة تفصيلية على عملية تأسيس الشركات في الإمارات.',
 
     // Golden Visa Article
     'blog.goldenVisa.overview.title': 'نظرة عامة على التأشيرة الذهبية',
