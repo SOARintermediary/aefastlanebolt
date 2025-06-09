@@ -1,4 +1,5 @@
 import { type FC } from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
 import { type PriceCategory } from './pricingData';
 
 interface CategoryTabsProps {
@@ -8,6 +9,8 @@ interface CategoryTabsProps {
 }
 
 const CategoryTabs: FC<CategoryTabsProps> = ({ categories, activeCategory, onCategoryChange }) => {
+  const { t } = useLanguage();
+
   return (
     <div className="flex flex-wrap justify-center gap-2 mb-8">
       {categories.map((category, idx) => (
@@ -20,7 +23,7 @@ const CategoryTabs: FC<CategoryTabsProps> = ({ categories, activeCategory, onCat
               : 'bg-white text-primary hover:bg-primary/10'
           }`}
         >
-          {category.title}
+          {t(`pricing.categories.${category.key}`)}
         </button>
       ))}
     </div>

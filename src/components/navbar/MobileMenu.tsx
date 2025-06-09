@@ -21,7 +21,7 @@ const MobileMenu: FC<MobileMenuProps> = ({ isOpen }) => {
           {t('nav.pricing')}
         </a>
         <a href="/blog" className="block px-3 py-2 text-primary hover:text-primary-light">
-          Blog
+          {t('nav.blog')}
         </a>
         <a href="#hr-services" className="block px-3 py-2 text-primary hover:text-primary-light">
           {t('nav.hrServices')}

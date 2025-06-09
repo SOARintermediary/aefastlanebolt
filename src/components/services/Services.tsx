@@ -1,20 +1,22 @@
 import { type FC } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useLanguage } from '../../contexts/LanguageContext';
 import ServiceCard from './ServiceCard';
 import { services } from './serviceData';
 
 const Services: FC = () => {
   const navigate = useNavigate();
+  const { t } = useLanguage();
 
   return (
     <section id="services" className="py-24 bg-primary text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold sm:text-4xl">
-            From setup to scaling — we handle every government and corporate step so you don't have to
+            {t('services.title')}
           </h2>
           <p className="mt-4 text-xl text-gray-300">
-            Comprehensive business setup and support services in UAE
+            {t('services.subtitle')}
           </p>
         </div>
 
@@ -22,8 +24,8 @@ const Services: FC = () => {
           {services.map((service, index) => (
             <ServiceCard
               key={index}
-              title={service.title}
-              description={service.description}
+              title={t(`services.${service.key}.title`)}
+              description={t(`services.${service.key}.description`)}
               icon={service.icon}
               onClick={() => navigate(service.path)}
             />

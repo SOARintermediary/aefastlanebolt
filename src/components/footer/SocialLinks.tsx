@@ -1,10 +1,13 @@
 import { type FC } from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
 import { Facebook, Instagram } from 'lucide-react';
 
 const SocialLinks: FC = () => {
+  const { t } = useLanguage();
+
   return (
     <div>
-      <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+      <h3 className="text-lg font-semibold mb-4">{t('footer.followUs')}</h3>
       <div className="flex space-x-4">
         <a
           href="https://facebook.com/aefastlane"

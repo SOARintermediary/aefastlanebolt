@@ -29,7 +29,7 @@ const AppContent = () => {
   const { language } = useLanguage();
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-white" dir={language === 'ar' ? 'rtl' : 'ltr'}>
         <Navbar />
         <Routes>
@@ -64,12 +64,12 @@ const AppContent = () => {
   );
 };
 
-function App() {
+const App = () => {
   return (
     <LanguageProvider>
       <AppContent />
     </LanguageProvider>
   );
-}
+};
 
 export default App;

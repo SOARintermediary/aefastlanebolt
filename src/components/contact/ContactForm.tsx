@@ -1,11 +1,13 @@
 import { type FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { Send } from 'lucide-react';
+import { useLanguage } from '../../contexts/LanguageContext';
 import { ContactFormData, serviceOptions } from './formData';
 import FormField from './FormField';
 
 const ContactForm: FC = () => {
   const { register, handleSubmit, formState: { errors } } = useForm<ContactFormData>();
+  const { t } = useLanguage();
 
   const onSubmit = (data: ContactFormData) => {
     console.log(data);
@@ -17,52 +19,60 @@ const ContactForm: FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-primary sm:text-4xl">
-            Contact Us
+            {t('contact.title')}
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            Get in touch for a free consultation
+            {t('contact.subtitle')}
           </p>
         </div>
 
         <div className="mt-12 max-w-lg mx-auto">
           <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 gap-6">
             <FormField
-              label="Full Name"
+              label={t('contact.name')}
               name="name"
               register={register}
               error={errors.name}
+              required={t('contact.required')}
             />
 
             <FormField
-              label="Email"
+              label={t('contact.email')}
               name="email"
               type="email"
               register={register}
               error={errors.email}
+              required={t('contact.required')}
+              invalidMessage={t('contact.invalidEmail')}
             />
 
             <FormField
-              label="Phone Number"
+              label={t('contact.phone')}
               name="phone"
               type="tel"
               register={register}
               error={errors.phone}
+              required={t('contact.required')}
             />
 
             <FormField
-              label="Service Interested In"
+              label={t('contact.service')}
               name="service"
               register={register}
               error={errors.service}
-              options={serviceOptions}
+              options={serviceOptions.map(option => ({
+                ...option,
+                label: t(`services.${option.value}.title`)
+              }))}
             />
 
             <FormField
-              label="Message"
+              label={t('contact.message')}
               name="message"
               type="textarea"
               register={register}
               error={errors.message}
+              required={t('contact.required')}
             />
 
             <div>
@@ -71,7 +81,7 @@ const ContactForm: FC = () => {
                 className="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Send Message
+                {t('contact.submit')}
               </button>
             </div>
           </form>

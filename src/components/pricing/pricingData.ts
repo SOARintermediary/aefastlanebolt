@@ -1,4 +1,5 @@
 export interface PriceCategory {
+  key: string;
   title: string;
   items: {
     service: string;
@@ -8,6 +9,7 @@ export interface PriceCategory {
 
 export const priceData: PriceCategory[] = [
   {
+    key: 'employment',
     title: 'New Employment Visa (Inside Country)',
     items: [
       { service: 'Initial Processing (Offer Letter, Labor Contract)', price: 310 },
@@ -22,6 +24,7 @@ export const priceData: PriceCategory[] = [
     ]
   },
   {
+    key: 'renewal',
     title: 'Visa Renewal',
     items: [
       { service: 'Contract Renewal Processing', price: 120 },
@@ -33,6 +36,7 @@ export const priceData: PriceCategory[] = [
     ]
   },
   {
+    key: 'cancellation',
     title: 'Visa Cancellation',
     items: [
       { service: 'Labor Cancellation Processing', price: 240 },
@@ -40,6 +44,7 @@ export const priceData: PriceCategory[] = [
     ]
   },
   {
+    key: 'translation',
     title: 'Translation Services',
     items: [
       { service: 'Normal Translation (Per Page)', price: 40 },
@@ -47,6 +52,7 @@ export const priceData: PriceCategory[] = [
     ]
   },
   {
+    key: 'attestation',
     title: 'Certificate Attestation',
     items: [
       { service: 'India', price: 590 },
