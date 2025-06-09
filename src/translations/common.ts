@@ -1,0 +1,33 @@
+export const translations = {
+  // Features Section
+  'features.title': 'AEFastLane – Your Trusted UAE Business Setup Partner',
+  'features.subtitle': 'Empowering Enterprises to Thrive in the Emirates',
+  'features.service.title': 'All-in-One Business Services',
+  'features.service.description': 'Complete support from company formation to bank account opening',
+  'features.plans.title': 'Tailored & Affordable Plans',
+  'features.plans.description': 'Budget-friendly solutions designed around your business needs',
+  'features.track.title': 'Global Track Record',
+  'features.track.description': 'Trusted by clients worldwide',
+  'features.client.title': 'Client-First Approach',
+  'features.client.description': 'Personalized service focused on your success and peace of mind',
+  'features.onboarding.title': 'Effortless Onboarding',
+  'features.onboarding.description': 'Easy adaptation to UAE\'s legal and operational landscape',
+  'features.network.title': 'Extensive Network Advantage',
+  'features.network.description': 'Accelerated setup through deep regional and international ties',
+
+  // Arabic translations
+  'ar.features.title': 'AEFastLane - شريكك الموثوق في تأسيس الأعمال في الإمارات',
+  'ar.features.subtitle': 'تمكين المؤسسات من الازدهار في الإمارات',
+  'ar.features.service.title': 'خدمات الأعمال الشاملة',
+  'ar.features.service.description': 'دعم كامل من تأسيس الشركة إلى فتح الحساب المصرفي',
+  'ar.features.plans.title': 'خطط مخصصة وبأسعار معقولة',
+  'ar.features.plans.description': 'حلول اقتصادية مصممة حسب احتياجات عملك',
+  'ar.features.track.title': 'سجل عالمي',
+  'ar.features.track.description': 'موثوق به من قبل العملاء في جميع أنحاء العالم',
+  'ar.features.client.title': 'نهج العميل أولاً',
+  'ar.features.client.description': 'خدمة شخصية تركز على نجاحك وراحة بالك',
+  'ar.features.onboarding.title': 'انضمام سهل',
+  'ar.features.onboarding.description': 'تكيف سهل مع المشهد القانوني والتشغيلي في الإمارات',
+  'ar.features.network.title': 'ميزة الشبكة الواسعة',
+  'ar.features.network.description': 'إعداد سريع من خلال علاقات إقليمية ودولية عميقة',
+}; 

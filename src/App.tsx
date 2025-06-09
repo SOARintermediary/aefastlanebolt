@@ -5,9 +5,9 @@ import { useLanguage } from './contexts/LanguageContext';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
 import Services from './components/services/Services';
-import PricingTable from './components/pricing/PricingTable';
 import ContactForm from './components/contact/ContactForm';
 import Footer from './components/footer/Footer';
+import FeatureGrid from './components/features/FeatureGrid';
 import CompanyFormation from './pages/CompanyFormation';
 import VisaServices from './pages/VisaServices';
 import ProServices from './pages/ProServices';
@@ -42,7 +42,7 @@ const AppContent = () => {
             <main className={isRTL ? 'text-right' : 'text-left'}>
               <Hero />
               <Services />
-              <PricingTable />
+              <FeatureGrid />
               <ContactForm />
             </main>
           } />
