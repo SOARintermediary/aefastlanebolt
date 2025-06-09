@@ -993,6 +993,15 @@ export const blogTranslations = {
     'blog.freeZoneVsMainland.needHelp.cta': 'Get Free Consultation'
   },
   ar: {
+    // Golden Visa Article
+    'blog.goldenVisa.overview.title': 'نظرة عامة على التأشيرة الذهبية',
+    'blog.goldenVisa.overview.duration': 'المدة',
+    'blog.goldenVisa.overview.durationValue': '5-10 سنوات',
+    'blog.goldenVisa.overview.family': 'شمول العائلة',
+    'blog.goldenVisa.overview.familyValue': 'الزوج/الزوجة والأطفال',
+    'blog.goldenVisa.overview.renewable': 'قابلة للتجديد',
+    'blog.goldenVisa.overview.renewableValue': 'نعم',
+
     // Blog Posts - Free Zone vs Mainland
     'blog.freeZoneVsMainland.basics.title': 'فهم الأساسيات',
     'blog.freeZoneVsMainland.basics.description': 'توفر دولة الإمارات خيارين رئيسيين لتأسيس الأعمال: المناطق الحرة والبر الرئيسي. لكل منهما مزايا وقيود مميزة يمكن أن تؤثر على استراتيجية عملك.',
