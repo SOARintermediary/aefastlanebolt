@@ -11,7 +11,6 @@ interface LanguageContextType {
 
 const translations = {
   en: {
-    ...blogTranslations.en,
     // Features Section
     'features.title': 'AEFastLane – Your Trusted UAE Business Setup Partner',
     'features.subtitle': 'Empowering Enterprises to Thrive in the Emirates',
@@ -323,7 +322,6 @@ const translations = {
     'blog.goldenVisa.family.workers.requirements': 'عقد العمل|شهادة الراتب|شهادة طبية',
   },
   ar: {
-    ...blogTranslations.ar,
     // Features Section
     'features.title': 'AEFastLane - شريكك الموثوق في تأسيس الأعمال في الإمارات',
     'features.subtitle': 'تمكين المؤسسات من الازدهار في الإمارات',
