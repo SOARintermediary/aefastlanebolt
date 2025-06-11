@@ -40,7 +40,7 @@ const FormField: FC<FormFieldProps> = ({
     };
   }
 
-  const baseClasses = `mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary ${isRTL ? 'text-right' : 'text-left'}`;
+  const baseClasses = `mt-2 block w-full rounded-xl border-2 border-gray-200 shadow-sm focus:border-primary focus:ring-4 focus:ring-primary/20 focus:ring-offset-2 transition-all duration-300 px-4 py-3 text-gray-900 placeholder-gray-400 ${isRTL ? 'text-right' : 'text-left'}`;
 
   const renderField = () => {
     if (type === 'textarea') {
@@ -49,7 +49,7 @@ const FormField: FC<FormFieldProps> = ({
           id={name}
           rows={rows || 4}
           {...register(name, registerOptions)}
-          className={baseClasses}
+          className={`${baseClasses} resize-none`}
           dir={isRTL ? 'rtl' : 'ltr'}
         />
       );
@@ -84,13 +84,13 @@ const FormField: FC<FormFieldProps> = ({
   };
 
   return (
-    <div>
-      <label htmlFor={name} className={`block text-sm font-medium text-gray-700 ${isRTL ? 'text-right' : 'text-left'}`}>
+    <div className="space-y-1">
+      <label htmlFor={name} className={`block text-base font-semibold text-gray-800 ${isRTL ? 'text-right' : 'text-left'}`}>
         {label}
       </label>
       {renderField()}
       {error && (
-        <p className={`mt-1 text-sm text-red-600 ${isRTL ? 'text-right' : 'text-left'}`}>{error.message}</p>
+        <p className={`mt-2 text-sm text-red-600 font-medium ${isRTL ? 'text-right' : 'text-left'}`}>{error.message}</p>
       )}
     </div>
   );

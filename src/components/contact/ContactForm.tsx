@@ -15,19 +15,25 @@ const ContactForm: FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-white">
+    <section id="contact" className="py-24 bg-gradient-to-br from-gray-50 via-white to-primary/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-primary sm:text-4xl">
+          <h2 className="text-3xl font-extrabold text-primary sm:text-4xl mb-2">
             {t('contact.title')}
           </h2>
-          <p className="mt-4 text-xl text-gray-600">
+          <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
             {t('contact.subtitle')}
           </p>
+          <div className="mt-6 flex justify-center space-x-2">
+            <div className="w-3 h-3 bg-primary rounded-full"></div>
+            <div className="w-3 h-3 bg-accent rounded-full"></div>
+            <div className="w-3 h-3 bg-teal rounded-full"></div>
+          </div>
         </div>
 
-        <div className="mt-12 max-w-lg mx-auto">
-          <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 gap-6">
+        <div className="mt-16 max-w-2xl mx-auto">
+          <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/20 p-8 md:p-12">
+            <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 gap-8">
             <FormField
               label={t('contact.name')}
               name="name"
@@ -75,16 +81,17 @@ const ContactForm: FC = () => {
               required={t('contact.required')}
             />
 
-            <div>
+            <div className="pt-4">
               <button
                 type="submit"
-                className="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+                className="w-full flex justify-center items-center py-4 px-6 border border-transparent rounded-xl shadow-lg text-lg font-semibold text-white bg-gradient-to-r from-primary via-primary-light to-accent hover:from-primary-light hover:via-accent hover:to-teal focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-primary/50 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
-                <Send className="w-5 h-5 mr-2" />
+                <Send className="w-6 h-6 mr-3" />
                 {t('contact.submit')}
               </button>
             </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </section>
