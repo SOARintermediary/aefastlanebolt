@@ -35,8 +35,8 @@ const translations = {
     'nav.blog': 'Blog',
     
     // Hero
-    'hero.title1': 'Your UAE Partner for',
-    'hero.title2': 'Business, Visas & Beyond',
+    'hero.title1': 'Your UAE Partner',
+    'hero.title2': 'for Business, Visas & Beyond',
     'hero.description': 'Business formation, visas, HR & PRO — fast-tracked for success.',
     'hero.cta': 'Book a Free Consultation',
     
