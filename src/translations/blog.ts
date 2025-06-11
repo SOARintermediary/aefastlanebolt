@@ -1,1097 +1,1140 @@
 export const blogTranslations = {
   en: {
-    // Golden Visa Article
+    // Blog Main
+    'blog.title': 'UAE Business Insights & Guides',
+    'blog.subtitle': 'Expert insights, practical guides, and answers to your most important questions about doing business in the UAE.',
+    'blog.readMore': 'Read Article',
+    'blog.backToBlog': 'Back to Blog',
+    'blog.categories.gettingStarted': 'Getting Started',
+    'blog.categories.setupGuides': 'Setup Guides',
+    'blog.categories.visaImmigration': 'Visa & Immigration',
+    'blog.categories.operations': 'Operations & Compliance',
+    'blog.readTime': 'min read',
+    
+    // Common
+    'common.learnMore': 'Learn More',
+    'common.getStarted': 'Get Started',
+    'common.viewAll': 'View All',
+    'common.readMore': 'Read More',
+    'common.contactUs': 'Contact Us',
+    'common.loading': 'Loading...',
+    'common.error': 'Error',
+    'common.success': 'Success',
+    'common.submit': 'Submit',
+    'common.cancel': 'Cancel',
+    
+    // Blog Posts
+    'blog.posts.freeZoneVsMainland.title': 'Free Zone vs Mainland: Which is Right for Your UAE Business?',
+    'blog.posts.freeZoneVsMainland.excerpt': 'Discover the key differences between free zone and mainland business setup in the UAE, and learn which option best suits your business goals and requirements.',
+    
+    'blog.posts.startingBusiness.title': 'Starting a Business in the UAE as a Foreigner',
+    'blog.posts.startingBusiness.excerpt': 'Everything foreign entrepreneurs need to know about starting a business in the UAE, from legal requirements to practical considerations.',
+    
+    'blog.posts.businessActivities.title': 'Business Activities & Licensing Categories Explained',
+    'blog.posts.businessActivities.excerpt': 'Navigate the complex world of UAE business activities and licensing categories. Learn how to choose the right classification for your venture.',
+    
+    'blog.posts.mainlandLicense.title': 'How to Open a Mainland Business License in Dubai',
+    'blog.posts.mainlandLicense.excerpt': 'A comprehensive step-by-step guide to obtaining your mainland business license in Dubai, including requirements, procedures, and expert tips.',
+    
+    'blog.posts.freeZoneSetup.title': 'Step-by-Step Guide to Setting Up a Free Zone Company',
+    'blog.posts.freeZoneSetup.excerpt': 'Complete walkthrough of the free zone company setup process, from choosing the right zone to final license approval.',
+    
+    'blog.posts.visaTypes.title': 'Visa Types and Their Benefits for Business Owners',
+    'blog.posts.visaTypes.excerpt': 'Understanding the different visa options available to business owners in the UAE, from investor visas to Golden Visa opportunities.',
+    
+    'blog.posts.residenceVisa.title': 'How to Apply for UAE Residence Visa Through Your Company',
+    'blog.posts.residenceVisa.excerpt': 'Once your business license is issued, learn how to apply for UAE residence visa through your company with AEFastLane\'s expert guidance.',
+    
+    'blog.posts.goldenVisa.title': 'Golden Visa Eligibility & Application Process Explained',
+    'blog.posts.goldenVisa.excerpt': 'The UAE\'s Golden Visa offers long-term residency to investors, entrepreneurs, and professionals. Find out if you qualify and how to apply.',
+    
+    'blog.posts.familyVisa.title': 'Family and Dependents Visa Sponsorship Made Easy',
+    'blog.posts.familyVisa.excerpt': 'Want to bring your family to the UAE? Learn how AEFastLane can help you sponsor dependents smoothly and efficiently.',
+    
+    'blog.posts.govApprovals.title': 'How AEFastLane Streamlines Government Approvals & Documentation',
+    'blog.posts.govApprovals.excerpt': 'Learn how our expert team simplifies complex government procedures and ensures your business stays compliant with UAE regulations.',
+    
+    'blog.posts.renewals.title': 'Understanding UAE Company Renewals, Modifications & Closures',
+    'blog.posts.renewals.excerpt': 'Essential guide to maintaining your UAE business license, making modifications, and understanding closure procedures when needed.',
+    
+    // Blog Coming Soon
+    'blog.comingSoon.title': 'More Expert Content Coming Soon',
+    'blog.comingSoon.description': 'We\'re constantly expanding our knowledge base with new insights and guides to help you navigate the UAE business landscape. Stay tuned for more expert content covering advanced topics and industry-specific guidance.',
+    
+    'blog.comingSoon.advanced.title': 'Advanced Topics',
+    'blog.comingSoon.advanced.vat': 'VAT Registration & Compliance',
+    'blog.comingSoon.advanced.banking': 'Banking Setup & Requirements',
+    'blog.comingSoon.advanced.ip': 'Intellectual Property Protection',
+    'blog.comingSoon.advanced.tax': 'Corporate Tax Implications',
+    
+    'blog.comingSoon.industry.title': 'Industry Insights',
+    'blog.comingSoon.industry.tech': 'Tech Startups in UAE',
+    'blog.comingSoon.industry.ecommerce': 'E-commerce Licensing Guide',
+    'blog.comingSoon.industry.professional': 'Professional Services Setup',
+    'blog.comingSoon.industry.healthcare': 'Healthcare Business Licensing',
+    
+    'blog.comingSoon.strategy.title': 'Strategic Guidance',
+    'blog.comingSoon.strategy.entry': 'Market Entry Strategies',
+    'blog.comingSoon.strategy.cost': 'Cost Optimization Tips',
+    'blog.comingSoon.strategy.scaling': 'Scaling Your UAE Business',
+    'blog.comingSoon.strategy.exit': 'Exit Strategies & Procedures',
+    
+    // Blog CTA
+    'blog.cta.title': 'Need Personalized Guidance?',
+    'blog.cta.description': 'While our articles provide comprehensive information, every business situation is unique. Get personalized advice from our UAE business setup experts who have helped hundreds of companies succeed.',
+    'blog.cta.button': 'Schedule Free Consultation',
+
+    // Free Zone vs Mainland Details
+    'blog.freeZoneVsMainland.overview.title': 'Quick Overview',
+    'blog.freeZoneVsMainland.overview.timeline': 'Setup Timeline',
+    'blog.freeZoneVsMainland.overview.timelineValue': '2-4 weeks',
+    'blog.freeZoneVsMainland.overview.cost': 'Starting Cost',
+    'blog.freeZoneVsMainland.overview.costValue': 'AED 8,000+',
+    'blog.freeZoneVsMainland.overview.ownership': 'Ownership',
+    'blog.freeZoneVsMainland.overview.ownershipValue': '100% Foreign',
+
+    'blog.freeZoneVsMainland.advantages.title': 'Key Advantages of UAE Business Setup',
+    'blog.freeZoneVsMainland.advantages.ownership.title': '100% Foreign Ownership',
+    'blog.freeZoneVsMainland.advantages.ownership.description': 'Both free zones and mainland now allow 100% foreign ownership in most sectors.',
+    'blog.freeZoneVsMainland.advantages.tax.title': 'Tax Benefits',
+    'blog.freeZoneVsMainland.advantages.tax.description': 'No personal income tax and competitive corporate tax rates.',
+    'blog.freeZoneVsMainland.advantages.visas.title': 'Visa Allocation',
+    'blog.freeZoneVsMainland.advantages.visas.description': 'Sponsor visas for yourself, family, and employees.',
+    'blog.freeZoneVsMainland.advantages.setup.title': 'Quick Setup',
+    'blog.freeZoneVsMainland.advantages.setup.description': 'Streamlined processes for fast business establishment.',
+
+    'blog.freeZoneVsMainland.comparison.title': 'Detailed Comparison',
+    'blog.freeZoneVsMainland.comparison.freeZoneTitle': 'Free Zone',
+    'blog.freeZoneVsMainland.comparison.mainlandTitle': 'Mainland',
+    'blog.freeZoneVsMainland.comparison.ownership.aspect': 'Ownership Structure',
+    'blog.freeZoneVsMainland.comparison.ownership.freeZone': '100% foreign ownership allowed|No local partner required|Full control over business decisions',
+    'blog.freeZoneVsMainland.comparison.ownership.mainland': '100% foreign ownership (since 2021)|Some sectors still require local partner|Full operational control',
+    'blog.freeZoneVsMainland.comparison.location.aspect': 'Office Location',
+    'blog.freeZoneVsMainland.comparison.location.freeZone': 'Must be within the free zone|Shared or dedicated office options|Modern facilities and infrastructure',
+    'blog.freeZoneVsMainland.comparison.location.mainland': 'Anywhere in the emirate|Flexible office arrangements|Access to prime locations',
+    'blog.freeZoneVsMainland.comparison.trading.aspect': 'Trading Rights',
+    'blog.freeZoneVsMainland.comparison.trading.freeZone': 'Limited to free zone and export|Cannot trade directly in UAE market|Re-export opportunities',
+    'blog.freeZoneVsMainland.comparison.trading.mainland': 'Full access to UAE market|Direct government contracts|Local and international trading',
+    'blog.freeZoneVsMainland.comparison.visas.aspect': 'Visa Allocation',
+    'blog.freeZoneVsMainland.comparison.visas.freeZone': 'Based on office size and license type|Minimum 2-3 visas typically|Additional visas available',
+    'blog.freeZoneVsMainland.comparison.visas.mainland': 'Based on business activity|Flexible visa allocation|Family visa sponsorship',
+
+    'blog.freeZoneVsMainland.conclusion.title': 'Making the Right Choice',
+    'blog.freeZoneVsMainland.conclusion.description': 'The choice between free zone and mainland setup depends on your specific business model, target market, and long-term goals. Our experts can help you analyze your requirements and make the right decision.',
+    'blog.freeZoneVsMainland.conclusion.cta1': 'Free Zone Consultation',
+    'blog.freeZoneVsMainland.conclusion.cta2': 'Mainland Setup Guide',
+
+    // Golden Visa Details
     'blog.goldenVisa.overview.title': 'Golden Visa Overview',
     'blog.goldenVisa.overview.duration': 'Duration',
-    'blog.goldenVisa.overview.durationValue': '5-10 Years',
+    'blog.goldenVisa.overview.durationValue': '5-10 years',
     'blog.goldenVisa.overview.family': 'Family Inclusion',
     'blog.goldenVisa.overview.familyValue': 'Spouse & Children',
     'blog.goldenVisa.overview.renewable': 'Renewable',
     'blog.goldenVisa.overview.renewableValue': 'Yes',
 
-    'blog.goldenVisa.categories.investors.title': 'Investors',
-    'blog.goldenVisa.categories.investors.duration': '10 Years',
-    'blog.goldenVisa.categories.investors.requirements': 'Invest AED 10 million in public investment fund|Invest AED 10 million in UAE company (51% UAE ownership)|Establish company with AED 10 million capital|Partner in existing company worth AED 10 million',
-    'blog.goldenVisa.categories.investors.benefits': 'No sponsor required|Multiple entry visa|Sponsor family members|Work permit included',
+    'blog.goldenVisa.categories.title': 'Eligibility Categories',
+    'blog.goldenVisa.categories.investor.title': 'Investors',
+    'blog.goldenVisa.categories.investor.description': 'For those making significant financial investments in the UAE.',
+    'blog.goldenVisa.categories.investor.requirements': 'Minimum AED 10 million investment|Investment in public investment fund|Investment in UAE company (51% UAE ownership)|Establish company with AED 10 million capital',
+    'blog.goldenVisa.categories.investor.investment': 'AED 10 million minimum',
+    'blog.goldenVisa.categories.investor.benefits': 'No sponsor required|Multiple entry visa|Family sponsorship|Work permit included',
 
-    'blog.goldenVisa.categories.entrepreneurs.title': 'Entrepreneurs',
-    'blog.goldenVisa.categories.entrepreneurs.duration': '5 Years',
-    'blog.goldenVisa.categories.entrepreneurs.requirements': 'Own project with AED 500,000 minimum value|Approval from UAE incubator or accelerator|Previous project sold for AED 7 million minimum|Founder of startup with AED 500,000 funding',
-    'blog.goldenVisa.categories.entrepreneurs.benefits': 'Business operation rights|Family sponsorship|Renewable visa|Investment opportunities',
+    'blog.goldenVisa.categories.entrepreneur.title': 'Entrepreneurs',
+    'blog.goldenVisa.categories.entrepreneur.description': 'For innovative business owners and startup founders.',
+    'blog.goldenVisa.categories.entrepreneur.requirements': 'Own project worth minimum AED 500,000|Approval from UAE incubator or accelerator|Previous project sold for minimum AED 7 million|Startup founder with AED 500,000 funding',
+    'blog.goldenVisa.categories.entrepreneur.investment': 'AED 500,000 minimum',
+    'blog.goldenVisa.categories.entrepreneur.benefits': 'Business operation rights|Family sponsorship|Renewable visa|Investment opportunities',
 
-    'blog.goldenVisa.categories.talents.title': 'Specialized Talents',
-    'blog.goldenVisa.categories.talents.duration': '10 Years',
-    'blog.goldenVisa.categories.talents.requirements': 'Doctors and specialists in priority fields|Scientists and researchers|Creative individuals in culture and arts|Inventors with valuable patents',
-    'blog.goldenVisa.categories.talents.benefits': 'Professional practice rights|Research opportunities|Cultural contributions|Innovation support',
+    'blog.goldenVisa.categories.professional.title': 'Specialized Talents',
+    'blog.goldenVisa.categories.professional.description': 'For professionals with exceptional skills and achievements.',
+    'blog.goldenVisa.categories.professional.requirements': 'Doctors and specialists in priority fields|Scientists and researchers|Creators in culture and arts|Inventors with valuable patents',
+    'blog.goldenVisa.categories.professional.investment': 'No investment required',
+    'blog.goldenVisa.categories.professional.benefits': 'Professional practice rights|Research opportunities|Cultural contributions|Innovation support',
 
-    'blog.goldenVisa.categories.students.title': 'Outstanding Students',
-    'blog.goldenVisa.categories.students.duration': '5 Years',
-    'blog.goldenVisa.categories.students.requirements': 'Top graduates from UAE universities (GPA 3.75+)|Graduates from top 100 world universities|Outstanding students in secondary schools|Students with exceptional achievements',
-    'blog.goldenVisa.categories.students.benefits': 'حقوق الدراسة والعمل|فرص وظيفية|كفالة العائلة|دعم أكاديمي',
+    'blog.goldenVisa.benefits.title': 'Key Benefits',
+    'blog.goldenVisa.benefits.items.0.title': 'Long-term Residency',
+    'blog.goldenVisa.benefits.items.0.description': '5-10 year renewable residence visa',
+    'blog.goldenVisa.benefits.items.1.title': 'Family Inclusion',
+    'blog.goldenVisa.benefits.items.1.description': 'Sponsor spouse, children, and parents',
+    'blog.goldenVisa.benefits.items.2.title': 'Business Freedom',
+    'blog.goldenVisa.benefits.items.2.description': 'No sponsor required for business activities',
 
-    'blog.goldenVisa.requirements.title': 'Requirements',
-    'blog.goldenVisa.benefits.title': 'Benefits',
+    'blog.goldenVisa.process.title': 'Application Process',
+    'blog.goldenVisa.process.steps.0.title': 'Eligibility Assessment',
+    'blog.goldenVisa.process.steps.0.description': 'Determine which Golden Visa category you qualify for',
+    'blog.goldenVisa.process.steps.0.duration': '1-2 days',
+    'blog.goldenVisa.process.steps.0.documents': 'Qualification certificates|Investment proofs|Professional documents',
+    'blog.goldenVisa.process.steps.1.title': 'Document Preparation',
+    'blog.goldenVisa.process.steps.1.description': 'Gather and attest all required documents',
+    'blog.goldenVisa.process.steps.1.duration': '1-2 weeks',
+    'blog.goldenVisa.process.steps.1.documents': 'Passport copies|Educational certificates|Financial statements|Medical certificates',
+    'blog.goldenVisa.process.steps.2.title': 'Application Submission',
+    'blog.goldenVisa.process.steps.2.description': 'Submit application through official channels',
+    'blog.goldenVisa.process.steps.2.duration': '1 day',
+    'blog.goldenVisa.process.steps.2.documents': 'Completed application form|Supporting documents|Fee payment|Biometric data',
+    'blog.goldenVisa.process.steps.3.title': 'Review and Verification',
+    'blog.goldenVisa.process.steps.3.description': 'Authorities review application and verify documents',
+    'blog.goldenVisa.process.steps.3.duration': '30-60 days',
+    'blog.goldenVisa.process.steps.3.documents': 'Background verification|Document verification|Investment verification',
 
-    // Starting Business Article
-    'blog.startingBusiness.overview.title': 'Starting a Business in the UAE as a Foreigner',
-    'blog.startingBusiness.overview.description': 'The UAE welcomes international investors with open arms, offering one of the world\'s most business-friendly environments. Here\'s everything you need to know about starting your business journey in the Emirates.',
-    'blog.startingBusiness.overview.category': 'Foreign Investment',
+    // Family Visa Details
+    'blog.familyVisa.overview.title': 'Family Visa Overview',
+    'blog.familyVisa.overview.category': 'Visa & Immigration',
+    'blog.familyVisa.overview.processing': 'Processing Time',
+    'blog.familyVisa.overview.processingValue': '2-4 weeks',
+    'blog.familyVisa.overview.cost': 'Starting Cost',
+    'blog.familyVisa.overview.costValue': 'AED 1,500',
+    'blog.familyVisa.overview.validity': 'Visa Validity',
+    'blog.familyVisa.overview.validityValue': '1-3 years',
 
-    'blog.startingBusiness.why.title': 'Why Choose the UAE for Your Business?',
-    'blog.startingBusiness.why.stability.title': 'Political & Economic Stability',
-    'blog.startingBusiness.why.stability.description': 'UAE offers a stable political environment and robust economy',
-    'blog.startingBusiness.why.location.title': 'Strategic Location',
-    'blog.startingBusiness.why.location.description': 'Gateway between East and West, connecting global markets',
-    'blog.startingBusiness.why.workforce.title': 'Diverse Workforce',
-    'blog.startingBusiness.why.workforce.description': 'Access to skilled professionals from around the world',
-    'blog.startingBusiness.why.policies.title': 'Business-Friendly Policies',
-    'blog.startingBusiness.why.policies.description': 'Progressive laws supporting foreign investment and entrepreneurship',
+    'blog.familyVisa.eligibility.title': 'Eligibility Categories',
+    'blog.familyVisa.eligibility.spouse.category': 'Spouse Sponsorship',
+    'blog.familyVisa.eligibility.spouse.requirements': 'Legally married|Minimum salary AED 4,000 (Dubai)|Valid marriage certificate|Sponsor residence visa',
+    'blog.familyVisa.eligibility.spouse.salary': 'AED 4,000 minimum',
+    'blog.familyVisa.eligibility.spouse.documents': 'Marriage certificate (attested)|Passport copies|Salary certificate|Bank statements',
+    'blog.familyVisa.eligibility.children.category': 'Children Sponsorship',
+    'blog.familyVisa.eligibility.children.requirements': 'Under 18 years old|Or studying (with proof)|Sponsor minimum salary AED 4,000|Valid birth certificate',
+    'blog.familyVisa.eligibility.children.salary': 'AED 4,000 minimum',
+    'blog.familyVisa.eligibility.children.documents': 'Birth certificate (attested)|School enrollment certificate|Passport copies|Medical certificates',
+    'blog.familyVisa.eligibility.parents.category': 'Parents Sponsorship',
+    'blog.familyVisa.eligibility.parents.requirements': 'Over 60 years old|Sponsor minimum salary AED 20,000|Health insurance coverage|No other sponsor',
+    'blog.familyVisa.eligibility.parents.salary': 'AED 20,000 minimum',
+    'blog.familyVisa.eligibility.parents.documents': 'Birth certificate (attested)|Passport copies|Health insurance|Salary certificate',
 
-    'blog.startingBusiness.stats.title': 'Key Statistics',
+    'blog.familyVisa.process.title': 'Application Process',
+    'blog.familyVisa.process.steps.0.title': 'Salary Certificate',
+    'blog.familyVisa.process.steps.0.description': 'Obtain salary certificate from employer',
+    'blog.familyVisa.process.steps.0.duration': '1-2 days',
+    'blog.familyVisa.process.steps.0.requirements': 'Employment contract|Salary certificate|Bank statements|NOC from employer',
+    'blog.familyVisa.process.steps.1.title': 'Document Attestation',
+    'blog.familyVisa.process.steps.1.description': 'Attest all personal documents',
+    'blog.familyVisa.process.steps.1.duration': '1-2 weeks',
+    'blog.familyVisa.process.steps.1.requirements': 'Marriage/birth certificates|Educational certificates|Medical certificates|Embassy attestation',
+    'blog.familyVisa.process.steps.2.title': 'Entry Permit Application',
+    'blog.familyVisa.process.steps.2.description': 'Apply for entry permit for family members',
+    'blog.familyVisa.process.steps.2.duration': '3-5 days',
+    'blog.familyVisa.process.steps.2.requirements': 'Completed application|Attested documents|Passport copies|Fee payment',
+    'blog.familyVisa.process.steps.3.title': 'Medical Examination',
+    'blog.familyVisa.process.steps.3.description': 'Complete medical tests for family members',
+    'blog.familyVisa.process.steps.3.duration': '1-2 days',
+    'blog.familyVisa.process.steps.3.requirements': 'Medical fitness test|Blood tests|Chest X-ray|Vaccination records',
+
+    'blog.familyVisa.costs.title': 'Cost Breakdown',
+    'blog.familyVisa.costs.items.0.service': 'Entry Permit',
+    'blog.familyVisa.costs.items.0.amount': 'AED 1,190',
+    'blog.familyVisa.costs.items.0.notes': 'Per person|Valid for 60 days|Renewable once',
+    'blog.familyVisa.costs.items.1.service': 'Medical Examination',
+    'blog.familyVisa.costs.items.1.amount': 'AED 310',
+    'blog.familyVisa.costs.items.1.notes': 'Per person|DHA approved centers|Valid for 3 months',
+    'blog.familyVisa.costs.items.2.service': 'Visa Stamping',
+    'blog.familyVisa.costs.items.2.amount': 'AED 580',
+    'blog.familyVisa.costs.items.2.notes': 'Per person|Final step|Includes Emirates ID application',
+
+    'blog.familyVisa.documents.title': 'Required Documents',
+    'blog.familyVisa.documents.categories.0.category': 'Sponsor Documents',
+    'blog.familyVisa.documents.categories.0.documents': 'Passport copy with residence visa|Emirates ID copy|Salary certificate|Bank statements (6 months)|Employment contract',
+    'blog.familyVisa.documents.categories.1.category': 'Family Member Documents',
+    'blog.familyVisa.documents.categories.1.documents': 'Passport with 6 months validity|Marriage certificate (for spouse)|Birth certificate (for children)|Educational certificates|Medical certificates',
+    'blog.familyVisa.documents.categories.2.category': 'Additional Requirements',
+    'blog.familyVisa.documents.categories.2.documents': 'Tenancy contract|Utility bills|Health insurance|NOC from employer|Relationship proof documents',
+
+    'blog.familyVisa.tips.title': 'Success Tips',
+    'blog.familyVisa.tips.items': 'Start document attestation early|Ensure all documents are valid|Maintain minimum salary throughout process|Keep copies of all documents|Use authorized typing centers|Follow up regularly on application status',
+
+    'blog.familyVisa.notes.title': 'Important Notes',
+    'blog.familyVisa.notes.items': 'Salary requirements vary by emirate|Documents must be attested in home country|Medical tests valid for 3 months only|Entry permit valid for 60 days|Sponsor must maintain employment|Health insurance mandatory for all family members',
+
+    // Mainland License Details
+    'blog.mainlandLicense.overview.category': 'Setup Guides',
+    'blog.mainlandLicense.quickOverview.title': 'Quick Overview',
+    'blog.mainlandLicense.quickOverview.timeline.title': 'Setup Timeline',
+    'blog.mainlandLicense.quickOverview.timeline.value': '2-3 weeks',
+    'blog.mainlandLicense.quickOverview.cost.title': 'Starting Cost',
+    'blog.mainlandLicense.quickOverview.cost.value': 'AED 15,000',
+    'blog.mainlandLicense.quickOverview.ownership.title': 'Ownership',
+    'blog.mainlandLicense.quickOverview.ownership.value': '100% Foreign',
+
+    'blog.mainlandLicense.steps.title': 'Step-by-Step Process',
+    'blog.mainlandLicense.steps.items.0.title': 'Trade Name Reservation',
+    'blog.mainlandLicense.steps.items.0.description': 'Reserve your company name with DED',
+    'blog.mainlandLicense.steps.items.0.duration': '1-2 days',
+    'blog.mainlandLicense.steps.items.0.details': 'Choose unique business name|Check name availability|Submit reservation application|Pay reservation fees',
+    'blog.mainlandLicense.steps.items.1.title': 'Initial Approval',
+    'blog.mainlandLicense.steps.items.1.description': 'Get initial approval from DED',
+    'blog.mainlandLicense.steps.items.1.duration': '2-3 days',
+    'blog.mainlandLicense.steps.items.1.details': 'Submit business plan|Provide shareholder details|Select business activities|Pay initial approval fees',
+    'blog.mainlandLicense.steps.items.2.title': 'External Approvals',
+    'blog.mainlandLicense.steps.items.2.description': 'Obtain required external approvals',
+    'blog.mainlandLicense.steps.items.2.duration': '5-10 days',
+    'blog.mainlandLicense.steps.items.2.details': 'Municipality approval|Civil Defense NOC|Other authority approvals|Location inspection',
+    'blog.mainlandLicense.steps.items.3.title': 'Tenancy Contract',
+    'blog.mainlandLicense.steps.items.3.description': 'Secure office space and tenancy contract',
+    'blog.mainlandLicense.steps.items.3.duration': '1-3 days',
+    'blog.mainlandLicense.steps.items.3.details': 'Find suitable office space|Sign tenancy contract|Register with DEWA|Obtain Ejari certificate',
+    'blog.mainlandLicense.steps.items.4.title': 'License Issuance',
+    'blog.mainlandLicense.steps.items.4.description': 'Final license issuance from DED',
+    'blog.mainlandLicense.steps.items.4.duration': '2-3 days',
+    'blog.mainlandLicense.steps.items.4.details': 'Submit all documents|Pay license fees|Collect trade license|Register with authorities',
+    'blog.mainlandLicense.steps.items.5.title': 'Post-License Setup',
+    'blog.mainlandLicense.steps.items.5.description': 'Complete post-license requirements',
+    'blog.mainlandLicense.steps.items.5.duration': '1-2 weeks',
+    'blog.mainlandLicense.steps.items.5.details': 'Open bank account|Apply for visas|Register with tax authorities|Setup accounting system',
+
+    'blog.mainlandLicense.documents.title': 'Required Documents',
+    'blog.mainlandLicense.documents.individual.title': 'Individual Shareholders',
+    'blog.mainlandLicense.documents.individual.items': 'Passport copy (6 months validity)|Passport size photographs|Educational certificates (attested)|Experience certificates|NOC from current employer|Bank statements',
+    'blog.mainlandLicense.documents.corporate.title': 'Corporate Shareholders',
+    'blog.mainlandLicense.documents.corporate.items': 'Certificate of incorporation|Memorandum of association|Board resolution|Power of attorney|Audited financial statements|Good standing certificate',
+
+    'blog.mainlandLicense.costs.title': 'Cost Breakdown',
+    'blog.mainlandLicense.costs.headers.item': 'Service',
+    'blog.mainlandLicense.costs.headers.cost': 'Cost (AED)',
+    'blog.mainlandLicense.costs.items.0.item': 'Trade License Fee',
+    'blog.mainlandLicense.costs.items.0.cost': '15,000',
+    'blog.mainlandLicense.costs.items.1.item': 'External Approvals',
+    'blog.mainlandLicense.costs.items.1.cost': '3,000',
+    'blog.mainlandLicense.costs.items.2.item': 'Tenancy Contract',
+    'blog.mainlandLicense.costs.items.2.cost': '25,000',
+    'blog.mainlandLicense.costs.items.3.item': 'Professional Fees',
+    'blog.mainlandLicense.costs.items.3.cost': '8,000',
+    'blog.mainlandLicense.costs.items.4.item': 'Miscellaneous',
+    'blog.mainlandLicense.costs.items.4.cost': '2,000',
+
+    // Visa Types Details
+    'blog.visaTypes.overview.category': 'Visa & Immigration',
+    'blog.visaTypes.quickStats.title': 'Quick Statistics',
+    'blog.visaTypes.quickStats.processing': 'Processing Time',
+    'blog.visaTypes.quickStats.processingValue': '1-4 weeks',
+    'blog.visaTypes.quickStats.validity': 'Visa Validity',
+    'blog.visaTypes.quickStats.validityValue': '1-10 years',
+    'blog.visaTypes.quickStats.sponsorship': 'Family Sponsorship',
+    'blog.visaTypes.quickStats.sponsorshipValue': 'Available',
+
+    'blog.visaTypes.types.title': 'Visa Types for Business Owners',
+    'blog.visaTypes.types.investor.title': 'Investor Visa',
+    'blog.visaTypes.types.investor.duration': '2-3 years',
+    'blog.visaTypes.types.investor.eligibility': 'Company owner with minimum investment',
+    'blog.visaTypes.types.investor.benefits': 'Multiple entry|Family sponsorship|Work permit included|Renewable',
+    'blog.visaTypes.types.investor.requirements': 'Valid trade license|Minimum capital investment|Office lease agreement|Bank account',
+    'blog.visaTypes.types.investor.cost': 'AED 3,000-5,000',
+    'blog.visaTypes.types.employment.title': 'Employment Visa',
+    'blog.visaTypes.types.employment.duration': '1-3 years',
+    'blog.visaTypes.types.employment.eligibility': 'Company employee or manager',
+    'blog.visaTypes.types.employment.benefits': 'Work authorization|Family sponsorship|Healthcare access|Renewable',
+    'blog.visaTypes.types.employment.requirements': 'Employment contract|Educational certificates|Medical fitness|Salary certificate',
+    'blog.visaTypes.types.employment.cost': 'AED 2,000-4,000',
+    'blog.visaTypes.types.golden.title': 'Golden Visa',
+    'blog.visaTypes.types.golden.duration': '5-10 years',
+    'blog.visaTypes.types.golden.eligibility': 'Investors, entrepreneurs, specialists',
+    'blog.visaTypes.types.golden.benefits': 'Long-term residency|No sponsor required|Family inclusion|Multiple entry',
+    'blog.visaTypes.types.golden.requirements': 'Minimum investment|Specialized skills|Business ownership|Government approval',
+    'blog.visaTypes.types.golden.cost': 'AED 5,000-10,000',
+    'blog.visaTypes.types.family.title': 'Family Visa',
+    'blog.visaTypes.types.family.duration': '1-3 years',
+    'blog.visaTypes.types.family.eligibility': 'Sponsored by resident family member',
+    'blog.visaTypes.types.family.benefits': 'Residence rights|Education access|Healthcare access|Work permit (spouse)',
+    'blog.visaTypes.types.family.requirements': 'Sponsor minimum salary|Relationship proof|Medical fitness|Health insurance',
+    'blog.visaTypes.types.family.cost': 'AED 1,500-3,000',
+
+    'blog.visaTypes.process.title': 'General Application Process',
+    'blog.visaTypes.process.step1.title': 'Document Preparation',
+    'blog.visaTypes.process.step1.description': 'Gather and attest all required documents',
+    'blog.visaTypes.process.step1.duration': '1-2 weeks',
+    'blog.visaTypes.process.step2.title': 'Entry Permit Application',
+    'blog.visaTypes.process.step2.description': 'Apply for entry permit through immigration',
+    'blog.visaTypes.process.step2.duration': '3-5 days',
+    'blog.visaTypes.process.step3.title': 'Medical Examination',
+    'blog.visaTypes.process.step3.description': 'Complete medical fitness test',
+    'blog.visaTypes.process.step3.duration': '1-2 days',
+    'blog.visaTypes.process.step4.title': 'Emirates ID Application',
+    'blog.visaTypes.process.step4.description': 'Apply for Emirates ID card',
+    'blog.visaTypes.process.step4.duration': '1-2 weeks',
+    'blog.visaTypes.process.step5.title': 'Visa Stamping',
+    'blog.visaTypes.process.step5.description': 'Final visa stamping in passport',
+    'blog.visaTypes.process.step5.duration': '1-2 days',
+    'blog.visaTypes.process.step6.title': 'Labor Card (if applicable)',
+    'blog.visaTypes.process.step6.description': 'Obtain work permit from MOHRE',
+    'blog.visaTypes.process.step6.duration': '3-5 days',
+
+    'blog.visaTypes.choosing.title': 'How to Choose the Right Visa',
+    'blog.visaTypes.choosing.investor.title': 'Choose Investor Visa if:',
+    'blog.visaTypes.choosing.investor.points': 'You own a UAE company|You have significant investment|You want long-term flexibility|You plan to sponsor family members',
+    'blog.visaTypes.choosing.golden.title': 'Choose Golden Visa if:',
+    'blog.visaTypes.choosing.golden.points': 'You qualify for investment criteria|You want 5-10 year validity|You need maximum flexibility|You have specialized skills or talents',
+    'blog.visaTypes.choosing.employment.title': 'Choose Employment Visa if:',
+    'blog.visaTypes.choosing.employment.points': 'You work for a UAE company|You have an employment contract|You need work authorization|You want standard residency benefits',
+
+    // Government Approvals Details
+    'blog.govApprovals.overview.category': 'Operations & Compliance',
+    'blog.govApprovals.overview.title': 'Government Approvals Streamlined',
+    'blog.govApprovals.overview.description': 'How AEFastLane simplifies complex government procedures',
+    'blog.govApprovals.quickStats.title': 'Quick Statistics',
+    'blog.govApprovals.quickStats.processing': 'Average Processing',
+    'blog.govApprovals.quickStats.processingValue': '5-15 days',
+    'blog.govApprovals.quickStats.validity': 'Approval Validity',
+    'blog.govApprovals.quickStats.validityValue': '1-3 years',
+    'blog.govApprovals.quickStats.cost': 'Service Cost',
+    'blog.govApprovals.quickStats.costValue': 'AED 2,000+',
+
+    'blog.govApprovals.types.title': 'Types of Government Approvals',
+    'blog.govApprovals.types.items': '[]',
+
+    'blog.govApprovals.process.title': 'Our Streamlined Process',
+    'blog.govApprovals.process.items': '[]',
+
+    'blog.govApprovals.tips.title': 'Best Practices',
+    'blog.govApprovals.tips.items': 'Submit complete documentation|Follow up regularly|Maintain compliance|Use authorized representatives|Keep records updated|Plan for renewal dates',
+
+    'blog.govApprovals.common.title': 'Common Challenges & Solutions',
+    'blog.govApprovals.common.items': '[]',
+
+    // Renewals Details
+    'blog.renewals.overview.category': 'Operations & Compliance',
+    'blog.renewals.overview.title': 'Company Renewals & Closures',
+    'blog.renewals.overview.description': 'Understanding renewal, modification, and closure procedures',
+
+    'blog.renewals.renewal.title': 'License Renewal Process',
+    'blog.renewals.steps.items': '[]',
+
+    'blog.renewals.modifications.title': 'License Modifications',
+    'blog.renewals.modifications.items': '[]',
+
+    'blog.renewals.closure.title': 'Company Closure Process',
+    'blog.renewals.closure.warning.title': 'Important Warning',
+    'blog.renewals.closure.warning.description': 'Company closure is a complex process with legal and financial implications. Professional guidance is essential.',
+    'blog.renewals.closure.steps': '[]',
+
+    // Starting Business Details
+    'blog.startingBusiness.overview.category': 'Getting Started',
+    'blog.startingBusiness.stats.title': 'UAE Business Statistics',
     'blog.startingBusiness.stats.nationalities': 'Nationalities',
     'blog.startingBusiness.stats.freezones': 'Free Zones',
-    'blog.startingBusiness.stats.tax': 'Personal Income Tax',
+    'blog.startingBusiness.stats.tax': 'Personal Tax',
+
+    'blog.startingBusiness.why.title': 'Why Choose UAE for Business',
+    'blog.startingBusiness.why.stability.title': 'Political Stability',
+    'blog.startingBusiness.why.stability.description': 'Stable government and business-friendly policies',
+    'blog.startingBusiness.why.location.title': 'Strategic Location',
+    'blog.startingBusiness.why.location.description': 'Gateway between East and West markets',
+    'blog.startingBusiness.why.workforce.title': 'Skilled Workforce',
+    'blog.startingBusiness.why.workforce.description': 'Access to international talent pool',
+    'blog.startingBusiness.why.policies.title': 'Business-Friendly Policies',
+    'blog.startingBusiness.why.policies.description': 'Supportive regulations and incentives',
 
     'blog.startingBusiness.structure.title': 'Business Structure Options',
-    'blog.startingBusiness.structure.type': 'Business Type',
     'blog.startingBusiness.structure.ownership': 'Ownership',
-    'blog.startingBusiness.structure.capital': 'Min. Capital',
+    'blog.startingBusiness.structure.capital': 'Capital',
     'blog.startingBusiness.structure.liability': 'Liability',
-    'blog.startingBusiness.structure.suitability': 'Best For',
-
+    'blog.startingBusiness.structure.suitability': 'Suitability',
     'blog.startingBusiness.types.sole.title': 'Sole Proprietorship',
-    'blog.startingBusiness.types.sole.ownership': '100% Foreign',
-    'blog.startingBusiness.types.sole.capital': 'No minimum',
-    'blog.startingBusiness.types.sole.liability': 'Unlimited',
+    'blog.startingBusiness.types.sole.ownership': '100% individual ownership',
+    'blog.startingBusiness.types.sole.capital': 'No minimum capital',
+    'blog.startingBusiness.types.sole.liability': 'Unlimited liability',
     'blog.startingBusiness.types.sole.suitability': 'Small businesses, freelancers',
-
-    'blog.startingBusiness.types.llc.title': 'Limited Liability Company (LLC)',
-    'blog.startingBusiness.types.llc.ownership': '100% Foreign (most sectors)',
-    'blog.startingBusiness.types.llc.capital': 'AED 300,000',
-    'blog.startingBusiness.types.llc.liability': 'Limited to share capital',
-    'blog.startingBusiness.types.llc.suitability': 'Most common choice for SMEs',
-
+    'blog.startingBusiness.types.llc.title': 'Limited Liability Company',
+    'blog.startingBusiness.types.llc.ownership': '100% foreign ownership allowed',
+    'blog.startingBusiness.types.llc.capital': 'AED 300,000 minimum',
+    'blog.startingBusiness.types.llc.liability': 'Limited liability',
+    'blog.startingBusiness.types.llc.suitability': 'Most business types',
     'blog.startingBusiness.types.freezone.title': 'Free Zone Company',
-    'blog.startingBusiness.types.freezone.ownership': '100% Foreign',
+    'blog.startingBusiness.types.freezone.ownership': '100% foreign ownership',
     'blog.startingBusiness.types.freezone.capital': 'Varies by zone',
-    'blog.startingBusiness.types.freezone.liability': 'Limited',
+    'blog.startingBusiness.types.freezone.liability': 'Limited liability',
     'blog.startingBusiness.types.freezone.suitability': 'Export-oriented businesses',
-
     'blog.startingBusiness.types.branch.title': 'Branch Office',
-    'blog.startingBusiness.types.branch.ownership': '100% Foreign parent',
-    'blog.startingBusiness.types.branch.capital': 'AED 150,000',
-    'blog.startingBusiness.types.branch.liability': 'Parent company liable',
-    'blog.startingBusiness.types.branch.suitability': 'Established foreign companies',
+    'blog.startingBusiness.types.branch.ownership': 'Parent company ownership',
+    'blog.startingBusiness.types.branch.capital': 'AED 500,000 minimum',
+    'blog.startingBusiness.types.branch.liability': 'Parent company liability',
+    'blog.startingBusiness.types.branch.suitability': 'Existing foreign companies',
 
-    'blog.startingBusiness.legal.title': 'Legal Requirements for Foreign Investors',
-    'blog.startingBusiness.legal.eligibility': 'Eligibility Criteria',
-    'blog.startingBusiness.legal.requirements': 'Must be 18 years or older|Valid passport with minimum 6 months validity|Clean criminal record certificate|Proof of financial capability',
+    'blog.startingBusiness.legal.title': 'Legal Requirements',
+    'blog.startingBusiness.legal.eligibility': 'Eligibility Requirements',
+    'blog.startingBusiness.legal.requirements': 'Must be 21 years or older|Valid passport with 6 months validity|Clean criminal record|Sufficient financial resources|Relevant qualifications (for licensed activities)',
 
-    // Business Activities Article
-    'blog.businessActivities.overview.title': 'Business Activities & Licensing Categories Explained',
-    'blog.businessActivities.overview.description': 'Before registering your company in the UAE, it\'s essential to choose the right business activity from the approved list. This decision affects your license type, operational scope, and compliance requirements.',
+    // Business Activities Details
     'blog.businessActivities.overview.category': 'Getting Started',
-
     'blog.businessActivities.understanding.title': 'Understanding Business Activities',
-    'blog.businessActivities.understanding.description': 'The UAE maintains a comprehensive list of approved business activities, each with a specific code and classification. Your chosen activities determine not only what your business can legally do, but also:',
+    'blog.businessActivities.understanding.description': 'Business activities define what your company can legally do in the UAE. Choosing the right activities is crucial for compliance and future operations.',
 
-    'blog.businessActivities.affects.title': 'What It Affects',
-    'blog.businessActivities.affects.items': 'License type and category|Government fees and costs|Required approvals and permits|Office space requirements|Visa quota allocations|Banking and insurance needs',
+    'blog.businessActivities.affects.title': 'What Business Activities Affect',
+    'blog.businessActivities.affects.items': 'License type and cost|Visa allocation|Office space requirements|Capital requirements|Regulatory approvals needed|Banking relationships',
 
     'blog.businessActivities.considerations.title': 'Key Considerations',
-    'blog.businessActivities.considerations.items': 'Current and future business plans|Target market and customers|Required professional qualifications|Capital requirements|Regulatory compliance needs|Expansion possibilities',
+    'blog.businessActivities.considerations.items': 'Choose activities that match your business plan|Consider future expansion plans|Some activities require special approvals|Activities determine license category|Changing activities later requires amendments|Professional activities need qualified staff',
 
-    'blog.businessActivities.licenses.title': 'Main License Categories',
+    'blog.businessActivities.licenses.title': 'License Categories',
     'blog.businessActivities.licenses.commercial.title': 'Commercial License',
-    'blog.businessActivities.licenses.commercial.description': 'For trading, import/export, and retail businesses',
-    'blog.businessActivities.licenses.commercial.activities': 'General Trading|Import/Export|Retail Sales|Wholesale Distribution',
-
+    'blog.businessActivities.licenses.commercial.description': 'For trading and commercial activities',
+    'blog.businessActivities.licenses.commercial.activities': 'General trading|Import/export|Retail sales|Wholesale distribution|E-commerce|Supply chain management',
     'blog.businessActivities.licenses.professional.title': 'Professional License',
-    'blog.businessActivities.licenses.professional.description': 'For service-based businesses and consultancies',
-    'blog.businessActivities.licenses.professional.activities': 'Legal Services|Accounting|Engineering|Medical Services',
-
+    'blog.businessActivities.licenses.professional.description': 'For service-based professional activities',
+    'blog.businessActivities.licenses.professional.activities': 'Consulting services|Legal services|Accounting|Engineering|Medical services|Educational services',
     'blog.businessActivities.licenses.industrial.title': 'Industrial License',
-    'blog.businessActivities.licenses.industrial.description': 'For manufacturing and production activities',
-    'blog.businessActivities.licenses.industrial.activities': 'Manufacturing|Food Production|Textile Production|Chemical Processing',
-
+    'blog.businessActivities.licenses.industrial.description': 'For manufacturing and industrial activities',
+    'blog.businessActivities.licenses.industrial.activities': 'Manufacturing|Food processing|Textile production|Chemical processing|Assembly operations|Industrial services',
     'blog.businessActivities.licenses.tourism.title': 'Tourism License',
-    'blog.businessActivities.licenses.tourism.description': 'For hospitality and tourism-related businesses',
-    'blog.businessActivities.licenses.tourism.activities': 'Hotels|Travel Agencies|Tour Operations|Event Management',
+    'blog.businessActivities.licenses.tourism.description': 'For tourism and hospitality activities',
+    'blog.businessActivities.licenses.tourism.activities': 'Travel agency|Tour operations|Hotel management|Restaurant services|Event management|Tourism consulting',
 
     'blog.businessActivities.popular.title': 'Popular Business Activities',
     'blog.businessActivities.popular.activity': 'Activity',
     'blog.businessActivities.popular.code': 'Code',
     'blog.businessActivities.popular.description': 'Description',
+    'blog.businessActivities.popular.items.0.activity': 'General Trading',
+    'blog.businessActivities.popular.items.0.code': 'CT-001',
+    'blog.businessActivities.popular.items.0.description': 'Import, export, and local trading of goods',
+    'blog.businessActivities.popular.items.1.activity': 'Management Consulting',
+    'blog.businessActivities.popular.items.1.code': 'PS-002',
+    'blog.businessActivities.popular.items.1.description': 'Business and management advisory services',
+    'blog.businessActivities.popular.items.2.activity': 'Information Technology',
+    'blog.businessActivities.popular.items.2.code': 'PS-003',
+    'blog.businessActivities.popular.items.2.description': 'Software development and IT services',
+    'blog.businessActivities.popular.items.3.activity': 'Real Estate',
+    'blog.businessActivities.popular.items.3.code': 'PS-004',
+    'blog.businessActivities.popular.items.3.description': 'Property development and real estate services',
+    'blog.businessActivities.popular.items.4.activity': 'Marketing Services',
+    'blog.businessActivities.popular.items.4.code': 'PS-005',
+    'blog.businessActivities.popular.items.4.description': 'Advertising and marketing consultancy',
+    'blog.businessActivities.popular.items.5.activity': 'Construction',
+    'blog.businessActivities.popular.items.5.code': 'CT-006',
+    'blog.businessActivities.popular.items.5.description': 'Building and construction services',
 
-    'blog.businessActivities.popular.items': [
-      { activity: 'General Trading', code: '4690', description: 'Non-specialized wholesale trade' },
-      { activity: 'Management Consultancy', code: '7020', description: 'Management consulting activities' },
-      { activity: 'Information Technology', code: '6201', description: 'Computer programming activities' },
-      { activity: 'Real Estate', code: '6810', description: 'Real estate activities with own property' },
-      { activity: 'Marketing Services', code: '7310', description: 'Advertising activities' },
-      { activity: 'Import/Export', code: '4690', description: 'Specialized wholesale trade' }
-    ],
-
-    'blog.businessActivities.selection.title': 'How to Choose the Right Activities',
-    'blog.businessActivities.selection.step1.title': 'Define Your Business Scope',
-    'blog.businessActivities.selection.step1.description': 'Clearly outline what your business will do now and in the future. Consider all revenue streams and services you plan to offer.',
-    'blog.businessActivities.selection.step2.title': 'Research Activity Codes',
-    'blog.businessActivities.selection.step2.description': 'Use the official UAE business activity classification system to find codes that match your business operations.',
-    'blog.businessActivities.selection.step3.title': 'Verify Requirements',
-    'blog.businessActivities.selection.step3.description': 'Check specific requirements, approvals, and qualifications needed for your chosen activities.',
-
-    // Mainland License Guide Article
-    'blog.mainlandLicense.overview.title': 'How to Open a Mainland Business License in Dubai',
-    'blog.mainlandLicense.overview.description': 'Starting a business in Dubai mainland is one of the most strategic moves you can make as an entrepreneur or investor. This comprehensive guide walks you through every step of the process.',
-    'blog.mainlandLicense.overview.category': 'Licensing Guide',
-
-    'blog.mainlandLicense.quickOverview.title': 'Quick Overview',
-    'blog.mainlandLicense.quickOverview.timeline.title': 'Timeline',
-    'blog.mainlandLicense.quickOverview.timeline.value': '15-30 working days',
-    'blog.mainlandLicense.quickOverview.cost.title': 'Starting Cost',
-    'blog.mainlandLicense.quickOverview.cost.value': 'From AED 15,000',
-    'blog.mainlandLicense.quickOverview.ownership.title': 'Ownership',
-    'blog.mainlandLicense.quickOverview.ownership.value': '100% Foreign Ownership',
-
-    'blog.mainlandLicense.steps.title': 'Step-by-Step Process',
-    'blog.mainlandLicense.steps.items': [
-      {
-        step: 1,
-        title: 'Choose Your Business Activity',
-        description: 'Select from over 2,000 approved business activities',
-        duration: '1-2 days'
-      },
-      {
-        step: 2,
-        title: 'Reserve Your Trade Name',
-        description: 'Submit and get approval for your company name',
-        duration: '1-3 days'
-      },
-      {
-        step: 3,
-        title: 'Prepare Required Documents',
-        description: 'Gather and attest all necessary documentation',
-        duration: '3-7 days'
-      },
-      {
-        step: 4,
-        title: 'Submit License Application',
-        description: 'File your application with the Department of Economic Development',
-        duration: '5-10 days'
-      },
-      {
-        step: 5,
-        title: 'Secure Office Space',
-        description: 'Obtain a tenancy contract for your business premises',
-        duration: '1-5 days'
-      },
-      {
-        step: 6,
-        title: 'Complete Final Approvals',
-        description: 'Get final approvals and collect your license',
-        duration: '2-5 days'
-      }
-    ],
-
-    'blog.mainlandLicense.documents.title': 'Required Documents',
-    'blog.mainlandLicense.documents.individual.title': 'For Individual Investors',
-    'blog.mainlandLicense.documents.individual.items': [
-      'Passport copy (attested)',
-      'UAE residence visa copy',
-      'Emirates ID copy',
-      'No Objection Certificate (if employed)',
-      'Bank statement (6 months)'
-    ],
-    'blog.mainlandLicense.documents.corporate.title': 'For Corporate Investors',
-    'blog.mainlandLicense.documents.corporate.items': [
-      'Certificate of Incorporation',
-      'Memorandum & Articles of Association',
-      'Board Resolution',
-      'Authorized signatory passport',
-      'Company bank statements'
-    ],
-
-    'blog.mainlandLicense.costs.title': 'Cost Breakdown',
-    'blog.mainlandLicense.costs.headers.item': 'Item',
-    'blog.mainlandLicense.costs.headers.cost': 'Cost (AED)',
-    'blog.mainlandLicense.costs.items': [
-      { item: 'Initial Approval', cost: '1,500' },
-      { item: 'Trade Name Reservation', cost: '2,000' },
-      { item: 'Trade License', cost: '10,000' },
-      { item: 'Immigration Card', cost: '2,000' },
-      { item: 'Establishment Card', cost: '2,500' }
-    ],
-
-    // Free Zone Company Setup Article
-    'blog.freeZoneSetup.overview.title': 'Step-by-Step Guide to Setting Up a Free Zone Company',
-    'blog.freeZoneSetup.overview.description': 'Free zones in the UAE offer 100% foreign ownership, quick licensing, and simplified processes. This comprehensive guide walks you through every step of setting up your free zone company.',
+    // Free Zone Setup Details
     'blog.freeZoneSetup.overview.category': 'Setup Guides',
+    'blog.freeZoneSetup.stats.title': 'Free Zone Statistics',
+    'blog.freeZoneSetup.stats.items.0.value': '45+',
+    'blog.freeZoneSetup.stats.items.0.label': 'Free Zones',
+    'blog.freeZoneSetup.stats.items.1.value': '100%',
+    'blog.freeZoneSetup.stats.items.1.label': 'Foreign Ownership',
+    'blog.freeZoneSetup.stats.items.2.value': '0%',
+    'blog.freeZoneSetup.stats.items.2.label': 'Corporate Tax',
 
-    'blog.freeZoneSetup.why.title': 'Why Choose Free Zone Setup?',
-    'blog.freeZoneSetup.why.advantages': [
-      {
-        icon: 'Shield',
-        title: '100% Foreign Ownership',
-        description: 'Complete ownership and control of your business'
-      },
-      {
-        icon: 'DollarSign',
-        title: 'Tax Benefits',
-        description: 'Zero corporate tax and personal income tax'
-      },
-      {
-        icon: 'Zap',
-        title: 'Quick Setup',
-        description: 'Streamlined processes for faster business launch'
-      },
-      {
-        icon: 'Users',
-        title: 'Easy Visa Process',
-        description: 'Simplified visa procedures for employees and investors'
-      }
-    ],
-
-    'blog.freeZoneSetup.stats.title': 'Key Statistics',
-    'blog.freeZoneSetup.stats.items': [
-      { value: '50+', label: 'Free Zones Available' },
-      { value: '7-14', label: 'Days Setup Time' },
-      { value: '0%', label: 'Corporate Tax (Most Zones)' }
-    ],
+    'blog.freeZoneSetup.why.title': 'Why Choose Free Zone Setup',
+    'blog.freeZoneSetup.why.advantages.0.title': '100% Foreign Ownership',
+    'blog.freeZoneSetup.why.advantages.0.description': 'Complete control over your business without local partner requirements',
+    'blog.freeZoneSetup.why.advantages.1.title': 'Tax Benefits',
+    'blog.freeZoneSetup.why.advantages.1.description': 'Zero corporate and personal income tax in most free zones',
+    'blog.freeZoneSetup.why.advantages.2.title': 'Quick Setup',
+    'blog.freeZoneSetup.why.advantages.2.description': 'Streamlined processes for faster business establishment',
+    'blog.freeZoneSetup.why.advantages.3.title': 'Visa Benefits',
+    'blog.freeZoneSetup.why.advantages.3.description': 'Sponsor visas for yourself, family, and employees',
 
     'blog.freeZoneSetup.zones.title': 'Popular Free Zones',
-    'blog.freeZoneSetup.zones.items': [
-      {
-        name: 'DMCC',
-        fullName: 'Dubai Multi Commodities Centre',
-        specialty: 'Commodities & Trading',
-        minCost: 'AED 15,000',
-        benefits: ['Prime location', 'World-class facilities', 'Strong business community'],
-        color: 'blue'
-      },
-      {
-        name: 'DIFC',
-        fullName: 'Dubai International Financial Centre',
-        specialty: 'Financial Services',
-        minCost: '35,000',
-        benefits: ['Financial hub', 'Common law jurisdiction', 'Tax advantages'],
-        color: 'green'
-      },
-      {
-        name: 'RAKEZ',
-        fullName: 'Ras Al Khaimah Economic Zone',
-        specialty: 'General Business',
-        minCost: '8,500',
-        benefits: ['Cost-effective', 'Flexible packages', 'Quick setup'],
-        color: 'purple'
-      },
-      {
-        name: 'IFZA',
-        fullName: 'International Free Zone Authority',
-        specialty: 'Technology & Innovation',
-        minCost: '9,971',
-        benefits: ['Digital services', 'Innovative solutions', 'Competitive pricing'],
-        color: 'orange'
-      }
-    ],
+    'blog.freeZoneSetup.zones.items.0.name': 'DMCC',
+    'blog.freeZoneSetup.zones.items.0.fullName': 'Dubai Multi Commodities Centre',
+    'blog.freeZoneSetup.zones.items.0.specialty': 'Commodities and trading',
+    'blog.freeZoneSetup.zones.items.0.minCost': 'AED 18,000',
+    'blog.freeZoneSetup.zones.items.0.benefits': 'Prime location|World-class facilities|Strong business community|Government support',
+    'blog.freeZoneSetup.zones.items.1.name': 'RAKEZ',
+    'blog.freeZoneSetup.zones.items.1.fullName': 'Ras Al Khaimah Economic Zone',
+    'blog.freeZoneSetup.zones.items.1.specialty': 'General business activities',
+    'blog.freeZoneSetup.zones.items.1.minCost': 'AED 8,000',
+    'blog.freeZoneSetup.zones.items.1.benefits': 'Cost-effective|Flexible packages|Quick setup|Multiple locations',
+    'blog.freeZoneSetup.zones.items.2.name': 'ADGM',
+    'blog.freeZoneSetup.zones.items.2.fullName': 'Abu Dhabi Global Market',
+    'blog.freeZoneSetup.zones.items.2.specialty': 'Financial services',
+    'blog.freeZoneSetup.zones.items.2.minCost': 'AED 25,000',
+    'blog.freeZoneSetup.zones.items.2.benefits': 'Financial hub|English common law|Regulatory excellence|International recognition',
+    'blog.freeZoneSetup.zones.items.3.name': 'IFZA',
+    'blog.freeZoneSetup.zones.items.3.fullName': 'International Free Zone Authority',
+    'blog.freeZoneSetup.zones.items.3.specialty': 'General business and trading',
+    'blog.freeZoneSetup.zones.items.3.minCost': 'AED 12,000',
+    'blog.freeZoneSetup.zones.items.3.benefits': 'Competitive pricing|Modern facilities|Business support|Strategic location',
 
     'blog.freeZoneSetup.steps.title': 'Setup Process',
-    'blog.freeZoneSetup.steps.items': [
-      {
-        step: 1,
-        title: 'Choose Your Free Zone',
-        description: 'Select the most suitable free zone based on your business activity and requirements',
-        duration: '1-2 days',
-        details: ['Research different free zones', 'Compare packages and benefits', 'Consider location and facilities']
-      },
-      {
-        step: 2,
-        title: 'Select Business Activity',
-        description: 'Choose from the approved list of business activities for your selected free zone',
-        duration: '1 day',
-        details: ['Review activity classifications', 'Ensure compliance with zone regulations', 'Plan for future expansion']
-      },
-      {
-        step: 3,
-        title: 'Reserve Company Name',
-        description: 'Submit your preferred company name for approval and reservation',
-        duration: '1-3 days',
-        details: ['Check name availability', 'Submit name reservation', 'Receive approval confirmation']
-      },
-      {
-        step: 4,
-        title: 'Prepare Documentation',
-        description: 'Gather and prepare all required documents for the application',
-        duration: '3-5 days',
-        details: ['Passport copies and photos', 'Educational certificates', 'Experience certificates', 'Bank statements']
-      },
-      {
-        step: 5,
-        title: 'Submit Application',
-        description: 'File your complete application with the free zone authority',
-        duration: '1 day',
-        details: ['Complete application forms', 'Submit all documents', 'Pay required fees']
-      },
-      {
-        step: 6,
-        title: 'License Approval',
-        description: 'Receive your trade license and complete the setup process',
-        duration: '3-7 days',
-        details: ['License processing', 'Final approvals', 'License collection']
-      }
-    ],
-
-    // Visa Types Article
-    'blog.visaTypes.overview.title': 'Visa Types and Their Benefits for Business Owners',
-    'blog.visaTypes.overview.description': 'Understanding the different visa options available to business owners in the UAE is crucial for making informed decisions about your residency status and business operations.',
-    'blog.visaTypes.overview.category': 'Visa & Immigration',
-
-    'blog.visaTypes.quickStats.title': 'Quick Overview',
-    'blog.visaTypes.quickStats.processing': 'Processing Time',
-    'blog.visaTypes.quickStats.processingValue': '2-3 weeks',
-    'blog.visaTypes.quickStats.validity': 'Validity Period',
-    'blog.visaTypes.quickStats.validityValue': '2-3 years',
-    'blog.visaTypes.quickStats.sponsorship': 'Family Sponsorship',
-    'blog.visaTypes.quickStats.sponsorshipValue': 'Available',
-
-    'blog.visaTypes.types.title': 'Available Visa Types',
-    'blog.visaTypes.types.investor.title': 'Investor Visa',
-    'blog.visaTypes.types.investor.duration': '2-3 Years',
-    'blog.visaTypes.types.investor.eligibility': 'Business owners with valid trade license',
-    'blog.visaTypes.types.investor.benefits': 'Multiple entry|Sponsor family members|No sponsor required|Work permit included',
-    'blog.visaTypes.types.investor.requirements': 'Valid trade license|Passport copy|Emirates ID application|Medical certificate',
-    'blog.visaTypes.types.investor.cost': 'AED 2,000 - 5,000',
-
-    'blog.visaTypes.types.employment.title': 'Employment Visa',
-    'blog.visaTypes.types.employment.duration': '2-3 Years',
-    'blog.visaTypes.types.employment.eligibility': 'Employees of UAE companies',
-    'blog.visaTypes.types.employment.benefits': 'Work authorization|Renewable|Family sponsorship eligible|Healthcare access',
-    'blog.visaTypes.types.employment.requirements': 'Employment contract|Educational certificates|Medical certificate|Passport copy',
-    'blog.visaTypes.types.employment.cost': 'AED 3,000 - 6,000',
-
-    'blog.visaTypes.types.golden.title': 'Golden Visa',
-    'blog.visaTypes.types.golden.duration': '5-10 Years',
-    'blog.visaTypes.types.golden.eligibility': 'Investors, entrepreneurs, specialists',
-    'blog.visaTypes.types.golden.benefits': 'Long-term residency|No sponsor needed|Multiple entry|Extended family sponsorship',
-    'blog.visaTypes.types.golden.requirements': 'Investment proof|Business plan|Financial statements|Professional qualifications',
-    'blog.visaTypes.types.golden.cost': 'AED 5,000 - 10,000',
-
-    'blog.visaTypes.types.family.title': 'Family Visa',
-    'blog.visaTypes.types.family.duration': '1-3 Years',
-    'blog.visaTypes.types.family.eligibility': 'Dependents of UAE residents',
-    'blog.visaTypes.types.family.benefits': 'Residence permit|Education access|Healthcare benefits|Travel freedom',
-    'blog.visaTypes.types.family.requirements': 'Sponsor\'s documents|Relationship proof|Medical certificate|Salary certificate',
-    'blog.visaTypes.types.family.cost': 'AED 2,500 - 4,000',
-
-    'blog.visaTypes.benefits.title': 'Business Benefits',
-    'blog.visaTypes.benefits.flexibility.title': 'Business Flexibility',
-    'blog.visaTypes.benefits.flexibility.description': 'Operate your business while maintaining legal residency status',
-    'blog.visaTypes.benefits.team.title': 'Team Building',
-    'blog.visaTypes.benefits.team.description': 'Sponsor key employees and build your team in the UAE',
-    'blog.visaTypes.benefits.quality.title': 'Quality of Life',
-    'blog.visaTypes.benefits.quality.description': 'Access world-class healthcare, education, and lifestyle',
-    'blog.visaTypes.benefits.mobility.title': 'Global Mobility',
-    'blog.visaTypes.benefits.mobility.description': 'Travel freely with UAE residence and strong passport access',
-
-    'blog.visaTypes.process.title': 'Application Process',
-    'blog.visaTypes.process.step1.title': 'Document Preparation',
-    'blog.visaTypes.process.step1.description': 'Gather all required documents and ensure proper attestation',
-    'blog.visaTypes.process.step1.duration': '3-5 days',
-
-    'blog.visaTypes.process.step2.title': 'Medical Examination',
-    'blog.visaTypes.process.step2.description': 'Complete medical tests at approved healthcare centers',
-    'blog.visaTypes.process.step2.duration': '1-2 days',
-
-    'blog.visaTypes.process.step3.title': 'Application Submission',
-    'blog.visaTypes.process.step3.description': 'Submit visa application with all supporting documents',
-    'blog.visaTypes.process.step3.duration': '1 day',
-
-    'blog.visaTypes.process.step4.title': 'Processing & Approval',
-    'blog.visaTypes.process.step4.description': 'Immigration authorities review and process application',
-    'blog.visaTypes.process.step4.duration': '5-15 days',
-
-    'blog.visaTypes.process.step5.title': 'Emirates ID Application',
-    'blog.visaTypes.process.step5.description': 'Apply for Emirates ID after visa approval',
-    'blog.visaTypes.process.step5.duration': '7-14 days',
-
-    'blog.visaTypes.process.step6.title': 'Visa Stamping',
-    'blog.visaTypes.process.step6.description': 'Get visa stamped in passport and collect Emirates ID',
-    'blog.visaTypes.process.step6.duration': '1-3 days',
-
-    'blog.visaTypes.choosing.title': 'How to Choose the Right Visa',
-    'blog.visaTypes.choosing.investor.title': 'Choose Investor Visa If:',
-    'blog.visaTypes.choosing.investor.points': 'You own a UAE business with a valid trade license|You want to sponsor family members|You need flexibility to work in your own business|You prefer a straightforward application process',
-
-    'blog.visaTypes.choosing.golden.title': 'Choose Golden Visa If:',
-    'blog.visaTypes.choosing.golden.points': 'You meet the investment or professional criteria|You want long-term stability (5-10 years)|You prefer not to have a sponsor|You want to sponsor extended family members',
-
-    'blog.visaTypes.choosing.employment.title': 'Choose Employment Visa If:',
-    'blog.visaTypes.choosing.employment.points': 'You work for a UAE company as an employee|Your employer handles the sponsorship|You want standard employment benefits|You\'re building experience before starting your own business',
-
-    // Company Renewals & Closures Article
-    'blog.renewals.overview.category': 'Operations & Compliance',
-    'blog.renewals.overview.title': 'Understanding UAE Company Renewals, Modifications & Closures',
-    'blog.renewals.overview.description': 'A comprehensive guide to managing your company\'s lifecycle through renewals, modifications, and closure procedures in the UAE.',
-
-    'blog.renewals.renewal.title': 'License Renewal Process',
-    'blog.renewals.steps.items': [
-      {
-        step: 1,
-        title: 'Pre-Renewal Assessment',
-        description: 'Review current license status and upcoming renewal requirements',
-        duration: '60 days before expiry'
-      },
-      {
-        step: 2,
-        title: 'Document Preparation',
-        description: 'Gather and prepare all required documents for renewal',
-        duration: '45 days before expiry'
-      },
-      {
-        step: 3,
-        title: 'Fee Payment',
-        description: 'Calculate and pay all renewal fees and government charges',
-        duration: '30 days before expiry'
-      },
-      {
-        step: 4,
-        title: 'Submission & Processing',
-        description: 'Submit renewal application and track processing status',
-        duration: '15 days before expiry'
-      },
-      {
-        step: 5,
-        title: 'License Collection',
-        description: 'Collect renewed license and update all records',
-        duration: 'Upon approval'
-      }
-    ],
-
-    'blog.renewals.modifications.title': 'License Modifications',
-    'blog.renewals.modifications.items': [
-      {
-        title: 'Activity Changes',
-        description: 'Add or remove business activities from your license',
-        requirements: [
-          'Updated business plan',
-          'NOC from relevant authorities',
-          'Additional fees for new activities'
-        ]
-      },
-      {
-        title: 'Company Name Change',
-        description: 'Modify your registered company name',
-        requirements: [
-          'Name availability check',
-          'Board resolution',
-          'Updated trade name certificate'
-        ]
-      },
-      {
-        title: 'Location Change',
-        description: 'Update your registered business address',
-        requirements: [
-          'New tenancy contract',
-          'Updated EJARI',
-          'Civil Defense approval'
-        ]
-      },
-      {
-        title: 'Share Capital Change',
-        description: 'Modify company share capital structure',
-        requirements: [
-          'Shareholder resolution',
-          'Updated MOA',
-          'Bank confirmation letter'
-        ]
-      }
-    ],
-
-    'blog.renewals.closure.title': 'Company Closure Process',
-    'blog.renewals.closure.warning.title': 'Important Notice',
-    'blog.renewals.closure.warning.description': 'Ensure all obligations are settled before initiating the closure process. Incomplete settlements may result in legal complications.',
-    'blog.renewals.closure.steps': [
-      {
-        step: 1,
-        title: 'Initial Documentation',
-        description: 'Prepare and submit initial closure documents',
-        requirements: [
-          'Board resolution for closure',
-          'Shareholders\' approval',
-          'Audited financial statements'
-        ]
-      },
-      {
-        step: 2,
-        title: 'Liability Settlement',
-        description: 'Clear all outstanding debts and obligations',
-        requirements: [
-          'Employee settlements',
-          'Supplier payments',
-          'Tax clearance certificate'
-        ]
-      },
-      {
-        step: 3,
-        title: 'License Cancellation',
-        description: 'Cancel all business licenses and permits',
-        requirements: [
-          'Trade license cancellation',
-          'Immigration file closure',
-          'Municipality permits cancellation'
-        ]
-      },
-      {
-        step: 4,
-        title: 'Final Clearance',
-        description: 'Obtain final approvals and close accounts',
-        requirements: [
-          'Bank account closure',
-          'Final audit report',
-          'Government clearance certificates'
-        ]
-      }
-    ],
-
-    // Government Approvals Guide Article
-    'blog.govApprovals.overview.category': 'Compliance & Regulations',
-    'blog.govApprovals.overview.title': 'UAE Government Approvals Guide: A Comprehensive Overview',
-    'blog.govApprovals.overview.description': 'Navigate the UAE government approval process with our comprehensive guide covering all essential permits, NOCs, and regulatory requirements.',
-
-    'blog.govApprovals.quickStats.title': 'Quick Overview',
-    'blog.govApprovals.quickStats.processing': 'Average Processing Time',
-    'blog.govApprovals.quickStats.processingValue': '2-4 weeks',
-    'blog.govApprovals.quickStats.validity': 'Validity Period',
-    'blog.govApprovals.quickStats.validityValue': '1-3 years',
-    'blog.govApprovals.quickStats.cost': 'Cost Range',
-    'blog.govApprovals.quickStats.costValue': 'AED 500-15,000',
-
-    'blog.govApprovals.types.title': 'Types of Government Approvals',
-    'blog.govApprovals.types.items': [
-      {
-        title: 'Initial Approvals',
-        description: 'Required before starting business operations',
-        requirements: [
-          'Trade name reservation',
-          'Location approval',
-          'External department approvals',
-          'Initial security clearance'
-        ]
-      },
-      {
-        title: 'Operational Permits',
-        description: 'Needed for day-to-day business activities',
-        requirements: [
-          'Commercial license',
-          'Municipality permits',
-          'Signboard approval',
-          'Civil Defense certificate'
-        ]
-      },
-      {
-        title: 'Special Activity Approvals',
-        description: 'Required for specific business activities',
-        requirements: [
-          'Industry-specific NOCs',
-          'Professional qualifications approval',
-          'Technical standards compliance',
-          'Environmental clearances'
-        ]
-      },
-      {
-        title: 'Annual Renewals',
-        description: 'Regular compliance requirements',
-        requirements: [
-          'License renewal',
-          'Permit updates',
-          'Insurance certificates',
-          'Audit reports'
-        ]
-      }
-    ],
-
-    'blog.govApprovals.process.title': 'Approval Process Steps',
-    'blog.govApprovals.process.items': [
-      {
-        step: 1,
-        title: 'Pre-Application Phase',
-        description: 'Prepare all necessary documents and meet prerequisites',
-        duration: '1-2 weeks',
-        details: [
-          'Document compilation',
-          'Form completion',
-          'Fee calculation',
-          'Appointment scheduling'
-        ]
-      },
-      {
-        step: 2,
-        title: 'Initial Submission',
-        description: 'Submit applications to relevant authorities',
-        duration: '3-5 days',
-        details: [
-          'Application review',
-          'Document verification',
-          'Payment processing',
-          'Tracking number assignment'
-        ]
-      },
-      {
-        step: 3,
-        title: 'Technical Review',
-        description: 'Authority assessment and technical evaluation',
-        duration: '1-2 weeks',
-        details: [
-          'Compliance check',
-          'Site inspections',
-          'Technical evaluation',
-          'Risk assessment'
-        ]
-      },
-      {
-        step: 4,
-        title: 'Final Approval',
-        description: 'Receive approvals and complete registration',
-        duration: '2-3 days',
-        details: [
-          'Approval issuance',
-          'Fee payment',
-          'Certificate collection',
-          'System registration'
-        ]
-      }
-    ],
-
-    'blog.govApprovals.tips.title': 'Best Practices',
-    'blog.govApprovals.tips.items': [
-      'Start the process early to avoid delays',
-      'Keep documents updated and readily available',
-      'Maintain good relationships with authorities',
-      'Follow up regularly on applications',
-      'Consider using PRO services for complex approvals',
-      'Keep digital copies of all submissions'
-    ],
-
-    'blog.govApprovals.common.title': 'Common Challenges',
-    'blog.govApprovals.common.items': [
-      {
-        challenge: 'Document Authentication',
-        solution: 'Use authorized translation and attestation services',
-        impact: 'Delays in processing'
-      },
-      {
-        challenge: 'Technical Requirements',
-        solution: 'Consult with industry experts before submission',
-        impact: 'Application rejection'
-      },
-      {
-        challenge: 'Multiple Authorities',
-        solution: 'Create a systematic approach for each department',
-        impact: 'Coordination issues'
-      },
-      {
-        challenge: 'Changing Regulations',
-        solution: 'Stay updated with regulatory newsletters',
-        impact: 'Non-compliance risks'
-      }
-    ],
-
-    'blog.familyVisa.overview.title': 'تسهيل كفالة التأشيرات العائلية والمعالين',
-    'blog.familyVisa.overview.category': 'التأشيرات والهجرة',
-    'blog.familyVisa.overview.description': 'هل تريد إحضار عائلتك إلى الإمارات؟ يمكن لـ AEFastLane مساعدتك في كفالة معاليك بسلاسة، مع ضمان تلبية جميع المتطلبات لجمع شمل العائلة بنجاح في الإمارات.',
-
-    // Eligible Dependents Section
-    'blog.familyVisa.dependents.spouse.type': 'الزوج/الزوجة',
-    'blog.familyVisa.dependents.spouse.requirements': [
-      'زواج قانوني',
-      'شهادة زواج مصدقة',
-      'راتب لا يقل عن 4,000 درهم',
-      'سكن مناسب'
-    ],
-    'blog.familyVisa.dependents.spouse.duration': 'نفس مدة تأشيرة الكفيل',
-    'blog.familyVisa.dependents.spouse.benefits': [
-      'أهلية تصريح العمل',
-      'الوصول للرعاية الصحية',
-      'التعليم للأطفال',
-      'حرية السفر'
-    ],
-
-    'blog.familyVisa.dependents.children.type': 'الأطفال',
-    'blog.familyVisa.dependents.children.requirements': [
-      'تحت سن 18 عاماً',
-      'شهادة الميلاد',
-      'راتب الكفيل 4,000+ درهم',
-      'التسجيل المدرسي'
-    ],
-    'blog.familyVisa.dependents.children.duration': 'حتى سن 18 أو الزواج',
-    'blog.familyVisa.dependents.children.benefits': [
-      'الوصول للتعليم',
-      'التغطية الصحية',
-      'تصريح الإقامة',
-      'وحدة العائلة'
-    ],
-
-    'blog.familyVisa.dependents.parents.type': 'الوالدين',
-    'blog.familyVisa.dependents.parents.requirements': [
-      'فوق 60 عاماً',
-      'راتب الكفيل 20,000+ درهم',
-      'تأمين صحي',
-      'إثبات السكن'
-    ],
-    'blog.familyVisa.dependents.parents.duration': 'سنة قابلة للتجديد',
-    'blog.familyVisa.dependents.parents.benefits': [
-      'الوصول للرعاية الصحية',
-      'لم شمل العائلة',
-      'تصريح الإقامة',
-      'خدمات الدعم'
-    ],
-
-    'blog.familyVisa.dependents.workers.type': 'العمال المنزليون',
-    'blog.familyVisa.dependents.workers.requirements': [
-      'عقد عمل',
-      'راتب الكفيل 10,000+ درهم',
-      'سكن مناسب',
-      'شهادة طبية'
-    ],
-    'blog.familyVisa.dependents.workers.duration': 'حسب العقد',
-    'blog.familyVisa.dependents.workers.benefits': [
-      'تصريح العمل',
-      'تصريح الإقامة',
-      'الوصول للرعاية الصحية',
-      'الحماية القانونية'
-    ],
-
-    // Application Process Section
-    'blog.familyVisa.process.title': 'خطوات تقديم الطلب',
-    'blog.familyVisa.process.steps': [
-      {
-        step: 1,
-        title: 'التحقق من الأهلية',
-        description: 'التحقق من متطلبات الراتب ووثائق إثبات العلاقة',
-        duration: 'يوم واحد',
-        requirements: ['شهادة الراتب', 'إثبات العلاقة', 'تفاصيل السكن']
-      },
-      {
-        step: 2,
-        title: 'تجهيز المستندات',
-        description: 'جمع وتصديق جميع المستندات المطلوبة',
-        duration: '1-2 أسبوع',
-        requirements: ['الشهادات المصدقة', 'نسخ جوازات السفر', 'الشهادات الطبية', 'الصور']
-      },
-      {
-        step: 3,
-        title: 'طلب إذن الدخول',
-        description: 'التقدم بطلب إذن دخول لأفراد العائلة',
-        duration: '3-5 أيام',
-        requirements: ['نموذج الطلب', 'المستندات الداعمة', 'دفع الرسوم']
-      },
-      {
-        step: 4,
-        title: 'الفحص الطبي',
-        description: 'إكمال الفحوصات الطبية في المراكز المعتمدة',
-        duration: '1-2 يوم',
-        requirements: ['إذن الدخول', 'جواز السفر', 'نموذج الفحص الطبي']
-      },
-      {
-        step: 5,
-        title: 'ختم التأشيرة',
-        description: 'ختم تأشيرة الإقامة في جواز السفر',
-        duration: '2-3 أيام',
-        requirements: ['الشهادة الطبية', 'إذن الدخول', 'جواز السفر', 'الرسوم']
-      },
-      {
-        step: 6,
-        title: 'الهوية الإماراتية',
-        description: 'التقدم بطلب الهوية الإماراتية لأفراد العائلة',
-        duration: '7-14 يوم',
-        requirements: ['تأشيرة الإقامة', 'صور شخصية', 'نموذج الطلب']
-      }
-    ],
-
-    // Salary Requirements Section
-    'blog.familyVisa.salary.title': 'متطلبات الراتب',
-    'blog.familyVisa.salary.requirements': [
-      {
-        dependents: 'الزوج/الزوجة فقط',
-        minSalary: '4,000 درهم',
-        accommodation: 'شقة بغرفة نوم واحدة',
-        additionalNotes: 'كفالة عائلية أساسية'
-      },
-      {
-        dependents: 'الزوج/الزوجة + طفل واحد',
-        minSalary: '5,000 درهم',
-        accommodation: 'شقة بغرفتي نوم',
-        additionalNotes: 'مراعاة الرسوم المدرسية'
-      },
-      {
-        dependents: 'الزوج/الزوجة + طفلين',
-        minSalary: '6,000 درهم',
-        accommodation: 'شقة 2-3 غرف نوم',
-        additionalNotes: 'تكاليف التعليم والرعاية الصحية'
-      },
-      {
-        dependents: 'الوالدين (فوق 60)',
-        minSalary: '20,000 درهم',
-        accommodation: 'سكن عائلي مناسب',
-        additionalNotes: 'التأمين الصحي إلزامي'
-      }
-    ],
-
-    // Document Checklist Section
-    'blog.familyVisa.documents.title': 'قائمة المستندات المطلوبة',
-    'blog.familyVisa.documents.categories': [
-      {
-        category: 'وثائق الكفيل',
-        documents: [
-          'نسخة جواز السفر مع تأشيرة الإقامة',
-          'نسخة الهوية الإماراتية',
-          'شهادة الراتب (مصدقة)',
-          'عقد العمل',
-          'كشوف الحساب البنكي (6 أشهر)',
-          'عقد الإيجار'
-        ]
-      },
-      {
-        category: 'وثائق المعال',
-        documents: [
-          'جواز سفر صالح لمدة 6 أشهر على الأقل',
-          'صور شخصية',
-          'شهادة الميلاد (للأطفال)',
-          'شهادة الزواج (للزوج/الزوجة)',
-          'الشهادات التعليمية',
-          'الشهادة الطبية'
-        ]
-      },
-      {
-        category: 'إثبات العلاقة',
-        documents: [
-          'شهادة الزواج (مصدقة)',
-          'شهادات الميلاد (مصدقة)',
-          'دفتر العائلة أو ما يعادله',
-          'أوراق التبني (إن وجدت)',
-          'وثيقة الطلاق (إن وجدت)',
-          'شهادة الوفاة (إن وجدت)'
-        ]
-      }
-    ],
-
-    // Cost Breakdown Section
-    'blog.familyVisa.costs.title': 'تفصيل التكاليف',
-    'blog.familyVisa.costs.items': [
-      {
-        service: 'إذن الدخول (الزوج/الزوجة)',
-        government: 1190,
-        serviceFee: 500,
-        total: 1690
-      },
-      {
-        service: 'إذن الدخول (الطفل)',
-        government: 1190,
-        serviceFee: 500,
-        total: 1690
-      },
-      {
-        service: 'الفحص الطبي',
-        government: 310,
-        serviceFee: 200,
-        total: 510
-      },
-      {
-        service: 'ختم التأشيرة',
-        government: 580,
-        serviceFee: 300,
-        total: 880
-      },
-      {
-        service: 'الهوية الإماراتية',
-        government: 380,
-        serviceFee: 150,
-        total: 530
-      }
-    ],
-
-    // Important Notes Section
-    'blog.familyVisa.notes.title': 'ملاحظات هامة',
-    'blog.familyVisa.notes.items': [
-      'يجب تصديق جميع المستندات الأجنبية من سفارة الإمارات في بلد المنشأ',
-      'يجب على الكفيل الحفاظ على الحد الأدنى للراتب طوال مدة صلاحية التأشيرة',
-      'يجب توفير سكن مناسب لأفراد العائلة',
-      'يوصى بالتأمين الصحي لجميع أفراد العائلة',
-      'يجب مراعاة تكاليف تعليم الأطفال في التخطيط المالي',
-      'يعتمد تجديد تأشيرة العائلة على وضع تأشيرة الكفيل'
-    ],
-
-    // Success Tips Section
-    'blog.familyVisa.tips.title': 'نصائح للنجاح في كفالة العائلة',
-    'blog.familyVisa.tips.items': [
-      'التأكد من استيفاء متطلبات الراتب باستمرار',
-      'تجهيز جميع المستندات مسبقاً',
-      'النظر في التأمين الصحي لأفراد العائلة',
-      'التخطيط لتكاليف التعليم عند كفالة الأطفال',
-      'الحفاظ على معايير السكن المناسبة',
-      'الحفاظ على تحديث وصلاحية جميع المستندات',
-      'استخدام الخدمات المهنية للحالات المعقدة',
-      'التخطيط لعملية التجديد مسبقاً'
-    ],
-
-    // CTA Section
-    'blog.familyVisa.cta.title': 'هل أنت مستعد لإحضار عائلتك إلى الإمارات؟',
-    'blog.familyVisa.cta.description': 'يمكن لمتخصصي تأشيرات العائلة لدينا التعامل مع كامل عملية الكفالة نيابة عنك، مع ضمان تلبية جميع المتطلبات وإتمام لم شمل العائلة بسلاسة وكفاءة.',
-    'blog.familyVisa.cta.button1': 'ابدأ كفالة العائلة',
-    'blog.familyVisa.cta.button2': 'احصل على استشارة متخصصة',
-
-    // Blog Posts - Free Zone vs Mainland
-    'blog.posts.freeZoneVsMainland.title': 'Free Zone vs Mainland: Which is Right for Your UAE Business?',
-    'blog.posts.freeZoneVsMainland.excerpt': 'Discover the key differences between free zone and mainland business setup in the UAE, and learn which option best suits your business goals and requirements.',
-    
-    // Starting a Business
-    'blog.posts.startingBusiness.title': 'Starting a Business in the UAE as a Foreigner',
-    'blog.posts.startingBusiness.excerpt': 'Everything foreign entrepreneurs need to know about starting a business in the UAE, from legal requirements to practical considerations.',
-    
-    // Business Activities
-    'blog.posts.businessActivities.title': 'Business Activities & Licensing Categories Explained',
-    'blog.posts.businessActivities.excerpt': 'A comprehensive guide to understanding business activities and licensing categories in the UAE.',
-    
-    // Mainland License
-    'blog.posts.mainlandLicense.title': 'How to Open a Mainland Business in Dubai',
-    'blog.posts.mainlandLicense.excerpt': 'Step-by-step guide to obtaining a mainland business license in Dubai.',
-    
-    // Free Zone Setup
-    'blog.posts.freeZoneSetup.title': 'Step-by-Step Guide to Free Zone Company Setup',
-    'blog.posts.freeZoneSetup.excerpt': 'Complete guide to setting up your business in UAE free zones.',
-    
-    // Visa Types
-    'blog.posts.visaTypes.title': 'Visa Types and Benefits for Business Owners',
-    'blog.posts.visaTypes.excerpt': 'Overview of different visa options available for business owners in the UAE.',
-    
-    // Residence Visa
-    'blog.posts.residenceVisa.title': 'How to Apply for UAE Residency',
-    'blog.posts.residenceVisa.excerpt': 'Comprehensive guide to obtaining UAE residency visas.',
-    
-    // Golden Visa
-    'blog.posts.goldenVisa.title': 'Golden Visa Eligibility & Application Process Explained',
-    'blog.posts.goldenVisa.excerpt': 'Everything you need to know about the UAE Golden Visa program.',
-    
-    // Family Visa
-    'blog.posts.familyVisa.title': 'Family & Dependents Visa Guide',
-    'blog.posts.familyVisa.excerpt': 'How to sponsor your family members for UAE residency.',
-    
-    // AE Fastlane Services
-    'blog.posts.services.title': 'How AE Fastlane Streamlines Your Business Setup',
-    'blog.posts.services.excerpt': 'Discover how our services make business setup in the UAE quick and hassle-free.',
-    
-    // Company Formation
-    'blog.posts.company.title': 'Understanding Company Formation in the UAE',
-    'blog.posts.company.excerpt': 'A detailed look at the company formation process in the UAE.',
-
-    // Categories
-    'blog.categories.gettingStarted': 'Getting Started',
-    'blog.categories.setupGuides': 'Setup Guides',
-    'blog.categories.visaImmigration': 'Visa & Immigration',
-    'blog.categories.operations': 'Operations & Compliance',
-    'blog.categories.visaGuides': 'Visa Guides',
-    'blog.categories.services': 'Our Services',
-
-    // Free Zone vs Mainland
-    'blog.freeZoneVsMainland.overview.title': 'Quick Overview',
-    'blog.freeZoneVsMainland.overview.timeline': 'Setup Timeline',
-    'blog.freeZoneVsMainland.overview.timelineValue': '7-14 days',
-    'blog.freeZoneVsMainland.overview.cost': 'Starting Cost',
-    'blog.freeZoneVsMainland.overview.costValue': 'From AED 15,000',
-    'blog.freeZoneVsMainland.overview.ownership': 'Ownership',
-    'blog.freeZoneVsMainland.overview.ownershipValue': '100% Foreign',
-
-    'blog.freeZoneVsMainland.advantages.title': 'Key Advantages',
-    'blog.freeZoneVsMainland.advantages.ownership.title': '100% Foreign Ownership',
-    'blog.freeZoneVsMainland.advantages.ownership.description': 'Full control and ownership of your business without local partner requirements',
-    'blog.freeZoneVsMainland.advantages.tax.title': 'Tax Benefits',
-    'blog.freeZoneVsMainland.advantages.tax.description': 'Zero corporate and personal income tax in most free zones',
-    'blog.freeZoneVsMainland.advantages.visas.title': 'Visa Benefits',
-    'blog.freeZoneVsMainland.advantages.visas.description': 'Streamlined visa processing for you and your employees',
-    'blog.freeZoneVsMainland.advantages.setup.title': 'Quick Setup',
-    'blog.freeZoneVsMainland.advantages.setup.description': 'Fast and efficient company registration process',
-
-    'blog.freeZoneVsMainland.comparison.title': 'Free Zone vs Mainland Comparison',
-    'blog.freeZoneVsMainland.comparison.freeZoneTitle': 'Free Zone',
-    'blog.freeZoneVsMainland.comparison.mainlandTitle': 'Mainland',
-
-    'blog.freeZoneVsMainland.comparison.ownership.aspect': 'Ownership Structure',
-    'blog.freeZoneVsMainland.comparison.ownership.freeZone': '100% foreign ownership|No local sponsor required|Flexible shareholding structure',
-    'blog.freeZoneVsMainland.comparison.ownership.mainland': '100% foreign ownership in most sectors|Local service agent may be required|Multiple shareholders allowed',
-
-    'blog.freeZoneVsMainland.comparison.location.aspect': 'Business Location',
-    'blog.freeZoneVsMainland.comparison.location.freeZone': 'Must be within free zone|Premium business clusters|Modern infrastructure',
-    'blog.freeZoneVsMainland.comparison.location.mainland': 'Anywhere in UAE|Direct access to local market|Multiple branch options',
-
-    'blog.freeZoneVsMainland.comparison.trading.aspect': 'Trading Capabilities',
-    'blog.freeZoneVsMainland.comparison.trading.freeZone': 'Limited to free zone and international|Export-focused operations|B2B transactions',
-    'blog.freeZoneVsMainland.comparison.trading.mainland': 'Unrestricted UAE market access|Direct local market trading|Government contract eligibility',
-
-    'blog.freeZoneVsMainland.comparison.visas.aspect': 'Visa Allocation',
-    'blog.freeZoneVsMainland.comparison.visas.freeZone': 'Based on office space|Flexible visa packages|Cost-effective options',
-    'blog.freeZoneVsMainland.comparison.visas.mainland': 'Based on office space and activity|Higher visa quota potential|More employee sponsorship options',
-
-    'blog.freeZoneVsMainland.conclusion.title': 'Ready to Start Your Business?',
-    'blog.freeZoneVsMainland.conclusion.description': 'Let our experts help you choose the right jurisdiction and guide you through the entire setup process.',
-    'blog.freeZoneVsMainland.conclusion.cta1': 'Get Free Consultation',
-    'blog.freeZoneVsMainland.conclusion.cta2': 'Compare Packages',
+    'blog.freeZoneSetup.steps.items.0.title': 'Choose Free Zone',
+    'blog.freeZoneSetup.steps.items.0.description': 'Select the most suitable free zone for your business',
+    'blog.freeZoneSetup.steps.items.0.duration': '1-2 days',
+    'blog.freeZoneSetup.steps.items.0.details': 'Research different zones|Compare costs and benefits|Consider location and facilities|Evaluate business activities allowed',
+    'blog.freeZoneSetup.steps.items.1.title': 'Reserve Company Name',
+    'blog.freeZoneSetup.steps.items.1.description': 'Reserve your preferred company name',
+    'blog.freeZoneSetup.steps.items.1.duration': '1 day',
+    'blog.freeZoneSetup.steps.items.1.details': 'Check name availability|Submit name reservation|Pay reservation fees|Receive name approval',
+    'blog.freeZoneSetup.steps.items.2.title': 'Prepare Documents',
+    'blog.freeZoneSetup.steps.items.2.description': 'Gather and prepare all required documents',
+    'blog.freeZoneSetup.steps.items.2.duration': '3-5 days',
+    'blog.freeZoneSetup.steps.items.2.details': 'Passport copies|Educational certificates|Business plan|Bank statements',
+    'blog.freeZoneSetup.steps.items.3.title': 'Submit Application',
+    'blog.freeZoneSetup.steps.items.3.description': 'Submit license application to free zone authority',
+    'blog.freeZoneSetup.steps.items.3.duration': '1 day',
+    'blog.freeZoneSetup.steps.items.3.details': 'Complete application forms|Submit documents|Pay license fees|Provide biometric data',
+    'blog.freeZoneSetup.steps.items.4.title': 'License Approval',
+    'blog.freeZoneSetup.steps.items.4.description': 'Receive license approval and certificate',
+    'blog.freeZoneSetup.steps.items.4.duration': '3-7 days',
+    'blog.freeZoneSetup.steps.items.4.details': 'Application review|Document verification|License issuance|Certificate collection',
+    'blog.freeZoneSetup.steps.items.5.title': 'Post-License Setup',
+    'blog.freeZoneSetup.steps.items.5.description': 'Complete additional setup requirements',
+    'blog.freeZoneSetup.steps.items.5.duration': '1-2 weeks',
+    'blog.freeZoneSetup.steps.items.5.details': 'Open bank account|Apply for visas|Setup office space|Register with authorities'
   },
   ar: {
-    // Blog Categories
+    // Blog Main
+    'blog.title': 'رؤى وأدلة الأعمال في الإمارات',
+    'blog.subtitle': 'رؤى الخبراء والأدلة العملية وإجابات لأهم أسئلتك حول ممارسة الأعمال في الإمارات.',
+    'blog.readMore': 'اقرأ المقال',
+    'blog.backToBlog': 'العودة إلى المدونة',
+    'blog.categories.gettingStarted': 'البداية',
     'blog.categories.setupGuides': 'أدلة التأسيس',
-    'blog.categories.visaGuides': 'أدلة التأشيرات',
-    'blog.categories.services': 'خدماتنا',
-
-    // Free Zone vs Mainland
+    'blog.categories.visaImmigration': 'التأشيرات والهجرة',
+    'blog.categories.operations': 'العمليات والامتثال',
+    'blog.readTime': 'دقائق للقراءة',
+    
+    // Common
+    'common.learnMore': 'اعرف المزيد',
+    'common.getStarted': 'ابدأ الآن',
+    'common.viewAll': 'عرض الكل',
+    'common.readMore': 'اقرأ المزيد',
+    'common.contactUs': 'اتصل بنا',
+    'common.loading': 'جاري التحميل...',
+    'common.error': 'خطأ',
+    'common.success': 'تم بنجاح',
+    'common.submit': 'إرسال',
+    'common.cancel': 'إلغاء',
+    
+    // Blog Posts
     'blog.posts.freeZoneVsMainland.title': 'المنطقة الحرة مقابل البر الرئيسي: أيهما أنسب لشركتك في الإمارات؟',
-    'blog.posts.freeZoneVsMainland.excerpt': 'اكتشف الفروق الرئيسية بين تأسيس الشركات في المناطق الحرة والبر الرئيسي في الإمارات، وتعرف على الخيار الأنسب لأهداف عملك ومتطلباتك.',
+    'blog.posts.freeZoneVsMainland.excerpt': 'اكتشف الفروق الرئيسية بين تأسيس الشركات في المناطق الحرة والبر الرئيسي في الإمارات، وتعرف على الخيار الأنسب لأهداف ومتطلبات عملك.',
     
-    // Starting a Business
     'blog.posts.startingBusiness.title': 'تأسيس شركة في الإمارات كأجنبي',
-    'blog.posts.startingBusiness.excerpt': 'كل ما يحتاج رواد الأعمال الأجانب معرفته عن تأسيس الأعمال في الإمارات، من المتطلبات القانونية إلى الاعتبارات العملية.',
+    'blog.posts.startingBusiness.excerpt': 'كل ما يحتاج رواد الأعمال الأجانب معرفته عن تأسيس شركة في الإمارات، من المتطلبات القانونية إلى الاعتبارات العملية.',
     
-    // Business Activities
-    'blog.posts.businessActivities.title': 'شرح الأنشطة التجارية وفئات الترخيص',
-    'blog.posts.businessActivities.excerpt': 'دليل شامل لفهم الأنشطة التجارية وفئات الترخيص في الإمارات.',
+    'blog.posts.businessActivities.title': 'شرح أنشطة الأعمال وفئات الترخيص',
+    'blog.posts.businessActivities.excerpt': 'تنقل في عالم أنشطة الأعمال وفئات الترخيص في الإمارات. تعلم كيفية اختيار التصنيف المناسب لمشروعك.',
     
-    // Mainland License
-    'blog.posts.mainlandLicense.title': 'كيفية فتح شركة في البر الرئيسي بدبي',
-    'blog.posts.mainlandLicense.excerpt': 'دليل خطوة بخطوة للحصول على رخصة تجارية في البر الرئيسي بدبي.',
+    'blog.posts.mainlandLicense.title': 'كيفية الحصول على رخصة تجارية في البر الرئيسي بدبي',
+    'blog.posts.mainlandLicense.excerpt': 'دليل شامل خطوة بخطوة للحصول على رخصة تجارية في البر الرئيسي بدبي، يشمل المتطلبات والإجراءات ونصائح الخبراء.',
     
-    // Free Zone Setup
     'blog.posts.freeZoneSetup.title': 'دليل خطوة بخطوة لتأسيس شركة في المنطقة الحرة',
-    'blog.posts.freeZoneSetup.excerpt': 'دليل كامل لتأسيس شركتك في المناطق الحرة الإماراتية.',
+    'blog.posts.freeZoneSetup.excerpt': 'شرح كامل لعملية تأسيس شركة في المنطقة الحرة، من اختيار المنطقة المناسبة إلى الموافقة النهائية على الترخيص.',
     
-    // Visa Types
     'blog.posts.visaTypes.title': 'أنواع التأشيرات ومزاياها لأصحاب الأعمال',
-    'blog.posts.visaTypes.excerpt': 'نظرة عامة على خيارات التأشيرات المختلفة المتاحة لأصحاب الأعمال في الإمارات.',
+    'blog.posts.visaTypes.excerpt': 'فهم خيارات التأشيرات المختلفة المتاحة لأصحاب الأعمال في الإمارات، من تأشيرات المستثمرين إلى فرص الإقامة الذهبية.',
     
-    // Residence Visa
-    'blog.posts.residenceVisa.title': 'كيفية التقدم للإقامة في الإمارات',
-    'blog.posts.residenceVisa.excerpt': 'دليل شامل للحصول على تأشيرات الإقامة في الإمارات.',
+    'blog.posts.residenceVisa.title': 'كيفية التقدم للحصول على تأشيرة إقامة في الإمارات من خلال شركتك',
+    'blog.posts.residenceVisa.excerpt': 'بمجرد إصدار رخصة عملك، تعرف على كيفية التقدم للحصول على تأشيرة إقامة في الإمارات من خلال شركتك بتوجيه خبراء AEFastLane.',
     
-    // Golden Visa
-    'blog.posts.goldenVisa.title': 'شرح أهلية وإجراءات التقدم للتأشيرة الذهبية',
-    'blog.posts.goldenVisa.excerpt': 'كل ما تحتاج معرفته عن برنامج التأشيرة الذهبية في الإمارات.',
+    'blog.posts.goldenVisa.title': 'شرح أهلية وإجراءات التقدم للإقامة الذهبية',
+    'blog.posts.goldenVisa.excerpt': 'تقدم الإقامة الذهبية في الإمارات إقامة طويلة الأمد للمستثمرين ورواد الأعمال والمهنيين. اكتشف ما إذا كنت مؤهلاً وكيفية التقديم.',
     
-    // Family Visa
-    'blog.posts.familyVisa.title': 'دليل تأشيرات العائلة والمعالين',
-    'blog.posts.familyVisa.excerpt': 'كيفية كفالة أفراد عائلتك للإقامة في الإمارات.',
+    'blog.posts.familyVisa.title': 'كفالة تأشيرات العائلة والمعالين بسهولة',
+    'blog.posts.familyVisa.excerpt': 'هل تريد إحضار عائلتك إلى الإمارات؟ تعرف على كيف يمكن لـ AEFastLane مساعدتك في كفالة المعالين بسلاسة وكفاءة.',
     
-    // AE Fastlane Services
-    'blog.posts.services.title': 'كيف تسهل AE Fastlane تأسيس أعمالك',
-    'blog.posts.services.excerpt': 'اكتشف كيف تجعل خدماتنا تأسيس الأعمال في الإمارات سريعاً وخالياً من المتاعب.',
+    'blog.posts.govApprovals.title': 'كيف تسهل AEFastLane الموافقات والوثائق الحكومية',
+    'blog.posts.govApprovals.excerpt': 'تعرف على كيف يقوم فريق خبرائنا بتبسيط الإجراءات الحكومية المعقدة ويضمن امتثال شركتك للوائح الإماراتية.',
     
-    // Company Formation
-    'blog.posts.company.title': 'فهم عملية تأسيس الشركات',
-    'blog.posts.company.excerpt': 'نظرة تفصيلية على عملية تأسيس الشركات في الإمارات.',
+    'blog.posts.renewals.title': 'فهم تجديدات وتعديلات وإغلاق الشركات في الإمارات',
+    'blog.posts.renewals.excerpt': 'دليل أساسي للحفاظ على رخصة عملك في الإمارات، وإجراء التعديلات، وفهم إجراءات الإغلاق عند الحاجة.',
+    
+    // Blog Coming Soon
+    'blog.comingSoon.title': 'المزيد من المحتوى المتخصص قريباً',
+    'blog.comingSoon.description': 'نحن نوسع باستمرار قاعدة معرفتنا برؤى وأدلة جديدة لمساعدتك في التنقل في بيئة الأعمال الإماراتية. ترقب المزيد من المحتوى المتخصص الذي يغطي مواضيع متقدمة وتوجيهات خاصة بالصناعة.',
+    
+    'blog.comingSoon.advanced.title': 'مواضيع متقدمة',
+    'blog.comingSoon.advanced.vat': 'تسجيل وامتثال ضريبة القيمة المضافة',
+    'blog.comingSoon.advanced.banking': 'إعداد ومتطلبات البنوك',
+    'blog.comingSoon.advanced.ip': 'حماية الملكية الفكرية',
+    'blog.comingSoon.advanced.tax': 'آثار الضريبة على الشركات',
+    
+    'blog.comingSoon.industry.title': 'رؤى الصناعة',
+    'blog.comingSoon.industry.tech': 'الشركات الناشئة التقنية في الإمارات',
+    'blog.comingSoon.industry.ecommerce': 'دليل ترخيص التجارة الإلكترونية',
+    'blog.comingSoon.industry.professional': 'إعداد الخدمات المهنية',
+    'blog.comingSoon.industry.healthcare': 'ترخيص الأعمال الصحية',
+    
+    'blog.comingSoon.strategy.title': 'التوجيه الاستراتيجي',
+    'blog.comingSoon.strategy.entry': 'استراتيجيات دخول السوق',
+    'blog.comingSoon.strategy.cost': 'نصائح تحسين التكلفة',
+    'blog.comingSoon.strategy.scaling': 'توسيع عملك في الإمارات',
+    'blog.comingSoon.strategy.exit': 'استراتيجيات وإجراءات الخروج',
+    
+    // Blog CTA
+    'blog.cta.title': 'هل تحتاج إلى توجيه شخصي؟',
+    'blog.cta.description': 'بينما توفر مقالاتنا معلومات شاملة، كل حالة عمل فريدة من نوعها. احصل على نصائح شخصية من خبراء تأسيس الأعمال في الإمارات الذين ساعدوا مئات الشركات على النجاح.',
+    'blog.cta.button': 'جدول استشارة مجانية',
 
-    // Golden Visa Article
+    // Free Zone vs Mainland Details (Arabic)
+    'blog.freeZoneVsMainland.overview.title': 'نظرة عامة سريعة',
+    'blog.freeZoneVsMainland.overview.timeline': 'الجدول الزمني للتأسيس',
+    'blog.freeZoneVsMainland.overview.timelineValue': '2-4 أسابيع',
+    'blog.freeZoneVsMainland.overview.cost': 'التكلفة الابتدائية',
+    'blog.freeZoneVsMainland.overview.costValue': '8,000 درهم+',
+    'blog.freeZoneVsMainland.overview.ownership': 'الملكية',
+    'blog.freeZoneVsMainland.overview.ownershipValue': '100% أجنبية',
+
+    'blog.freeZoneVsMainland.advantages.title': 'المزايا الرئيسية لتأسيس الأعمال في الإمارات',
+    'blog.freeZoneVsMainland.advantages.ownership.title': 'ملكية أجنبية 100%',
+    'blog.freeZoneVsMainland.advantages.ownership.description': 'كلا من المناطق الحرة والبر الرئيسي يسمحان الآن بملكية أجنبية 100% في معظم القطاعات.',
+    'blog.freeZoneVsMainland.advantages.tax.title': 'المزايا الضريبية',
+    'blog.freeZoneVsMainland.advantages.tax.description': 'لا ضريبة دخل شخصية ومعدلات ضريبة شركات تنافسية.',
+    'blog.freeZoneVsMainland.advantages.visas.title': 'تخصيص التأشيرات',
+    'blog.freeZoneVsMainland.advantages.visas.description': 'كفالة تأشيرات لنفسك وعائلتك وموظفيك.',
+    'blog.freeZoneVsMainland.advantages.setup.title': 'تأسيس سريع',
+    'blog.freeZoneVsMainland.advantages.setup.description': 'عمليات مبسطة لتأسيس الأعمال بسرعة.',
+
+    'blog.freeZoneVsMainland.comparison.title': 'مقارنة تفصيلية',
+    'blog.freeZoneVsMainland.comparison.freeZoneTitle': 'المنطقة الحرة',
+    'blog.freeZoneVsMainland.comparison.mainlandTitle': 'البر الرئيسي',
+    'blog.freeZoneVsMainland.comparison.ownership.aspect': 'هيكل الملكية',
+    'blog.freeZoneVsMainland.comparison.ownership.freeZone': 'ملكية أجنبية 100% مسموحة|لا حاجة لشريك محلي|سيطرة كاملة على قرارات العمل',
+    'blog.freeZoneVsMainland.comparison.ownership.mainland': 'ملكية أجنبية 100% (منذ 2021)|بعض القطاعات لا تزال تتطلب شريك محلي|سيطرة تشغيلية كاملة',
+    'blog.freeZoneVsMainland.comparison.location.aspect': 'موقع المكتب',
+    'blog.freeZoneVsMainland.comparison.location.freeZone': 'يجب أن يكون داخل المنطقة الحرة|خيارات مكتب مشترك أو مخصص|مرافق وبنية تحتية حديثة',
+    'blog.freeZoneVsMainland.comparison.location.mainland': 'في أي مكان في الإمارة|ترتيبات مكتب مرنة|الوصول إلى المواقع الرئيسية',
+    'blog.freeZoneVsMainland.comparison.trading.aspect': 'حقوق التجارة',
+    'blog.freeZoneVsMainland.comparison.trading.freeZone': 'محدود للمنطقة الحرة والتصدير|لا يمكن التجارة مباشرة في السوق الإماراتي|فرص إعادة التصدير',
+    'blog.freeZoneVsMainland.comparison.trading.mainland': 'وصول كامل للسوق الإماراتي|عقود حكومية مباشرة|تجارة محلية ودولية',
+    'blog.freeZoneVsMainland.comparison.visas.aspect': 'تخصيص التأشيرات',
+    'blog.freeZoneVsMainland.comparison.visas.freeZone': 'حسب حجم المكتب ونوع الرخصة|عادة 2-3 تأشيرات كحد أدنى|تأشيرات إضافية متاحة',
+    'blog.freeZoneVsMainland.comparison.visas.mainland': 'حسب النشاط التجاري|تخصيص تأشيرات مرن|كفالة تأشيرة عائلية',
+
+    'blog.freeZoneVsMainland.conclusion.title': 'اتخاذ الخيار الصحيح',
+    'blog.freeZoneVsMainland.conclusion.description': 'الاختيار بين تأسيس المنطقة الحرة والبر الرئيسي يعتمد على نموذج عملك المحدد والسوق المستهدف وأهدافك طويلة المدى. يمكن لخبرائنا مساعدتك في تحليل متطلباتك واتخاذ القرار الصحيح.',
+    'blog.freeZoneVsMainland.conclusion.cta1': 'استشارة المنطقة الحرة',
+    'blog.freeZoneVsMainland.conclusion.cta2': 'دليل تأسيس البر الرئيسي',
+
+    // Golden Visa Details (Arabic)
     'blog.goldenVisa.overview.title': 'نظرة عامة على التأشيرة الذهبية',
     'blog.goldenVisa.overview.duration': 'المدة',
     'blog.goldenVisa.overview.durationValue': '5-10 سنوات',
     'blog.goldenVisa.overview.family': 'شمول العائلة',
     'blog.goldenVisa.overview.familyValue': 'الزوج/الزوجة والأطفال',
     'blog.goldenVisa.overview.renewable': 'قابلة للتجديد',
-    'blog.goldenVisa.overview.renewableValue': 'نعم'
+    'blog.goldenVisa.overview.renewableValue': 'نعم',
+
+    'blog.goldenVisa.categories.title': 'فئات الأهلية',
+    'blog.goldenVisa.categories.investor.title': 'المستثمرون',
+    'blog.goldenVisa.categories.investor.description': 'للذين يقومون باستثمارات مالية كبيرة في الإمارات.',
+    'blog.goldenVisa.categories.investor.requirements': 'استثمار 10 ملايين درهم كحد أدنى|استثمار في صندوق استثمار عام|استثمار في شركة إماراتية (51% ملكية إماراتية)|تأسيس شركة برأس مال 10 ملايين درهم',
+    'blog.goldenVisa.categories.investor.investment': '10 ملايين درهم كحد أدنى',
+    'blog.goldenVisa.categories.investor.benefits': 'لا يحتاج إلى كفيل|تأشيرة دخول متعددة|كفالة العائلة|تصريح عمل مشمول',
+
+    'blog.goldenVisa.categories.entrepreneur.title': 'رواد الأعمال',
+    'blog.goldenVisa.categories.entrepreneur.description': 'لأصحاب الأعمال المبتكرين ومؤسسي الشركات الناشئة.',
+    'blog.goldenVisa.categories.entrepreneur.requirements': 'امتلاك مشروع بقيمة 500,000 درهم كحد أدنى|موافقة من حاضنة أو مسرع أعمال إماراتي|مشروع سابق تم بيعه بقيمة 7 ملايين درهم كحد أدنى|مؤسس شركة ناشئة بتمويل 500,000 درهم',
+    'blog.goldenVisa.categories.entrepreneur.investment': '500,000 درهم كحد أدنى',
+    'blog.goldenVisa.categories.entrepreneur.benefits': 'حقوق تشغيل الأعمال|كفالة العائلة|تأشيرة قابلة للتجديد|فرص استثمارية',
+
+    'blog.goldenVisa.categories.professional.title': 'المواهب المتخصصة',
+    'blog.goldenVisa.categories.professional.description': 'للمهنيين ذوي المهارات والإنجازات الاستثنائية.',
+    'blog.goldenVisa.categories.professional.requirements': 'الأطباء والمتخصصون في المجالات ذات الأولوية|العلماء والباحثون|المبدعون في الثقافة والفنون|المخترعون بحقوق براءات اختراع قيمة',
+    'blog.goldenVisa.categories.professional.investment': 'لا يتطلب استثمار',
+    'blog.goldenVisa.categories.professional.benefits': 'حقوق الممارسة المهنية|فرص البحث|المساهمات الثقافية|دعم الابتكار',
+
+    'blog.goldenVisa.benefits.title': 'المزايا الرئيسية',
+    'blog.goldenVisa.benefits.items.0.title': 'إقامة طويلة الأمد',
+    'blog.goldenVisa.benefits.items.0.description': 'تأشيرة إقامة قابلة للتجديد لمدة 5-10 سنوات',
+    'blog.goldenVisa.benefits.items.1.title': 'شمول العائلة',
+    'blog.goldenVisa.benefits.items.1.description': 'كفالة الزوج/الزوجة والأطفال والوالدين',
+    'blog.goldenVisa.benefits.items.2.title': 'حرية الأعمال',
+    'blog.goldenVisa.benefits.items.2.description': 'لا حاجة لكفيل لأنشطة الأعمال',
+
+    'blog.goldenVisa.process.title': 'عملية التقديم',
+    'blog.goldenVisa.process.steps.0.title': 'تقييم الأهلية',
+    'blog.goldenVisa.process.steps.0.description': 'تحديد فئة التأشيرة الذهبية التي تتأهل لها',
+    'blog.goldenVisa.process.steps.0.duration': '1-2 يوم',
+    'blog.goldenVisa.process.steps.0.documents': 'شهادات المؤهلات|إثباتات الاستثمار|الوثائق المهنية',
+    'blog.goldenVisa.process.steps.1.title': 'تحضير المستندات',
+    'blog.goldenVisa.process.steps.1.description': 'جمع وتصديق جميع المستندات المطلوبة',
+    'blog.goldenVisa.process.steps.1.duration': '1-2 أسبوع',
+    'blog.goldenVisa.process.steps.1.documents': 'نسخ جواز السفر|الشهادات التعليمية|البيانات المالية|الشهادات الطبية',
+    'blog.goldenVisa.process.steps.2.title': 'تقديم الطلب',
+    'blog.goldenVisa.process.steps.2.description': 'تقديم الطلب عبر القنوات الرسمية',
+    'blog.goldenVisa.process.steps.2.duration': 'يوم واحد',
+    'blog.goldenVisa.process.steps.2.documents': 'نموذج الطلب المكتمل|المستندات الداعمة|دفع الرسوم|البيانات البيومترية',
+    'blog.goldenVisa.process.steps.3.title': 'المراجعة والتحقق',
+    'blog.goldenVisa.process.steps.3.description': 'مراجعة السلطات للطلب والتحقق من الوثائق',
+    'blog.goldenVisa.process.steps.3.duration': '30-60 يوم',
+    'blog.goldenVisa.process.steps.3.documents': 'التحقق من الخلفية|التحقق من الوثائق|التحقق من الاستثمار',
+
+    // Family Visa Details (Arabic)
+    'blog.familyVisa.overview.title': 'نظرة عامة على تأشيرة العائلة',
+    'blog.familyVisa.overview.category': 'التأشيرات والهجرة',
+    'blog.familyVisa.overview.processing': 'وقت المعالجة',
+    'blog.familyVisa.overview.processingValue': '2-4 أسابيع',
+    'blog.familyVisa.overview.cost': 'التكلفة الابتدائية',
+    'blog.familyVisa.overview.costValue': '1,500 درهم',
+    'blog.familyVisa.overview.validity': 'صلاحية التأشيرة',
+    'blog.familyVisa.overview.validityValue': '1-3 سنوات',
+
+    'blog.familyVisa.eligibility.title': 'فئات الأهلية',
+    'blog.familyVisa.eligibility.spouse.category': 'كفالة الزوج/الزوجة',
+    'blog.familyVisa.eligibility.spouse.requirements': 'متزوج قانونياً|راتب أدنى 4,000 درهم (دبي)|شهادة زواج صالحة|تأشيرة إقامة الكفيل',
+    'blog.familyVisa.eligibility.spouse.salary': '4,000 درهم كحد أدنى',
+    'blog.familyVisa.eligibility.spouse.documents': 'شهادة الزواج (مصدقة)|نسخ جواز السفر|شهادة الراتب|كشوف البنك',
+    'blog.familyVisa.eligibility.children.category': 'كفالة الأطفال',
+    'blog.familyVisa.eligibility.children.requirements': 'تحت 18 سنة|أو يدرس (مع إثبات)|راتب الكفيل أدنى 4,000 درهم|شهادة ميلاد صالحة',
+    'blog.familyVisa.eligibility.children.salary': '4,000 درهم كحد أدنى',
+    'blog.familyVisa.eligibility.children.documents': 'شهادة الميلاد (مصدقة)|شهادة التسجيل المدرسي|نسخ جواز السفر|الشهادات الطبية',
+    'blog.familyVisa.eligibility.parents.category': 'كفالة الوالدين',
+    'blog.familyVisa.eligibility.parents.requirements': 'فوق 60 سنة|راتب الكفيل أدنى 20,000 درهم|تغطية تأمين صحي|لا يوجد كفيل آخر',
+    'blog.familyVisa.eligibility.parents.salary': '20,000 درهم كحد أدنى',
+    'blog.familyVisa.eligibility.parents.documents': 'شهادة الميلاد (مصدقة)|نسخ جواز السفر|تأمين صحي|شهادة الراتب',
+
+    'blog.familyVisa.process.title': 'عملية التقديم',
+    'blog.familyVisa.process.steps.0.title': 'شهادة الراتب',
+    'blog.familyVisa.process.steps.0.description': 'الحصول على شهادة راتب من صاحب العمل',
+    'blog.familyVisa.process.steps.0.duration': '1-2 يوم',
+    'blog.familyVisa.process.steps.0.requirements': 'عقد العمل|شهادة الراتب|كشوف البنك|عدم ممانعة من صاحب العمل',
+    'blog.familyVisa.process.steps.1.title': 'تصديق المستندات',
+    'blog.familyVisa.process.steps.1.description': 'تصديق جميع المستندات الشخصية',
+    'blog.familyVisa.process.steps.1.duration': '1-2 أسبوع',
+    'blog.familyVisa.process.steps.1.requirements': 'شهادات الزواج/الميلاد|الشهادات التعليمية|الشهادات الطبية|تصديق السفارة',
+    'blog.familyVisa.process.steps.2.title': 'طلب تصريح الدخول',
+    'blog.familyVisa.process.steps.2.description': 'التقدم بطلب تصريح دخول لأفراد العائلة',
+    'blog.familyVisa.process.steps.2.duration': '3-5 أيام',
+    'blog.familyVisa.process.steps.2.requirements': 'طلب مكتمل|مستندات مصدقة|نسخ جواز السفر|دفع الرسوم',
+    'blog.familyVisa.process.steps.3.title': 'الفحص الطبي',
+    'blog.familyVisa.process.steps.3.description': 'إكمال الفحوصات الطبية لأفراد العائلة',
+    'blog.familyVisa.process.steps.3.duration': '1-2 يوم',
+    'blog.familyVisa.process.steps.3.requirements': 'فحص اللياقة الطبية|فحوصات الدم|أشعة الصدر|سجلات التطعيم',
+
+    'blog.familyVisa.costs.title': 'تفصيل التكاليف',
+    'blog.familyVisa.costs.items.0.service': 'تصريح الدخول',
+    'blog.familyVisa.costs.items.0.amount': '1,190 درهم',
+    'blog.familyVisa.costs.items.0.notes': 'لكل شخص|صالح لمدة 60 يوم|قابل للتجديد مرة واحدة',
+    'blog.familyVisa.costs.items.1.service': 'الفحص الطبي',
+    'blog.familyVisa.costs.items.1.amount': '310 درهم',
+    'blog.familyVisa.costs.items.1.notes': 'لكل شخص|مراكز معتمدة من هيئة الصحة|صالح لمدة 3 أشهر',
+    'blog.familyVisa.costs.items.2.service': 'ختم التأشيرة',
+    'blog.familyVisa.costs.items.2.amount': '580 درهم',
+    'blog.familyVisa.costs.items.2.notes': 'لكل شخص|الخطوة الأخيرة|يشمل طلب الهوية الإماراتية',
+
+    'blog.familyVisa.documents.title': 'المستندات المطلوبة',
+    'blog.familyVisa.documents.categories.0.category': 'مستندات الكفيل',
+    'blog.familyVisa.documents.categories.0.documents': 'نسخة جواز السفر مع تأشيرة الإقامة|نسخة الهوية الإماراتية|شهادة الراتب|كشوف البنك (6 أشهر)|عقد العمل',
+    'blog.familyVisa.documents.categories.1.category': 'مستندات أفراد العائلة',
+    'blog.familyVisa.documents.categories.1.documents': 'جواز سفر صالح لمدة 6 أشهر|شهادة الزواج (للزوج/الزوجة)|شهادة الميلاد (للأطفال)|الشهادات التعليمية|الشهادات الطبية',
+    'blog.familyVisa.documents.categories.2.category': 'متطلبات إضافية',
+    'blog.familyVisa.documents.categories.2.documents': 'عقد الإيجار|فواتير الخدمات|تأمين صحي|عدم ممانعة من صاحب العمل|وثائق إثبات القرابة',
+
+    'blog.familyVisa.tips.title': 'نصائح للنجاح',
+    'blog.familyVisa.tips.items': 'ابدأ تصديق المستندات مبكراً|تأكد من صحة جميع المستندات|حافظ على الحد الأدنى للراتب طوال العملية|احتفظ بنسخ من جميع المستندات|استخدم مراكز الطباعة المعتمدة|تابع بانتظام حالة الطلب',
+
+    'blog.familyVisa.notes.title': 'ملاحظات مهمة',
+    'blog.familyVisa.notes.items': 'متطلبات الراتب تختلف حسب الإمارة|يجب تصديق المستندات في البلد الأم|الفحوصات الطبية صالحة لمدة 3 أشهر فقط|تصريح الدخول صالح لمدة 60 يوم|يجب على الكفيل الحفاظ على العمل|التأمين الصحي إلزامي لجميع أفراد العائلة',
+
+    // Mainland License Details (Arabic)
+    'blog.mainlandLicense.overview.category': 'أدلة التأسيس',
+    'blog.mainlandLicense.quickOverview.title': 'نظرة عامة سريعة',
+    'blog.mainlandLicense.quickOverview.timeline.title': 'الجدول الزمني للتأسيس',
+    'blog.mainlandLicense.quickOverview.timeline.value': '2-3 أسابيع',
+    'blog.mainlandLicense.quickOverview.cost.title': 'التكلفة الابتدائية',
+    'blog.mainlandLicense.quickOverview.cost.value': '15,000 درهم',
+    'blog.mainlandLicense.quickOverview.ownership.title': 'الملكية',
+    'blog.mainlandLicense.quickOverview.ownership.value': '100% أجنبية',
+
+    'blog.mainlandLicense.steps.title': 'العملية خطوة بخطوة',
+    'blog.mainlandLicense.steps.items.0.title': 'حجز الاسم التجاري',
+    'blog.mainlandLicense.steps.items.0.description': 'احجز اسم شركتك لدى دائرة التنمية الاقتصادية',
+    'blog.mainlandLicense.steps.items.0.duration': '1-2 يوم',
+    'blog.mainlandLicense.steps.items.0.details': 'اختر اسم تجاري فريد|تحقق من توفر الاسم|قدم طلب الحجز|ادفع رسوم الحجز',
+    'blog.mainlandLicense.steps.items.1.title': 'الموافقة الأولية',
+    'blog.mainlandLicense.steps.items.1.description': 'احصل على الموافقة الأولية من دائرة التنمية الاقتصادية',
+    'blog.mainlandLicense.steps.items.1.duration': '2-3 أيام',
+    'blog.mainlandLicense.steps.items.1.details': 'قدم خطة العمل|قدم تفاصيل المساهمين|اختر الأنشطة التجارية|ادفع رسوم الموافقة الأولية',
+    'blog.mainlandLicense.steps.items.2.title': 'الموافقات الخارجية',
+    'blog.mainlandLicense.steps.items.2.description': 'احصل على الموافقات الخارجية المطلوبة',
+    'blog.mainlandLicense.steps.items.2.duration': '5-10 أيام',
+    'blog.mainlandLicense.steps.items.2.details': 'موافقة البلدية|عدم ممانعة الدفاع المدني|موافقات السلطات الأخرى|تفتيش الموقع',
+    'blog.mainlandLicense.steps.items.3.title': 'عقد الإيجار',
+    'blog.mainlandLicense.steps.items.3.description': 'احصل على مساحة مكتبية وعقد إيجار',
+    'blog.mainlandLicense.steps.items.3.duration': '1-3 أيام',
+    'blog.mainlandLicense.steps.items.3.details': 'ابحث عن مساحة مكتبية مناسبة|وقع عقد الإيجار|سجل لدى هيئة كهرباء ومياه دبي|احصل على شهادة إيجاري',
+    'blog.mainlandLicense.steps.items.4.title': 'إصدار الرخصة',
+    'blog.mainlandLicense.steps.items.4.description': 'إصدار الرخصة النهائية من دائرة التنمية الاقتصادية',
+    'blog.mainlandLicense.steps.items.4.duration': '2-3 أيام',
+    'blog.mainlandLicense.steps.items.4.details': 'قدم جميع المستندات|ادفع رسوم الرخصة|استلم الرخصة التجارية|سجل لدى السلطات',
+    'blog.mainlandLicense.steps.items.5.title': 'إعداد ما بعد الرخصة',
+    'blog.mainlandLicense.steps.items.5.description': 'أكمل متطلبات ما بعد الرخصة',
+    'blog.mainlandLicense.steps.items.5.duration': '1-2 أسبوع',
+    'blog.mainlandLicense.steps.items.5.details': 'افتح حساب بنكي|تقدم للحصول على تأشيرات|سجل لدى السلطات الضريبية|أعد نظام المحاسبة',
+
+    'blog.mainlandLicense.documents.title': 'المستندات المطلوبة',
+    'blog.mainlandLicense.documents.individual.title': 'المساهمون الأفراد',
+    'blog.mainlandLicense.documents.individual.items': 'نسخة جواز السفر (صالح لمدة 6 أشهر)|صور شخصية|الشهادات التعليمية (مصدقة)|شهادات الخبرة|عدم ممانعة من صاحب العمل الحالي|كشوف البنك',
+    'blog.mainlandLicense.documents.corporate.title': 'المساهمون الشركات',
+    'blog.mainlandLicense.documents.corporate.items': 'شهادة التأسيس|مذكرة التأسيس|قرار مجلس الإدارة|توكيل|البيانات المالية المدققة|شهادة حسن السير والسلوك',
+
+    'blog.mainlandLicense.costs.title': 'تفصيل التكاليف',
+    'blog.mainlandLicense.costs.headers.item': 'الخدمة',
+    'blog.mainlandLicense.costs.headers.cost': 'التكلفة (درهم)',
+    'blog.mainlandLicense.costs.items.0.item': 'رسوم الرخصة التجارية',
+    'blog.mainlandLicense.costs.items.0.cost': '15,000',
+    'blog.mainlandLicense.costs.items.1.item': 'الموافقات الخارجية',
+    'blog.mainlandLicense.costs.items.1.cost': '3,000',
+    'blog.mainlandLicense.costs.items.2.item': 'عقد الإيجار',
+    'blog.mainlandLicense.costs.items.2.cost': '25,000',
+    'blog.mainlandLicense.costs.items.3.item': 'الرسوم المهنية',
+    'blog.mainlandLicense.costs.items.3.cost': '8,000',
+    'blog.mainlandLicense.costs.items.4.item': 'متنوعة',
+    'blog.mainlandLicense.costs.items.4.cost': '2,000',
+
+    // Visa Types Details (Arabic)
+    'blog.visaTypes.overview.category': 'التأشيرات والهجرة',
+    'blog.visaTypes.quickStats.title': 'إحصائيات سريعة',
+    'blog.visaTypes.quickStats.processing': 'وقت المعالجة',
+    'blog.visaTypes.quickStats.processingValue': '1-4 أسابيع',
+    'blog.visaTypes.quickStats.validity': 'صلاحية التأشيرة',
+    'blog.visaTypes.quickStats.validityValue': '1-10 سنوات',
+    'blog.visaTypes.quickStats.sponsorship': 'كفالة العائلة',
+    'blog.visaTypes.quickStats.sponsorshipValue': 'متاحة',
+
+    'blog.visaTypes.types.title': 'أنواع التأشيرات لأصحاب الأعمال',
+    'blog.visaTypes.types.investor.title': 'تأشيرة المستثمر',
+    'blog.visaTypes.types.investor.duration': '2-3 سنوات',
+    'blog.visaTypes.types.investor.eligibility': 'مالك شركة بحد أدنى من الاستثمار',
+    'blog.visaTypes.types.investor.benefits': 'دخول متعدد|كفالة العائلة|تصريح عمل مشمول|قابلة للتجديد',
+    'blog.visaTypes.types.investor.requirements': 'رخصة تجارية صالحة|حد أدنى من الاستثمار الرأسمالي|عقد إيجار مكتب|حساب بنكي',
+    'blog.visaTypes.types.investor.cost': '3,000-5,000 درهم',
+    'blog.visaTypes.types.employment.title': 'تأشيرة العمل',
+    'blog.visaTypes.types.employment.duration': '1-3 سنوات',
+    'blog.visaTypes.types.employment.eligibility': 'موظف أو مدير شركة',
+    'blog.visaTypes.types.employment.benefits': 'تصريح عمل|كفالة العائلة|الوصول للرعاية الصحية|قابلة للتجديد',
+    'blog.visaTypes.types.employment.requirements': 'عقد العمل|الشهادات التعليمية|اللياقة الطبية|شهادة الراتب',
+    'blog.visaTypes.types.employment.cost': '2,000-4,000 درهم',
+    'blog.visaTypes.types.golden.title': 'التأشيرة الذهبية',
+    'blog.visaTypes.types.golden.duration': '5-10 سنوات',
+    'blog.visaTypes.types.golden.eligibility': 'المستثمرون ورواد الأعمال والمتخصصون',
+    'blog.visaTypes.types.golden.benefits': 'إقامة طويلة الأمد|لا حاجة لكفيل|شمول العائلة|دخول متعدد',
+    'blog.visaTypes.types.golden.requirements': 'حد أدنى من الاستثمار|مهارات متخصصة|ملكية الأعمال|موافقة حكومية',
+    'blog.visaTypes.types.golden.cost': '5,000-10,000 درهم',
+    'blog.visaTypes.types.family.title': 'تأشيرة العائلة',
+    'blog.visaTypes.types.family.duration': '1-3 سنوات',
+    'blog.visaTypes.types.family.eligibility': 'مكفول من قبل فرد عائلة مقيم',
+    'blog.visaTypes.types.family.benefits': 'حقوق الإقامة|الوصول للتعليم|الوصول للرعاية الصحية|تصريح عمل (للزوج/الزوجة)',
+    'blog.visaTypes.types.family.requirements': 'حد أدنى لراتب الكفيل|إثبات القرابة|اللياقة الطبية|تأمين صحي',
+    'blog.visaTypes.types.family.cost': '1,500-3,000 درهم',
+
+    'blog.visaTypes.process.title': 'عملية التقديم العامة',
+    'blog.visaTypes.process.step1.title': 'تحضير المستندات',
+    'blog.visaTypes.process.step1.description': 'جمع وتصديق جميع المستندات المطلوبة',
+    'blog.visaTypes.process.step1.duration': '1-2 أسبوع',
+    'blog.visaTypes.process.step2.title': 'طلب تصريح الدخول',
+    'blog.visaTypes.process.step2.description': 'التقدم بطلب تصريح دخول عبر الهجرة',
+    'blog.visaTypes.process.step2.duration': '3-5 أيام',
+    'blog.visaTypes.process.step3.title': 'الفحص الطبي',
+    'blog.visaTypes.process.step3.description': 'إكمال فحص اللياقة الطبية',
+    'blog.visaTypes.process.step3.duration': '1-2 يوم',
+    'blog.visaTypes.process.step4.title': 'طلب الهوية الإماراتية',
+    'blog.visaTypes.process.step4.description': 'التقدم بطلب للحصول على بطاقة الهوية الإماراتية',
+    'blog.visaTypes.process.step4.duration': '1-2 أسبوع',
+    'blog.visaTypes.process.step5.title': 'ختم التأشيرة',
+    'blog.visaTypes.process.step5.description': 'ختم التأشيرة النهائي في جواز السفر',
+    'blog.visaTypes.process.step5.duration': '1-2 يوم',
+    'blog.visaTypes.process.step6.title': 'بطاقة العمل (إن أمكن)',
+    'blog.visaTypes.process.step6.description': 'الحصول على تصريح عمل من وزارة الموارد البشرية',
+    'blog.visaTypes.process.step6.duration': '3-5 أيام',
+
+    'blog.visaTypes.choosing.title': 'كيفية اختيار التأشيرة المناسبة',
+    'blog.visaTypes.choosing.investor.title': 'اختر تأشيرة المستثمر إذا:',
+    'blog.visaTypes.choosing.investor.points': 'تملك شركة في الإمارات|لديك استثمار كبير|تريد مرونة طويلة الأمد|تخطط لكفالة أفراد العائلة',
+    'blog.visaTypes.choosing.golden.title': 'اختر التأشيرة الذهبية إذا:',
+    'blog.visaTypes.choosing.golden.points': 'تتأهل لمعايير الاستثمار|تريد صلاحية 5-10 سنوات|تحتاج أقصى مرونة|لديك مهارات أو مواهب متخصصة',
+    'blog.visaTypes.choosing.employment.title': 'اختر تأشيرة العمل إذا:',
+    'blog.visaTypes.choosing.employment.points': 'تعمل لدى شركة في الإمارات|لديك عقد عمل|تحتاج تصريح عمل|تريد مزايا الإقامة القياسية',
+
+    // Government Approvals Details (Arabic)
+    'blog.govApprovals.overview.category': 'العمليات والامتثال',
+    'blog.govApprovals.overview.title': 'الموافقات الحكومية المبسطة',
+    'blog.govApprovals.overview.description': 'كيف تبسط AEFastLane الإجراءات الحكومية المعقدة',
+    'blog.govApprovals.quickStats.title': 'إحصائيات سريعة',
+    'blog.govApprovals.quickStats.processing': 'متوسط المعالجة',
+    'blog.govApprovals.quickStats.processingValue': '5-15 يوم',
+    'blog.govApprovals.quickStats.validity': 'صلاحية الموافقة',
+    'blog.govApprovals.quickStats.validityValue': '1-3 سنوات',
+    'blog.govApprovals.quickStats.cost': 'تكلفة الخدمة',
+    'blog.govApprovals.quickStats.costValue': '2,000 درهم+',
+
+    'blog.govApprovals.types.title': 'أنواع الموافقات الحكومية',
+    'blog.govApprovals.types.items': '[]',
+
+    'blog.govApprovals.process.title': 'عمليتنا المبسطة',
+    'blog.govApprovals.process.items': '[]',
+
+    'blog.govApprovals.tips.title': 'أفضل الممارسات',
+    'blog.govApprovals.tips.items': 'قدم وثائق كاملة|تابع بانتظام|حافظ على الامتثال|استخدم ممثلين معتمدين|حافظ على تحديث السجلات|خطط لتواريخ التجديد',
+
+    'blog.govApprovals.common.title': 'التحديات الشائعة والحلول',
+    'blog.govApprovals.common.items': '[]',
+
+    // Renewals Details (Arabic)
+    'blog.renewals.overview.category': 'العمليات والامتثال',
+    'blog.renewals.overview.title': 'تجديدات وإغلاق الشركات',
+    'blog.renewals.overview.description': 'فهم إجراءات التجديد والتعديل والإغلاق',
+
+    'blog.renewals.renewal.title': 'عملية تجديد الرخصة',
+    'blog.renewals.steps.items': '[]',
+
+    'blog.renewals.modifications.title': 'تعديلات الرخصة',
+    'blog.renewals.modifications.items': '[]',
+
+    'blog.renewals.closure.title': 'عملية إغلاق الشركة',
+    'blog.renewals.closure.warning.title': 'تحذير مهم',
+    'blog.renewals.closure.warning.description': 'إغلاق الشركة عملية معقدة لها آثار قانونية ومالية. التوجيه المهني ضروري.',
+    'blog.renewals.closure.steps': '[]',
+
+    // Starting Business Details (Arabic)
+    'blog.startingBusiness.overview.category': 'البداية',
+    'blog.startingBusiness.stats.title': 'إحصائيات الأعمال في الإمارات',
+    'blog.startingBusiness.stats.nationalities': 'الجنسيات',
+    'blog.startingBusiness.stats.freezones': 'المناطق الحرة',
+    'blog.startingBusiness.stats.tax': 'الضريبة الشخصية',
+
+    'blog.startingBusiness.why.title': 'لماذا تختار الإمارات للأعمال',
+    'blog.startingBusiness.why.stability.title': 'الاستقرار السياسي',
+    'blog.startingBusiness.why.stability.description': 'حكومة مستقرة وسياسات صديقة للأعمال',
+    'blog.startingBusiness.why.location.title': 'الموقع الاستراتيجي',
+    'blog.startingBusiness.why.location.description': 'بوابة بين أسواق الشرق والغرب',
+    'blog.startingBusiness.why.workforce.title': 'القوى العاملة الماهرة',
+    'blog.startingBusiness.why.workforce.description': 'الوصول إلى مجموعة المواهب الدولية',
+    'blog.startingBusiness.why.policies.title': 'السياسات الصديقة للأعمال',
+    'blog.startingBusiness.why.policies.description': 'لوائح داعمة وحوافز',
+
+    'blog.startingBusiness.structure.title': 'خيارات هيكل الأعمال',
+    'blog.startingBusiness.structure.ownership': 'الملكية',
+    'blog.startingBusiness.structure.capital': 'رأس المال',
+    'blog.startingBusiness.structure.liability': 'المسؤولية',
+    'blog.startingBusiness.structure.suitability': 'الملاءمة',
+    'blog.startingBusiness.types.sole.title': 'المؤسسة الفردية',
+    'blog.startingBusiness.types.sole.ownership': 'ملكية فردية 100%',
+    'blog.startingBusiness.types.sole.capital': 'لا حد أدنى لرأس المال',
+    'blog.startingBusiness.types.sole.liability': 'مسؤولية غير محدودة',
+    'blog.startingBusiness.types.sole.suitability': 'الأعمال الصغيرة، المستقلون',
+    'blog.startingBusiness.types.llc.title': 'شركة ذات مسؤولية محدودة',
+    'blog.startingBusiness.types.llc.ownership': 'ملكية أجنبية 100% مسموحة',
+    'blog.startingBusiness.types.llc.capital': '300,000 درهم كحد أدنى',
+    'blog.startingBusiness.types.llc.liability': 'مسؤولية محدودة',
+    'blog.startingBusiness.types.llc.suitability': 'معظم أنواع الأعمال',
+    'blog.startingBusiness.types.freezone.title': 'شركة المنطقة الحرة',
+    'blog.startingBusiness.types.freezone.ownership': 'ملكية أجنبية 100%',
+    'blog.startingBusiness.types.freezone.capital': 'يختلف حسب المنطقة',
+    'blog.startingBusiness.types.freezone.liability': 'مسؤولية محدودة',
+    'blog.startingBusiness.types.freezone.suitability': 'الأعمال الموجهة للتصدير',
+    'blog.startingBusiness.types.branch.title': 'مكتب فرع',
+    'blog.startingBusiness.types.branch.ownership': 'ملكية الشركة الأم',
+    'blog.startingBusiness.types.branch.capital': '500,000 درهم كحد أدنى',
+    'blog.startingBusiness.types.branch.liability': 'مسؤولية الشركة الأم',
+    'blog.startingBusiness.types.branch.suitability': 'الشركات الأجنبية الموجودة',
+
+    'blog.startingBusiness.legal.title': 'المتطلبات القانونية',
+    'blog.startingBusiness.legal.eligibility': 'متطلبات الأهلية',
+    'blog.startingBusiness.legal.requirements': 'يجب أن يكون عمرك 21 سنة أو أكثر|جواز سفر صالح لمدة 6 أشهر|سجل جنائي نظيف|موارد مالية كافية|مؤهلات ذات صلة (للأنشطة المرخصة)',
+
+    // Business Activities Details (Arabic)
+    'blog.businessActivities.overview.category': 'البداية',
+    'blog.businessActivities.understanding.title': 'فهم الأنشطة التجارية',
+    'blog.businessActivities.understanding.description': 'الأنشطة التجارية تحدد ما يمكن لشركتك فعله قانونياً في الإمارات. اختيار الأنشطة الصحيحة أمر بالغ الأهمية للامتثال والعمليات المستقبلية.',
+
+    'blog.businessActivities.affects.title': 'ما تؤثر عليه الأنشطة التجارية',
+    'blog.businessActivities.affects.items': 'نوع الرخصة والتكلفة|تخصيص التأشيرات|متطلبات مساحة المكتب|متطلبات رأس المال|الموافقات التنظيمية المطلوبة|العلاقات المصرفية',
+
+    'blog.businessActivities.considerations.title': 'الاعتبارات الرئيسية',
+    'blog.businessActivities.considerations.items': 'اختر أنشطة تتطابق مع خطة عملك|فكر في خطط التوسع المستقبلية|بعض الأنشطة تتطلب موافقات خاصة|الأنشطة تحدد فئة الرخصة|تغيير الأنشطة لاحقاً يتطلب تعديلات|الأنشطة المهنية تحتاج موظفين مؤهلين',
+
+    'blog.businessActivities.licenses.title': 'فئات الرخص',
+    'blog.businessActivities.licenses.commercial.title': 'الرخصة التجارية',
+    'blog.businessActivities.licenses.commercial.description': 'للأنشطة التجارية والتداول',
+    'blog.businessActivities.licenses.commercial.activities': 'التجارة العامة|الاستيراد/التصدير|مبيعات التجزئة|التوزيع بالجملة|التجارة الإلكترونية|إدارة سلسلة التوريد',
+    'blog.businessActivities.licenses.professional.title': 'الرخصة المهنية',
+    'blog.businessActivities.licenses.professional.description': 'للأنشطة المهنية القائمة على الخدمات',
+    'blog.businessActivities.licenses.professional.activities': 'خدمات الاستشارة|الخدمات القانونية|المحاسبة|الهندسة|الخدمات الطبية|الخدمات التعليمية',
+    'blog.businessActivities.licenses.industrial.title': 'الرخصة الصناعية',
+    'blog.businessActivities.licenses.industrial.description': 'للأنشطة الصناعية والتصنيعية',
+    'blog.businessActivities.licenses.industrial.activities': 'التصنيع|معالجة الأغذية|إنتاج النسيج|المعالجة الكيميائية|عمليات التجميع|الخدمات الصناعية',
+    'blog.businessActivities.licenses.tourism.title': 'رخصة السياحة',
+    'blog.businessActivities.licenses.tourism.description': 'للأنشطة السياحية والضيافة',
+    'blog.businessActivities.licenses.tourism.activities': 'وكالة السفر|عمليات الجولات|إدارة الفنادق|خدمات المطاعم|إدارة الفعاليات|استشارات السياحة',
+
+    'blog.businessActivities.popular.title': 'الأنشطة التجارية الشائعة',
+    'blog.businessActivities.popular.activity': 'النشاط',
+    'blog.businessActivities.popular.code': 'الرمز',
+    'blog.businessActivities.popular.description': 'الوصف',
+    'blog.businessActivities.popular.items.0.activity': 'التجارة العامة',
+    'blog.businessActivities.popular.items.0.code': 'CT-001',
+    'blog.businessActivities.popular.items.0.description': 'استيراد وتصدير وتجارة محلية للبضائع',
+    'blog.businessActivities.popular.items.1.activity': 'استشارات الإدارة',
+    'blog.businessActivities.popular.items.1.code': 'PS-002',
+    'blog.businessActivities.popular.items.1.description': 'خدمات استشارية للأعمال والإدارة',
+    'blog.businessActivities.popular.items.2.activity': 'تكنولوجيا المعلومات',
+    'blog.businessActivities.popular.items.2.code': 'PS-003',
+    'blog.businessActivities.popular.items.2.description': 'تطوير البرمجيات وخدمات تكنولوجيا المعلومات',
+    'blog.businessActivities.popular.items.3.activity': 'العقارات',
+    'blog.businessActivities.popular.items.3.code': 'PS-004',
+    'blog.businessActivities.popular.items.3.description': 'تطوير العقارات وخدمات العقارات',
+    'blog.businessActivities.popular.items.4.activity': 'خدمات التسويق',
+    'blog.businessActivities.popular.items.4.code': 'PS-005',
+    'blog.businessActivities.popular.items.4.description': 'الإعلان واستشارات التسويق',
+    'blog.businessActivities.popular.items.5.activity': 'البناء',
+    'blog.businessActivities.popular.items.5.code': 'CT-006',
+    'blog.businessActivities.popular.items.5.description': 'خدمات البناء والإنشاء',
+
+    // Free Zone Setup Details (Arabic)
+    'blog.freeZoneSetup.overview.category': 'أدلة التأسيس',
+    'blog.freeZoneSetup.stats.title': 'إحصائيات المناطق الحرة',
+    'blog.freeZoneSetup.stats.items.0.value': '45+',
+    'blog.freeZoneSetup.stats.items.0.label': 'منطقة حرة',
+    'blog.freeZoneSetup.stats.items.1.value': '100%',
+    'blog.freeZoneSetup.stats.items.1.label': 'ملكية أجنبية',
+    'blog.freeZoneSetup.stats.items.2.value': '0%',
+    'blog.freeZoneSetup.stats.items.2.label': 'ضريبة الشركات',
+
+    'blog.freeZoneSetup.why.title': 'لماذا تختار تأسيس المنطقة الحرة',
+    'blog.freeZoneSetup.why.advantages.0.title': 'ملكية أجنبية 100%',
+    'blog.freeZoneSetup.why.advantages.0.description': 'سيطرة كاملة على عملك دون متطلبات شريك محلي',
+    'blog.freeZoneSetup.why.advantages.1.title': 'المزايا الضريبية',
+    'blog.freeZoneSetup.why.advantages.1.description': 'صفر ضريبة شركات ودخل شخصي في معظم المناطق الحرة',
+    'blog.freeZoneSetup.why.advantages.2.title': 'تأسيس سريع',
+    'blog.freeZoneSetup.why.advantages.2.description': 'عمليات مبسطة لتأسيس الأعمال بشكل أسرع',
+    'blog.freeZoneSetup.why.advantages.3.title': 'مزايا التأشيرة',
+    'blog.freeZoneSetup.why.advantages.3.description': 'كفالة تأشيرات لنفسك وعائلتك وموظفيك',
+
+    'blog.freeZoneSetup.zones.title': 'المناطق الحرة الشائعة',
+    'blog.freeZoneSetup.zones.items.0.name': 'دي إم سي سي',
+    'blog.freeZoneSetup.zones.items.0.fullName': 'مركز دبي للسلع المتعددة',
+    'blog.freeZoneSetup.zones.items.0.specialty': 'السلع والتجارة',
+    'blog.freeZoneSetup.zones.items.0.minCost': '18,000 درهم',
+    'blog.freeZoneSetup.zones.items.0.benefits': 'موقع متميز|مرافق عالمية المستوى|مجتمع أعمال قوي|دعم حكومي',
+    'blog.freeZoneSetup.zones.items.1.name': 'راكز',
+    'blog.freeZoneSetup.zones.items.1.fullName': 'المنطقة الاقتصادية لرأس الخيمة',
+    'blog.freeZoneSetup.zones.items.1.specialty': 'أنشطة الأعمال العامة',
+    'blog.freeZoneSetup.zones.items.1.minCost': '8,000 درهم',
+    'blog.freeZoneSetup.zones.items.1.benefits': 'فعال من حيث التكلفة|باقات مرنة|تأسيس سريع|مواقع متعددة',
+    'blog.freeZoneSetup.zones.items.2.name': 'أدجم',
+    'blog.freeZoneSetup.zones.items.2.fullName': 'السوق العالمي لأبوظبي',
+    'blog.freeZoneSetup.zones.items.2.specialty': 'الخدمات المالية',
+    'blog.freeZoneSetup.zones.items.2.minCost': '25,000 درهم',
+    'blog.freeZoneSetup.zones.items.2.benefits': 'مركز مالي|القانون الإنجليزي العام|التميز التنظيمي|الاعتراف الدولي',
+    'blog.freeZoneSetup.zones.items.3.name': 'إفزا',
+    'blog.freeZoneSetup.zones.items.3.fullName': 'سلطة المنطقة الحرة الدولية',
+    'blog.freeZoneSetup.zones.items.3.specialty': 'الأعمال العامة والتجارة',
+    'blog.freeZoneSetup.zones.items.3.minCost': '12,000 درهم',
+    'blog.freeZoneSetup.zones.items.3.benefits': 'أسعار تنافسية|مرافق حديثة|دعم الأعمال|موقع استراتيجي',
+
+    'blog.freeZoneSetup.steps.title': 'عملية التأسيس',
+    'blog.freeZoneSetup.steps.items.0.title': 'اختيار المنطقة الحرة',
+    'blog.freeZoneSetup.steps.items.0.description': 'اختر المنطقة الحرة الأنسب لعملك',
+    'blog.freeZoneSetup.steps.items.0.duration': '1-2 يوم',
+    'blog.freeZoneSetup.steps.items.0.details': 'ابحث في المناطق المختلفة|قارن التكاليف والفوائد|فكر في الموقع والمرافق|قيم الأنشطة التجارية المسموحة',
+    'blog.freeZoneSetup.steps.items.1.title': 'حجز اسم الشركة',
+    'blog.freeZoneSetup.steps.items.1.description': 'احجز اسم شركتك المفضل',
+    'blog.freeZoneSetup.steps.items.1.duration': 'يوم واحد',
+    'blog.freeZoneSetup.steps.items.1.details': 'تحقق من توفر الاسم|قدم حجز الاسم|ادفع رسوم الحجز|استلم موافقة الاسم',
+    'blog.freeZoneSetup.steps.items.2.title': 'تحضير المستندات',
+    'blog.freeZoneSetup.steps.items.2.description': 'اجمع وحضر جميع المستندات المطلوبة',
+    'blog.freeZoneSetup.steps.items.2.duration': '3-5 أيام',
+    'blog.freeZoneSetup.steps.items.2.details': 'نسخ جواز السفر|الشهادات التعليمية|خطة العمل|كشوف البنك',
+    'blog.freeZoneSetup.steps.items.3.title': 'تقديم الطلب',
+    'blog.freeZoneSetup.steps.items.3.description': 'قدم طلب الرخصة لسلطة المنطقة الحرة',
+    'blog.freeZoneSetup.steps.items.3.duration': 'يوم واحد',
+    'blog.freeZoneSetup.steps.items.3.details': 'أكمل نماذج الطلب|قدم المستندات|ادفع رسوم الرخصة|قدم البيانات البيومترية',
+    'blog.freeZoneSetup.steps.items.4.title': 'موافقة الرخصة',
+    'blog.freeZoneSetup.steps.items.4.description': 'استلم موافقة الرخصة والشهادة',
+    'blog.freeZoneSetup.steps.items.4.duration': '3-7 أيام',
+    'blog.freeZoneSetup.steps.items.4.details': 'مراجعة الطلب|التحقق من المستندات|إصدار الرخصة|جمع الشهادة',
+    'blog.freeZoneSetup.steps.items.5.title': 'إعداد ما بعد الرخصة',
+    'blog.freeZoneSetup.steps.items.5.description': 'أكمل متطلبات الإعداد الإضافية',
+    'blog.freeZoneSetup.steps.items.5.duration': '1-2 أسبوع',
+    'blog.freeZoneSetup.steps.items.5.details': 'افتح حساب بنكي|ت قدم للحصول على تأشيرات|أعد مساحة المكتب|سجل لدى السلطات'
   }
-}; 
+};
