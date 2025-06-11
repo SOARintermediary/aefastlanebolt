@@ -10,8 +10,9 @@ const ContactForm: FC = () => {
   const { t } = useLanguage();
 
   const onSubmit = (data: ContactFormData) => {
-    console.log(data);
-    // Handle form submission
+    // TODO: Implement backend service to send email to AEfastlane@soarbusinessgroup.com
+    console.log('Form data to be sent to AEfastlane@soarbusinessgroup.com:', data);
+    alert('Form submitted! (Backend integration needed to send actual email)');
   };
 
   return (

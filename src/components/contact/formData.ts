@@ -8,8 +8,8 @@ export interface ContactFormData {
 
 export const serviceOptions = [
   { value: '', label: 'Select a service' },
-  { value: 'company-formation', label: 'Company Formation' },
-  { value: 'visa-services', label: 'Visa Services' },
-  { value: 'pro-services', label: 'PRO Services' },
-  { value: 'hr-solutions', label: 'HR Solutions' }
+  { value: 'companyFormation', label: 'Company Formation' },
+  { value: 'visa', label: 'Visa Services' },
+  { value: 'pro', label: 'PRO Services' },
+  { value: 'hr', label: 'HR Solutions' }
 ]; 

@@ -155,7 +155,12 @@ const Blog = () => {
                 <article
                   key={post.id}
                   className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer group overflow-hidden"
-                  onClick={() => navigate(post.path)}
+                  onClick={() => {
+                    // Only allow navigation for mainland business license article
+                    if (post.id === 'mainland-business-license-dubai') {
+                      navigate(post.path);
+                    }
+                  }}
                 >
                   <div className="p-6">
                     <div className="flex items-center justify-between mb-4">

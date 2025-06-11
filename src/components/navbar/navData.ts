@@ -15,17 +15,17 @@ export const blogSections = [
     titleKey: 'blog.categories.gettingStarted',
     links: [
       {
-        href: '/blog/free-zone-vs-mainland',
+        href: undefined,
         textKey: 'blog.posts.freeZoneVsMainland.title',
         icon: Building2
       },
       {
-        href: '/blog/starting-business-uae-foreigner',
+        href: undefined,
         textKey: 'blog.posts.startingBusiness.title',
         icon: Globe
       },
       {
-        href: '/blog/business-activities-licensing',
+        href: undefined,
         textKey: 'blog.posts.businessActivities.title',
         icon: BarChart3
       }
@@ -40,7 +40,7 @@ export const blogSections = [
         icon: FileText
       },
       {
-        href: '/blog/free-zone-company-setup',
+        href: undefined,
         textKey: 'blog.posts.freeZoneSetup.title',
         icon: Building2
       }
@@ -50,22 +50,22 @@ export const blogSections = [
     titleKey: 'blog.categories.visaImmigration',
     links: [
       {
-        href: '/blog/visa-types-business-owners',
+        href: undefined,
         textKey: 'blog.posts.visaTypes.title',
         icon: Plane
       },
       {
-        href: '/blog/uae-residence-visa-application',
+        href: undefined,
         textKey: 'blog.posts.residenceVisa.title',
         icon: FileText
       },
       {
-        href: '/blog/golden-visa-eligibility',
+        href: undefined,
         textKey: 'blog.posts.goldenVisa.title',
         icon: Star
       },
       {
-        href: '/blog/family-dependents-visa',
+        href: undefined,
         textKey: 'blog.posts.familyVisa.title',
         icon: Heart
       }
@@ -75,12 +75,12 @@ export const blogSections = [
     titleKey: 'blog.categories.operations',
     links: [
       {
-        href: '/blog/government-approvals-streamlined',
+        href: undefined,
         textKey: 'blog.posts.govApprovals.title',
         icon: Settings
       },
       {
-        href: '/blog/company-renewals-closures',
+        href: undefined,
         textKey: 'blog.posts.renewals.title',
         icon: RefreshCw
       }
