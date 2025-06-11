@@ -35,8 +35,8 @@ const translations = {
     'nav.blog': 'Blog',
     
     // Hero
-    'hero.title1': 'Your One-Stop Partner for',
-    'hero.title2': 'Business Setup in UAE',
+    'hero.title1': 'Your UAE Partner for',
+    'hero.title2': 'Business, Visas & Beyond',
     'hero.description': 'Fast, reliable, and tailored solutions for company formation, Golden Visa assistance, and complete PRO services.',
     'hero.cta': 'Book a Free Consultation',
     
