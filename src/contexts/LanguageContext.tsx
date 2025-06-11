@@ -37,7 +37,7 @@ const translations = {
     // Hero
     'hero.title1': 'Your UAE Partner for',
     'hero.title2': 'Business, Visas & Beyond',
-    'hero.description': 'Fast, reliable, and tailored solutions for company formation, Golden Visa assistance, and complete PRO services.',
+    'hero.description': 'Business formation, visas, HR & PRO — fast-tracked for success.',
     'hero.cta': 'Book a Free Consultation',
     
     // Services
