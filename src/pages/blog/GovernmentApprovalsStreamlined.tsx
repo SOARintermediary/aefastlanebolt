@@ -3,41 +3,21 @@ import { FileCheck, Clock, DollarSign, CheckCircle, AlertCircle } from 'lucide-r
 import { useLanguage } from '../../contexts/LanguageContext';
 import BlogArticle from '../../components/blog/BlogArticle';
 
-interface ApprovalType {
-  title: string;
-  description: string;
-  requirements: string[];
-}
-
-interface ProcessStep {
-  step: number;
-  title: string;
-  description: string;
-  duration: string;
-  details: string[];
-}
-
-interface Challenge {
-  challenge: string;
-  solution: string;
-  impact: string;
-}
-
 const GovernmentApprovalsStreamlined = () => {
   const { t, language } = useLanguage();
   const isRTL = language === 'ar';
 
-  const approvalTypes = (t('blog.govApprovals.types.items') || []) as ApprovalType[];
-  const processSteps = (t('blog.govApprovals.process.items') || []) as ProcessStep[];
-  const bestPractices = (t('blog.govApprovals.tips.items') || []) as string[];
-  const challenges = (t('blog.govApprovals.common.items') || []) as Challenge[];
+  const approvalTypes = JSON.parse(t('blog.govApprovals.types.items') || '[]');
+  const processSteps = JSON.parse(t('blog.govApprovals.process.items') || '[]');
+  const bestPractices = t('blog.govApprovals.tips.items').split('|');
+  const challenges = JSON.parse(t('blog.govApprovals.common.items') || '[]');
 
   return (
     <BlogArticle
       icon={FileCheck}
-      category="blog.govApprovals.overview.category"
-      titleKey="blog.govApprovals.overview.title"
-      descriptionKey="blog.govApprovals.overview.description"
+      category="blog.categories.operations"
+      titleKey="blog.posts.govApprovals.title"
+      descriptionKey="blog.posts.govApprovals.excerpt"
     >
       <div className={`prose prose-lg max-w-none ${isRTL ? 'text-right' : 'text-left'}`}>
         {/* Quick Overview */}
@@ -161,16 +141,16 @@ const GovernmentApprovalsStreamlined = () => {
           <div className="grid md:grid-cols-2 gap-6">
             {challenges.map((challenge, index) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6">
-                <div className="flex items-start space-x-3 mb-3">
+                <div className={`flex items-start ${isRTL ? 'space-x-reverse' : ''} space-x-3 mb-3`}>
                   <AlertCircle className="h-6 w-6 text-red-500 flex-shrink-0" />
                   <h3 className="text-lg font-semibold text-gray-900">{challenge.challenge}</h3>
                 </div>
                 <div className="space-y-2">
-                  <div className="flex items-start space-x-2">
+                  <div className={`flex items-start ${isRTL ? 'space-x-reverse' : ''} space-x-2`}>
                     <span className="font-medium text-gray-700">Solution:</span>
                     <span className="text-gray-600">{challenge.solution}</span>
                   </div>
-                  <div className="flex items-start space-x-2">
+                  <div className={`flex items-start ${isRTL ? 'space-x-reverse' : ''} space-x-2`}>
                     <span className="font-medium text-gray-700">Impact:</span>
                     <span className="text-gray-600">{challenge.impact}</span>
                   </div>

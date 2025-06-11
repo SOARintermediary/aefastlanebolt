@@ -1,109 +1,78 @@
 import React from 'react';
-import { ArrowLeft, RefreshCw, CheckCircle, AlertTriangle, Calendar, FileText, DollarSign, XCircle, Clock, AlertCircle } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { RefreshCw, CheckCircle, AlertTriangle, Calendar, FileText, DollarSign, XCircle, Clock, AlertCircle } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import BlogArticle from '../../components/blog/BlogArticle';
 
-interface RenewalStep {
-  step: number;
-  title: string;
-  description: string;
-  duration: string;
-}
-
-interface ModificationStep {
-  title: string;
-  description: string;
-  requirements: string[];
-}
-
-interface ClosureStep {
-  step: number;
-  title: string;
-  description: string;
-  requirements: string[];
-}
-
 const CompanyRenewalsClosures = () => {
-  const navigate = useNavigate();
   const { t, language } = useLanguage();
   const isRTL = language === 'ar';
 
-  const renewalSteps = (t('blog.renewals.steps.items') || []) as RenewalStep[];
-  const modificationTypes = (t('blog.renewals.modifications.items') || []) as ModificationStep[];
-  const closureSteps = (t('blog.renewals.closure.steps') || []) as ClosureStep[];
+  const renewalSteps = JSON.parse(t('blog.renewals.steps.items') || '[]');
+  const modificationTypes = JSON.parse(t('blog.renewals.modifications.items') || '[]');
+  const closureSteps = JSON.parse(t('blog.renewals.closure.steps') || '[]');
 
   const renewalTypes = [
     {
-      type: "Trade License Renewal",
-      frequency: "Annual",
+      type: t('blog.renewals.types.trade.type') || "Trade License Renewal",
+      frequency: t('blog.renewals.types.trade.frequency') || "Annual",
       cost: "AED 1,200 - 15,000",
-      requirements: ["Financial statements", "Audit report", "Lease agreement"],
-      penalties: "10% late fee after 30 days"
+      requirements: [t('blog.renewals.types.trade.req1') || "Financial statements", t('blog.renewals.types.trade.req2') || "Audit report", t('blog.renewals.types.trade.req3') || "Lease agreement"],
+      penalties: t('blog.renewals.types.trade.penalties') || "10% late fee after 30 days"
     },
     {
-      type: "Visa Renewal",
-      frequency: "1-3 Years",
+      type: t('blog.renewals.types.visa.type') || "Visa Renewal",
+      frequency: t('blog.renewals.types.visa.frequency') || "1-3 Years",
       cost: "AED 1,000 - 5,000",
-      requirements: ["Medical certificate", "Emirates ID", "Salary certificate"],
-      penalties: "AED 100/day overstay fine"
+      requirements: [t('blog.renewals.types.visa.req1') || "Medical certificate", t('blog.renewals.types.visa.req2') || "Emirates ID", t('blog.renewals.types.visa.req3') || "Salary certificate"],
+      penalties: t('blog.renewals.types.visa.penalties') || "AED 100/day overstay fine"
     },
     {
-      type: "Professional License",
-      frequency: "Annual",
+      type: t('blog.renewals.types.professional.type') || "Professional License",
+      frequency: t('blog.renewals.types.professional.frequency') || "Annual",
       cost: "AED 2,000 - 10,000",
-      requirements: ["Professional certificates", "Experience letters", "NOC"],
-      penalties: "License suspension risk"
+      requirements: [t('blog.renewals.types.professional.req1') || "Professional certificates", t('blog.renewals.types.professional.req2') || "Experience letters", t('blog.renewals.types.professional.req3') || "NOC"],
+      penalties: t('blog.renewals.types.professional.penalties') || "License suspension risk"
     },
     {
-      type: "Free Zone License",
-      frequency: "Annual",
+      type: t('blog.renewals.types.freezone.type') || "Free Zone License",
+      frequency: t('blog.renewals.types.freezone.frequency') || "Annual",
       cost: "AED 8,000 - 25,000",
-      requirements: ["Activity report", "Financial statements", "Office lease"],
-      penalties: "Grace period varies by zone"
+      requirements: [t('blog.renewals.types.freezone.req1') || "Activity report", t('blog.renewals.types.freezone.req2') || "Financial statements", t('blog.renewals.types.freezone.req3') || "Office lease"],
+      penalties: t('blog.renewals.types.freezone.penalties') || "Grace period varies by zone"
     }
   ];
 
   const closureReasons = [
     {
-      reason: "Business Restructuring",
-      description: "Merging with another entity or changing business structure",
-      process: "Voluntary closure with asset transfer"
+      reason: t('blog.renewals.closure.reasons.restructuring.reason') || "Business Restructuring",
+      description: t('blog.renewals.closure.reasons.restructuring.description') || "Merging with another entity or changing business structure",
+      process: t('blog.renewals.closure.reasons.restructuring.process') || "Voluntary closure with asset transfer"
     },
     {
-      reason: "End of Business Operations",
-      description: "Ceasing all business activities permanently",
-      process: "Complete liquidation and closure"
+      reason: t('blog.renewals.closure.reasons.end.reason') || "End of Business Operations",
+      description: t('blog.renewals.closure.reasons.end.description') || "Ceasing all business activities permanently",
+      process: t('blog.renewals.closure.reasons.end.process') || "Complete liquidation and closure"
     },
     {
-      reason: "Relocation",
-      description: "Moving business to another jurisdiction",
-      process: "Closure with potential re-establishment"
+      reason: t('blog.renewals.closure.reasons.relocation.reason') || "Relocation",
+      description: t('blog.renewals.closure.reasons.relocation.description') || "Moving business to another jurisdiction",
+      process: t('blog.renewals.closure.reasons.relocation.process') || "Closure with potential re-establishment"
     },
     {
-      reason: "Non-Compliance",
-      description: "Failure to meet regulatory requirements",
-      process: "Forced closure by authorities"
+      reason: t('blog.renewals.closure.reasons.noncompliance.reason') || "Non-Compliance",
+      description: t('blog.renewals.closure.reasons.noncompliance.description') || "Failure to meet regulatory requirements",
+      process: t('blog.renewals.closure.reasons.noncompliance.process') || "Forced closure by authorities"
     }
   ];
 
   return (
     <BlogArticle
       icon={RefreshCw}
-      category="blog.renewals.overview.category"
-      titleKey="blog.renewals.overview.title"
-      descriptionKey="blog.renewals.overview.description"
+      category="blog.categories.operations"
+      titleKey="blog.posts.renewals.title"
+      descriptionKey="blog.posts.renewals.excerpt"
     >
       <div className={`prose prose-lg max-w-none ${isRTL ? 'text-right' : 'text-left'}`}>
-        {/* Back Button */}
-        <button
-          onClick={() => navigate('/blog')}
-          className="flex items-center text-primary hover:text-primary-light mb-8 transition-colors duration-200"
-        >
-          <ArrowLeft className="mr-2 h-5 w-5" />
-          Back to Blog
-        </button>
-
         {/* License Renewals */}
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
           <h2 className="text-2xl font-bold text-primary mb-6">
@@ -157,7 +126,7 @@ const CompanyRenewalsClosures = () => {
 
         {/* License Renewals Overview */}
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-          <h2 className="text-2xl font-bold text-primary mb-6">License Renewal Requirements</h2>
+          <h2 className="text-2xl font-bold text-primary mb-6">{t('blog.renewals.requirements.title') || 'License Renewal Requirements'}</h2>
           
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             {renewalTypes.map((renewal, index) => (
@@ -165,15 +134,15 @@ const CompanyRenewalsClosures = () => {
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">{renewal.type}</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Frequency:</span>
+                    <span className="text-gray-600">{t('blog.renewals.requirements.frequency') || 'Frequency'}:</span>
                     <span className="font-medium">{renewal.frequency}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Cost Range:</span>
+                    <span className="text-gray-600">{t('blog.renewals.requirements.cost') || 'Cost Range'}:</span>
                     <span className="font-medium">{renewal.cost}</span>
                   </div>
                   <div className="mt-3">
-                    <span className="text-gray-600 block mb-2">Requirements:</span>
+                    <span className="text-gray-600 block mb-2">{t('blog.renewals.requirements.requirements') || 'Requirements'}:</span>
                     <ul className="space-y-1">
                       {renewal.requirements.map((req, reqIndex) => (
                         <li key={reqIndex} className="flex items-center text-gray-700">
@@ -185,7 +154,7 @@ const CompanyRenewalsClosures = () => {
                   </div>
                   <div className="mt-3 p-2 bg-red-50 rounded">
                     <span className="text-red-700 text-xs">
-                      <strong>Late Penalty:</strong> {renewal.penalties}
+                      <strong>{t('blog.renewals.requirements.penalty') || 'Late Penalty'}:</strong> {renewal.penalties}
                     </span>
                   </div>
                 </div>
@@ -240,21 +209,21 @@ const CompanyRenewalsClosures = () => {
         {/* Important Considerations */}
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8">
           <div className="flex items-start">
-            <AlertTriangle className="h-6 w-6 text-yellow-600 mr-3 mt-1" />
+            <AlertTriangle className={`h-6 w-6 text-yellow-600 ${isRTL ? 'ml-3' : 'mr-3'} mt-1`} />
             <div>
-              <h3 className="text-lg font-semibold text-yellow-800 mb-3">Important Considerations</h3>
+              <h3 className="text-lg font-semibold text-yellow-800 mb-3">{t('blog.renewals.considerations.title') || 'Important Considerations'}</h3>
               <div className="space-y-3 text-yellow-700">
                 <div>
-                  <strong>Renewal Timing:</strong> Start the renewal process at least 60 days before license expiry to avoid penalties and business disruption.
+                  <strong>{t('blog.renewals.considerations.timing') || 'Renewal Timing'}:</strong> {t('blog.renewals.considerations.timingDesc') || 'Start the renewal process at least 60 days before license expiry to avoid penalties and business disruption.'}
                 </div>
                 <div>
-                  <strong>Compliance Requirements:</strong> Ensure all regulatory filings are up to date before attempting renewals or modifications.
+                  <strong>{t('blog.renewals.considerations.compliance') || 'Compliance Requirements'}:</strong> {t('blog.renewals.considerations.complianceDesc') || 'Ensure all regulatory filings are up to date before attempting renewals or modifications.'}
                 </div>
                 <div>
-                  <strong>Financial Obligations:</strong> Clear all outstanding fees, fines, and obligations before closure proceedings.
+                  <strong>{t('blog.renewals.considerations.financial') || 'Financial Obligations'}:</strong> {t('blog.renewals.considerations.financialDesc') || 'Clear all outstanding fees, fines, and obligations before closure proceedings.'}
                 </div>
                 <div>
-                  <strong>Employee Rights:</strong> Properly settle all employee entitlements and follow labor law requirements during closure.
+                  <strong>{t('blog.renewals.considerations.employee') || 'Employee Rights'}:</strong> {t('blog.renewals.considerations.employeeDesc') || 'Properly settle all employee entitlements and follow labor law requirements during closure.'}
                 </div>
               </div>
             </div>
@@ -263,41 +232,41 @@ const CompanyRenewalsClosures = () => {
 
         {/* Cost Considerations */}
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-          <h2 className="text-2xl font-bold text-primary mb-6">Cost Considerations</h2>
+          <h2 className="text-2xl font-bold text-primary mb-6">{t('blog.renewals.costs.title') || 'Cost Considerations'}</h2>
           
           <div className="overflow-x-auto">
             <table className="min-w-full bg-white border border-gray-200 rounded-lg">
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Service Type
+                    {t('blog.renewals.costs.serviceType') || 'Service Type'}
                   </th>
                   <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Government Fees
+                    {t('blog.renewals.costs.govFees') || 'Government Fees'}
                   </th>
                   <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Professional Fees
+                    {t('blog.renewals.costs.proFees') || 'Professional Fees'}
                   </th>
                   <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Total Estimate
+                    {t('blog.renewals.costs.total') || 'Total Estimate'}
                   </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">License Renewal</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{t('blog.renewals.costs.licenseRenewal') || 'License Renewal'}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">1,200 - 15,000</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">1,000 - 3,000</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">2,200 - 18,000</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">License Modification</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{t('blog.renewals.costs.licenseModification') || 'License Modification'}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">500 - 5,000</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">1,500 - 4,000</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">2,000 - 9,000</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Company Closure</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{t('blog.renewals.costs.companyClosure') || 'Company Closure'}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">1,000 - 3,000</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">5,000 - 15,000</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right">6,000 - 18,000</td>
@@ -307,31 +276,30 @@ const CompanyRenewalsClosures = () => {
           </div>
           
           <p className="mt-4 text-sm text-gray-500">
-            * All amounts in AED. Costs vary based on company type, complexity, and specific requirements.
+            {t('blog.renewals.costs.note') || '* All amounts in AED. Costs vary based on company type, complexity, and specific requirements.'}
           </p>
         </div>
 
         {/* CTA Section */}
         <div className="bg-primary text-white rounded-lg p-8">
-          <h3 className="text-2xl font-semibold mb-4">Need Help with Renewals, Modifications, or Closures?</h3>
+          <h3 className="text-2xl font-semibold mb-4">{t('blog.renewals.cta.title') || 'Need Help with Renewals, Modifications, or Closures?'}</h3>
           <p className="mb-6">
-            Our experienced team can handle all aspects of company renewals, modifications, and closures. 
-            We ensure compliance with all regulations and minimize disruption to your business operations.
+            {t('blog.renewals.cta.description') || 'Our experienced team can handle all aspects of company renewals, modifications, and closures. We ensure compliance with all regulations and minimize disruption to your business operations.'}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#contact"
               className="inline-flex items-center justify-center px-6 py-3 bg-accent text-primary rounded-md hover:bg-accent-dark transition-colors duration-200"
             >
-              <RefreshCw className="mr-2 h-5 w-5" />
-              Get Renewal Support
+              <RefreshCw className={`h-5 w-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
+              {t('blog.renewals.cta.button1') || 'Get Renewal Support'}
             </a>
             <a
               href="#contact"
               className="inline-flex items-center justify-center px-6 py-3 border border-white text-white rounded-md hover:bg-white hover:text-primary transition-colors duration-200"
             >
-              <FileText className="mr-2 h-5 w-5" />
-              Schedule Consultation
+              <FileText className={`h-5 w-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
+              {t('blog.renewals.cta.button2') || 'Schedule Consultation'}
             </a>
           </div>
         </div>
