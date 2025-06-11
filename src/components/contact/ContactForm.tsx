@@ -1,20 +1,8 @@
 import { type FC } from 'react';
-import { useForm } from 'react-hook-form';
-import { Send } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { ContactFormData, serviceOptions } from './formData';
-import FormField from './FormField';
 
 const ContactForm: FC = () => {
-  const { register, handleSubmit, formState: { errors } } = useForm<ContactFormData>();
   const { t } = useLanguage();
-
-  const onSubmit = (data: ContactFormData) => {
-
-    // TODO: Implement backend service to send email to contact@aefastlane.com
-    console.log('Form data to be sent to contact@aefastlane.com:', data);
-    alert('Form submitted! (Backend integration needed to send actual email)');
-  };
 
   return (
     <section id="contact" className="py-24 bg-gradient-to-br from-gray-50 via-white to-primary/5">
@@ -33,71 +21,17 @@ const ContactForm: FC = () => {
           </div>
         </div>
 
-        <div className="mt-16 max-w-2xl mx-auto">
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/20 p-8 md:p-12">
-            <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 gap-8">
-            <FormField
-              label={t('contact.name')}
-              name="name"
-              register={register}
-              error={errors.name}
-              required={t('contact.required')}
-            />
-
-            <FormField
-              label={t('contact.email')}
-              name="email"
-              type="email"
-              register={register}
-              error={errors.email}
-              required={t('contact.required')}
-              invalidMessage={t('contact.invalidEmail')}
-            />
-
-            <FormField
-              label={t('contact.phone')}
-              name="phone"
-              type="tel"
-              register={register}
-              error={errors.phone}
-              required={t('contact.required')}
-            />
-
-            <FormField
-              label={t('contact.service')}
-              name="service"
-              register={register}
-              error={errors.service}
-              options={serviceOptions.map(option => ({
-                ...option,
-                label: t(`services.${option.value}.title`)
-              }))}
-            />
-
-            <FormField
-              label={t('contact.message')}
-              name="message"
-              type="textarea"
-              register={register}
-              error={errors.message}
-              required={t('contact.required')}
-            />
-
-            <div className="pt-4">
-              <button
-                type="submit"
-                className="w-full flex justify-center items-center py-4 px-6 border border-transparent rounded-xl shadow-lg text-lg font-semibold text-white bg-gradient-to-r from-primary via-primary-light to-accent hover:from-primary-light hover:via-accent hover:to-teal focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-primary/50 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
-              >
-                <Send className="w-6 h-6 mr-3" />
-                {t('contact.submit')}
-              </button>
-            </div>
-            </form>
-          </div>
+        <div className="mt-16 text-center">
+          <a 
+            href="mailto:contact@aefastlane.com"
+            className="text-2xl font-semibold text-primary hover:text-primary-light transition-colors duration-300 underline decoration-2 underline-offset-4 hover:decoration-accent"
+          >
+            contact@aefastlane.com
+          </a>
         </div>
       </div>
     </section>
   );
 };
 
-export default ContactForm; 
+export default ContactForm;
