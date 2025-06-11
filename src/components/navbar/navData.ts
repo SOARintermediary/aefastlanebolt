@@ -1,103 +1,89 @@
-interface BlogSection {
-  title: string;
-  titleKey: string;
-  links: {
-    href: string;
-    text: string;
-    textKey: string;
-    icon: string;
-  }[];
-}
+import { 
+  Building2, 
+  Globe, 
+  FileText, 
+  BarChart3, 
+  Plane, 
+  Star, 
+  Heart, 
+  Settings, 
+  RefreshCw 
+} from 'lucide-react';
 
-export const blogSections: BlogSection[] = [
+export const blogSections = [
   {
-    title: 'Getting Started',
     titleKey: 'blog.categories.gettingStarted',
     links: [
       {
         href: '/blog/free-zone-vs-mainland',
-        text: 'Free Zone vs Mainland: Which is Right?',
         textKey: 'blog.posts.freeZoneVsMainland.title',
-        icon: '🏢'
+        icon: Building2
       },
       {
         href: '/blog/starting-business-uae-foreigner',
-        text: 'Starting a Business as a Foreigner',
         textKey: 'blog.posts.startingBusiness.title',
-        icon: '🌍'
+        icon: Globe
       },
       {
         href: '/blog/business-activities-licensing',
-        text: 'Business Activities & Licensing Categories',
         textKey: 'blog.posts.businessActivities.title',
-        icon: '📊'
+        icon: BarChart3
       }
     ]
   },
   {
-    title: 'Setup Guides',
     titleKey: 'blog.categories.setupGuides',
     links: [
       {
         href: '/blog/mainland-business-license-dubai',
-        text: 'How to Open a Mainland Business License',
         textKey: 'blog.posts.mainlandLicense.title',
-        icon: '📋'
+        icon: FileText
       },
       {
         href: '/blog/free-zone-company-setup',
-        text: 'Step-by-Step Free Zone Company Setup',
         textKey: 'blog.posts.freeZoneSetup.title',
-        icon: '🏢'
+        icon: Building2
       }
     ]
   },
   {
-    title: 'Visa & Immigration',
     titleKey: 'blog.categories.visaImmigration',
     links: [
       {
         href: '/blog/visa-types-business-owners',
-        text: 'Visa Types for Business Owners',
         textKey: 'blog.posts.visaTypes.title',
-        icon: '🛃'
+        icon: Plane
       },
       {
         href: '/blog/uae-residence-visa-application',
-        text: 'UAE Residence Visa Application',
         textKey: 'blog.posts.residenceVisa.title',
-        icon: '🛂'
+        icon: FileText
       },
       {
         href: '/blog/golden-visa-eligibility',
-        text: 'Golden Visa Eligibility & Process',
         textKey: 'blog.posts.goldenVisa.title',
-        icon: '🏅'
+        icon: Star
       },
       {
         href: '/blog/family-dependents-visa',
-        text: 'Family & Dependents Visa Sponsorship',
         textKey: 'blog.posts.familyVisa.title',
-        icon: '👨‍👩‍👧'
+        icon: Heart
       }
     ]
   },
   {
-    title: 'Operations & Compliance',
     titleKey: 'blog.categories.operations',
     links: [
       {
         href: '/blog/government-approvals-streamlined',
-        text: 'How AEFastLane Streamlines Approvals',
         textKey: 'blog.posts.govApprovals.title',
-        icon: '⚙️'
+        icon: Settings
       },
       {
         href: '/blog/company-renewals-closures',
-        text: 'Company Renewals & Closures',
         textKey: 'blog.posts.renewals.title',
-        icon: '🔁'
+        icon: RefreshCw
       }
     ]
   }
-]; 
+];

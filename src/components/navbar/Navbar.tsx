@@ -20,6 +20,9 @@ const Navbar: FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <nav 
       className={`bg-white fixed w-full top-0 z-50 transition-all duration-300 ${
@@ -31,6 +34,7 @@ const Navbar: FC = () => {
         <div className="flex justify-between h-20">
           <Link 
             to="/" 
+            onClick={handleLogoClick}
             className="flex-shrink-0 flex items-center transform transition-transform duration-300 hover:scale-105"
           >
             <img src="/aefastlanetransp copy.png" alt="AEFastLane Logo" className="h-12" />
