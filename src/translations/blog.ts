@@ -194,6 +194,57 @@ export const blogTranslations = {
         requirements: ['Final audit report', 'Tax clearance certificate', 'License cancellation', 'Deregistration certificate']
       }
     ])
+
+    // Mainland Business License
+    'blog.mainlandLicense.overview.category': 'Setup Guides',
+    'blog.mainlandLicense.overview.title': 'How to Open a Mainland Business License in Dubai',
+    'blog.mainlandLicense.overview.description': 'A comprehensive step-by-step guide to obtaining your mainland business license in Dubai, including requirements, procedures, and expert tips.',
+    
+    'blog.mainlandLicense.intro': 'Starting a business in Dubai mainland offers unmatched access to the UAE market, allowing you to trade directly with local clients and bid on government contracts. Whether you\'re an ambitious entrepreneur or a seasoned investor, setting up a mainland company is a strategic move that opens doors to opportunity.',
+    
+    'blog.mainlandLicense.whyChoose.title': 'Why Choose a Mainland License?',
+    'blog.mainlandLicense.whyChoose.description': 'A mainland business license enables you to:',
+    'blog.mainlandLicense.whyChoose.benefits': 'Operate anywhere in the UAE without restriction|Offer services or sell products to both local and international clients|Open multiple branches across the UAE|Sponsor employee and dependent visas|Compete for public sector contracts',
+    'blog.mainlandLicense.whyChoose.conclusion': 'This structure is ideal for businesses looking to scale within the region, maintain flexible operations, and fully integrate into the UAE economy.',
+    
+    'blog.mainlandLicense.stepByStep.title': 'Step-by-Step Guide to Opening a Mainland Company in Dubai',
+    'blog.mainlandLicense.stepByStep.step1.title': '1. Define Your Business Activity',
+    'blog.mainlandLicense.stepByStep.step1.description': 'The Department of Economy and Tourism (DET, formerly DED) maintains an official list of over 2,000 activities. You\'ll need to select one that aligns with your operations.',
+    
+    'blog.mainlandLicense.stepByStep.step2.title': '2. Choose a Legal Structure',
+    'blog.mainlandLicense.stepByStep.step2.description': 'Common types include:',
+    'blog.mainlandLicense.stepByStep.step2.types': 'Sole Establishment|Civil Company|Limited Liability Company (LLC)|Branch of Foreign Company',
+    'blog.mainlandLicense.stepByStep.step2.note': 'An LLC is the most popular for general businesses and now allows 100% foreign ownership for most activities.',
+    
+    'blog.mainlandLicense.stepByStep.step3.title': '3. Reserve a Trade Name',
+    'blog.mainlandLicense.stepByStep.step3.description': 'Choose a unique business name that meets government naming standards (e.g., no offensive words, must reflect activity in some cases). AEFastLane handles the name reservation with DET.',
+    
+    'blog.mainlandLicense.stepByStep.step4.title': '4. Apply for Initial Approval',
+    'blog.mainlandLicense.stepByStep.step4.description': 'Initial approval allows you to proceed with company setup. It\'s a green light from the authorities that you can legally form your business.',
+    
+    'blog.mainlandLicense.stepByStep.step5.title': '5. Draft the MOA and LSA Agreement',
+    'blog.mainlandLicense.stepByStep.step5.description': 'The Memorandum of Association outlines your company\'s ownership structure and operations. If your activity still requires a Local Service Agent (LSA), we prepare the agreement.',
+    
+    'blog.mainlandLicense.stepByStep.step6.title': '6. Secure Your Business Location',
+    'blog.mainlandLicense.stepByStep.step6.description': 'All businesses must have a physical address in Dubai. We assist in obtaining an Ejari-registered tenancy contract for office space or flexi-desk, depending on your setup.',
+    
+    'blog.mainlandLicense.stepByStep.step7.title': '7. Submit Documentation & Pay Fees',
+    'blog.mainlandLicense.stepByStep.step7.description': 'We prepare and submit all the paperwork to DET and associated authorities for final license issuance.',
+    
+    'blog.mainlandLicense.stepByStep.step8.title': '8. Receive Your Trade License',
+    'blog.mainlandLicense.stepByStep.step8.description': 'Once approved, you\'ll receive your official mainland trade license—ready to begin operations.',
+    
+    'blog.mainlandLicense.stepByStep.step9.title': '9. Apply for Establishment Card and Visas',
+    'blog.mainlandLicense.stepByStep.step9.description': 'We\'ll register your business with immigration and help you apply for your own visa and those of your employees or dependents.',
+    
+    'blog.mainlandLicense.documents.title': 'Required Documents',
+    'blog.mainlandLicense.documents.list': 'Passport copy of all shareholders|Passport-sized photo|Entry stamp or residence visa copy (if applicable)|Trade name reservation|Initial approval certificate|Tenancy contract (Ejari)|MOA (signed and notarized)|LSA agreement (if required)',
+    
+    'blog.mainlandLicense.whyAEFastLane.title': 'Why Work with AEFastLane?',
+    'blog.mainlandLicense.whyAEFastLane.description': 'At AEFastLane, we simplify the complex. Our dedicated experts manage the entire process on your behalf—from initial consultation to license delivery and visa stamping. With us, you get:',
+    'blog.mainlandLicense.whyAEFastLane.benefits': 'Stress-free setup|Fast document turnaround|Transparent communication|Ongoing compliance support',
+    'blog.mainlandLicense.whyAEFastLane.conclusion': 'Whether you\'re a startup founder or an international investor, we help you hit the ground running.',
+    'blog.mainlandLicense.whyAEFastLane.cta': 'Contact us today to launch your Dubai business with confidence, clarity, and speed.',
   },
   ar: {
     // Government Approvals Streamlined
@@ -390,5 +441,56 @@ export const blogTranslations = {
         requirements: ['تقرير التدقيق النهائي', 'شهادة التصريح الضريبي', 'إلغاء الترخيص', 'شهادة إلغاء التسجيل']
       }
     ])
+
+    // Mainland Business License
+    'blog.mainlandLicense.overview.category': 'أدلة التأسيس',
+    'blog.mainlandLicense.overview.title': 'كيفية الحصول على رخصة تجارية في البر الرئيسي بدبي',
+    'blog.mainlandLicense.overview.description': 'دليل شامل خطوة بخطوة للحصول على رخصة تجارية في البر الرئيسي بدبي، يشمل المتطلبات والإجراءات ونصائح الخبراء.',
+    
+    'blog.mainlandLicense.intro': 'تأسيس شركة في البر الرئيسي بدبي يوفر وصولاً لا مثيل له إلى السوق الإماراتي، مما يتيح لك التجارة مباشرة مع العملاء المحليين والمشاركة في المناقصات الحكومية. سواء كنت رائد أعمال طموح أو مستثمر متمرس، فإن تأسيس شركة في البر الرئيسي خطوة استراتيجية تفتح أبواب الفرص.',
+    
+    'blog.mainlandLicense.whyChoose.title': 'لماذا تختار رخصة البر الرئيسي؟',
+    'blog.mainlandLicense.whyChoose.description': 'رخصة الأعمال في البر الرئيسي تمكنك من:',
+    'blog.mainlandLicense.whyChoose.benefits': 'العمل في أي مكان في الإمارات دون قيود|تقديم الخدمات أو بيع المنتجات للعملاء المحليين والدوليين|فتح فروع متعددة في جميع أنحاء الإمارات|كفالة تأشيرات الموظفين والمعالين|المنافسة على عقود القطاع العام',
+    'blog.mainlandLicense.whyChoose.conclusion': 'هذا الهيكل مثالي للشركات التي تتطلع إلى التوسع داخل المنطقة، والحفاظ على عمليات مرنة، والاندماج الكامل في الاقتصاد الإماراتي.',
+    
+    'blog.mainlandLicense.stepByStep.title': 'دليل خطوة بخطوة لفتح شركة في البر الرئيسي بدبي',
+    'blog.mainlandLicense.stepByStep.step1.title': '1. تحديد نشاطك التجاري',
+    'blog.mainlandLicense.stepByStep.step1.description': 'تحتفظ دائرة الاقتصاد والسياحة (DET، سابقاً DED) بقائمة رسمية تضم أكثر من 2000 نشاط. ستحتاج إلى اختيار نشاط يتماشى مع عملياتك.',
+    
+    'blog.mainlandLicense.stepByStep.step2.title': '2. اختيار الهيكل القانوني',
+    'blog.mainlandLicense.stepByStep.step2.description': 'الأنواع الشائعة تشمل:',
+    'blog.mainlandLicense.stepByStep.step2.types': 'المؤسسة الفردية|الشركة المدنية|شركة ذات مسؤولية محدودة (LLC)|فرع لشركة أجنبية',
+    'blog.mainlandLicense.stepByStep.step2.note': 'شركة ذات مسؤولية محدودة هي الأكثر شيوعاً للأعمال العامة وتسمح الآن بملكية أجنبية 100% لمعظم الأنشطة.',
+    
+    'blog.mainlandLicense.stepByStep.step3.title': '3. حجز الاسم التجاري',
+    'blog.mainlandLicense.stepByStep.step3.description': 'اختر اسماً تجارياً فريداً يلبي معايير التسمية الحكومية (مثل عدم وجود كلمات مسيئة، يجب أن يعكس النشاط في بعض الحالات). تتولى AEFastLane حجز الاسم مع دائرة الاقتصاد والسياحة.',
+    
+    'blog.mainlandLicense.stepByStep.step4.title': '4. التقدم للحصول على الموافقة الأولية',
+    'blog.mainlandLicense.stepByStep.step4.description': 'الموافقة الأولية تسمح لك بالمضي قدماً في تأسيس الشركة. إنها ضوء أخضر من السلطات بأنه يمكنك تشكيل عملك قانونياً.',
+    
+    'blog.mainlandLicense.stepByStep.step5.title': '5. صياغة عقد التأسيس واتفاقية وكيل الخدمة المحلي',
+    'blog.mainlandLicense.stepByStep.step5.description': 'عقد التأسيس يحدد هيكل ملكية شركتك وعملياتها. إذا كان نشاطك لا يزال يتطلب وكيل خدمة محلي (LSA)، فنحن نعد الاتفاقية.',
+    
+    'blog.mainlandLicense.stepByStep.step6.title': '6. تأمين موقع عملك',
+    'blog.mainlandLicense.stepByStep.step6.description': 'جميع الشركات يجب أن يكون لها عنوان فعلي في دبي. نحن نساعد في الحصول على عقد إيجار مسجل في إيجاري لمساحة مكتبية أو مكتب مرن، حسب إعدادك.',
+    
+    'blog.mainlandLicense.stepByStep.step7.title': '7. تقديم الوثائق ودفع الرسوم',
+    'blog.mainlandLicense.stepByStep.step7.description': 'نحن نعد ونقدم جميع الأوراق إلى دائرة الاقتصاد والسياحة والسلطات المرتبطة لإصدار الترخيص النهائي.',
+    
+    'blog.mainlandLicense.stepByStep.step8.title': '8. استلام رخصتك التجارية',
+    'blog.mainlandLicense.stepByStep.step8.description': 'بمجرد الموافقة، ستحصل على رخصتك التجارية الرسمية في البر الرئيسي—جاهزة لبدء العمليات.',
+    
+    'blog.mainlandLicense.stepByStep.step9.title': '9. التقدم للحصول على بطاقة التأسيس والتأشيرات',
+    'blog.mainlandLicense.stepByStep.step9.description': 'سنسجل عملك مع الهجرة ونساعدك في التقدم للحصول على تأشيرتك الخاصة وتأشيرات موظفيك أو معاليك.',
+    
+    'blog.mainlandLicense.documents.title': 'الوثائق المطلوبة',
+    'blog.mainlandLicense.documents.list': 'نسخة جواز سفر جميع المساهمين|صورة بحجم جواز السفر|ختم الدخول أو نسخة تأشيرة الإقامة (إن وجدت)|حجز الاسم التجاري|شهادة الموافقة الأولية|عقد الإيجار (إيجاري)|عقد التأسيس (موقع ومصدق)|اتفاقية وكيل الخدمة المحلي (إذا لزم الأمر)',
+    
+    'blog.mainlandLicense.whyAEFastLane.title': 'لماذا العمل مع AEFastLane؟',
+    'blog.mainlandLicense.whyAEFastLane.description': 'في AEFastLane، نبسط المعقد. خبراؤنا المتخصصون يديرون العملية بأكملها نيابة عنك—من الاستشارة الأولية إلى تسليم الترخيص وختم التأشيرة. معنا، تحصل على:',
+    'blog.mainlandLicense.whyAEFastLane.benefits': 'تأسيس خالٍ من الضغوط|تسليم سريع للوثائق|تواصل شفاف|دعم الامتثال المستمر',
+    'blog.mainlandLicense.whyAEFastLane.conclusion': 'سواء كنت مؤسس شركة ناشئة أو مستثمر دولي، نحن نساعدك على البدء بقوة.',
+    'blog.mainlandLicense.whyAEFastLane.cta': 'اتصل بنا اليوم لإطلاق عملك في دبي بثقة ووضوح وسرعة.',
   }
 };
