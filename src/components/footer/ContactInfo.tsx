@@ -13,10 +13,7 @@ const ContactInfo: FC = () => {
           <Mail size={20} className="mr-2" />
           contact@aefastlane.com
         </a>
-        <div className="flex items-center text-gray-300">
-          <Phone size={20} className="mr-2" />
-          +971-XXX-XXX-XXX
-        </div>
+    
       </div>
     </div>
   );
