@@ -447,4 +447,50 @@ export const blogTranslations = {
     'blog.mainlandLicense.overview.title': 'كيفية الحصول على رخصة تجارية في البر الرئيسي بدبي',
     'blog.mainlandLicense.overview.description': 'دليل شامل خطوة بخطوة للحصول على رخصة تجارية في البر الرئيسي بدبي، يشمل المتطلبات والإجراءات ونصائح الخبراء.',
     
-    'blog.mainlandLicense.intro': 'تأسيس شركة في البر الرئيسي بدبي يوفر وصولاً لا مثيل له إلى السوق الإماراتي، مما يتيح لك التجارة مباشرة مع العملاء المحليين والمشاركة في المناقصات الحكومية. سواء كنت رائد أعمال ط
+    'blog.mainlandLicense.intro': 'تأسيس شركة في البر الرئيسي بدبي يوفر وصولاً لا مثيل له إلى السوق الإماراتي، مما يتيح لك التجارة مباشرة مع العملاء المحليين والمشاركة في المناقصات الحكومية. سواء كنت رائد أعمال طموح أو مستثمر متمرس، فإن تأسيس شركة في البر الرئيسي خطوة استراتيجية تفتح أبواب الفرص.',
+    
+    'blog.mainlandLicense.whyChoose.title': 'لماذا تختار رخصة البر الرئيسي؟',
+    'blog.mainlandLicense.whyChoose.description': 'رخصة الأعمال في البر الرئيسي تمكنك من:',
+    'blog.mainlandLicense.whyChoose.benefits': 'العمل في أي مكان في الإمارات دون قيود|تقديم الخدمات أو بيع المنتجات للعملاء المحليين والدوليين|فتح فروع متعددة في جميع أنحاء الإمارات|كفالة تأشيرات الموظفين والمعالين|المنافسة على عقود القطاع العام',
+    'blog.mainlandLicense.whyChoose.conclusion': 'هذا الهيكل مثالي للشركات التي تتطلع إلى التوسع داخل المنطقة، والحفاظ على عمليات مرنة، والاندماج الكامل في الاقتصاد الإماراتي.',
+    
+    'blog.mainlandLicense.stepByStep.title': 'دليل خطوة بخطوة لفتح شركة في البر الرئيسي بدبي',
+    'blog.mainlandLicense.stepByStep.step1.title': '1. تحديد نشاطك التجاري',
+    'blog.mainlandLicense.stepByStep.step1.description': 'تحتفظ دائرة الاقتصاد والسياحة (DET، سابقاً DED) بقائمة رسمية تضم أكثر من 2000 نشاط. ستحتاج إلى اختيار نشاط يتماشى مع عملياتك.',
+    
+    'blog.mainlandLicense.stepByStep.step2.title': '2. اختيار الهيكل القانوني',
+    'blog.mainlandLicense.stepByStep.step2.description': 'الأنواع الشائعة تشمل:',
+    'blog.mainlandLicense.stepByStep.step2.types': 'المؤسسة الفردية|الشركة المدنية|شركة ذات مسؤولية محدودة (LLC)|فرع شركة أجنبية',
+    'blog.mainlandLicense.stepByStep.step2.note': 'شركة ذات مسؤولية محدودة هي الأكثر شعبية للأعمال العامة وتسمح الآن بملكية أجنبية 100% لمعظم الأنشطة.',
+    
+    'blog.mainlandLicense.stepByStep.step3.title': '3. حجز الاسم التجاري',
+    'blog.mainlandLicense.stepByStep.step3.description': 'اختر اسماً تجارياً فريداً يلبي معايير التسمية الحكومية (مثل عدم وجود كلمات مسيئة، يجب أن يعكس النشاط في بعض الحالات). تتولى AEFastLane حجز الاسم مع DET.',
+    
+    'blog.mainlandLicense.stepByStep.step4.title': '4. التقدم للحصول على الموافقة الأولية',
+    'blog.mainlandLicense.stepByStep.step4.description': 'الموافقة الأولية تسمح لك بالمضي قدماً في تأسيس الشركة. إنها الضوء الأخضر من السلطات بأنه يمكنك تشكيل عملك قانونياً.',
+    
+    'blog.mainlandLicense.stepByStep.step5.title': '5. صياغة عقد التأسيس واتفاقية وكيل الخدمة المحلي',
+    'blog.mainlandLicense.stepByStep.step5.description': 'عقد التأسيس يحدد هيكل ملكية شركتك وعملياتها. إذا كان نشاطك لا يزال يتطلب وكيل خدمة محلي (LSA)، فنحن نعد الاتفاقية.',
+    
+    'blog.mainlandLicense.stepByStep.step6.title': '6. تأمين موقع عملك',
+    'blog.mainlandLicense.stepByStep.step6.description': 'جميع الشركات يجب أن يكون لها عنوان فعلي في دبي. نساعد في الحصول على عقد إيجار مسجل في الإيجاري لمساحة مكتبية أو مكتب مرن، حسب إعدادك.',
+    
+    'blog.mainlandLicense.stepByStep.step7.title': '7. تقديم الوثائق ودفع الرسوم',
+    'blog.mainlandLicense.stepByStep.step7.description': 'نعد ونقدم جميع الأوراق إلى DET والسلطات المرتبطة لإصدار الترخيص النهائي.',
+    
+    'blog.mainlandLicense.stepByStep.step8.title': '8. استلام رخصتك التجارية',
+    'blog.mainlandLicense.stepByStep.step8.description': 'بمجرد الموافقة، ستستلم رخصتك التجارية الرسمية في البر الرئيسي - جاهزة لبدء العمليات.',
+    
+    'blog.mainlandLicense.stepByStep.step9.title': '9. التقدم للحصول على بطاقة التأسيس والتأشيرات',
+    'blog.mainlandLicense.stepByStep.step9.description': 'سنسجل عملك مع الهجرة ونساعدك في التقدم للحصول على تأشيرتك الخاصة وتأشيرات موظفيك أو معاليك.',
+    
+    'blog.mainlandLicense.documents.title': 'الوثائق المطلوبة',
+    'blog.mainlandLicense.documents.list': 'نسخة جواز سفر جميع المساهمين|صورة بحجم جواز السفر|نسخة ختم الدخول أو تأشيرة الإقامة (إن أمكن)|حجز الاسم التجاري|شهادة الموافقة الأولية|عقد الإيجار (الإيجاري)|عقد التأسيس (موقع ومصدق)|اتفاقية وكيل الخدمة المحلي (إذا لزم الأمر)',
+    
+    'blog.mainlandLicense.whyAEFastLane.title': 'لماذا العمل مع AEFastLane؟',
+    'blog.mainlandLicense.whyAEFastLane.description': 'في AEFastLane، نبسط المعقد. خبراؤنا المتخصصون يديرون العملية بأكملها نيابة عنك - من الاستشارة الأولية إلى تسليم الترخيص وختم التأشيرة. معنا، تحصل على:',
+    'blog.mainlandLicense.whyAEFastLane.benefits': 'تأسيس خالٍ من التوتر|تسليم سريع للوثائق|تواصل شفاف|دعم الامتثال المستمر',
+    'blog.mainlandLicense.whyAEFastLane.conclusion': 'سواء كنت مؤسس شركة ناشئة أو مستثمر دولي، نساعدك على البدء بقوة.',
+    'blog.mainlandLicense.whyAEFastLane.cta': 'اتصل بنا اليوم لإطلاق عملك في دبي بثقة ووضوح وسرعة.',
+  }
+};
