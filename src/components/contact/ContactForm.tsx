@@ -11,7 +11,8 @@ const ContactForm: FC = () => {
 
   const onSubmit = (data: ContactFormData) => {
     // TODO: Implement backend service to send email to AEfastlane@soarbusinessgroup.com
-    console.log('Form data to be sent to AEfastlane@soarbusinessgroup.com:', data);
+    // TODO: Implement backend service to send email to contact@aefastlane.com
+    console.log('Form data to be sent to contact@aefastlane.com:', data);
     alert('Form submitted! (Backend integration needed to send actual email)');
   };
 
