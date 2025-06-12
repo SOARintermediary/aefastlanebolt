@@ -84,7 +84,7 @@ const translations = {
     'contact.invalidEmail': 'Invalid email address',
     
     // Footer
-    'footer.description': 'From company setup to HR and PRO — we handle it all.',
+    'footer.description': 'From company setup to HR and PRO — we can advise on it all.',
     'footer.contactUs': 'Contact Us',
     'footer.followUs': 'Follow Us',
     'footer.rights': 'All rights reserved.',
