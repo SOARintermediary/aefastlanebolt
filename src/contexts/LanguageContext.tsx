@@ -42,7 +42,7 @@ const translations = {
     
     // Services
     'services.title': 'Our Services',
-    'services.subtitle': 'Comprehensive business setup and support services in UAE',
+    'services.subtitle': 'We consult and give guidance on the following services in UAE',
     'services.companyFormation.title': 'UAE Company Formation',
     'services.companyFormation.description': 'Setup Mainland LLC, Free Zone Companies (RAKEZ, DMCC, IFZA), and Offshore Entities.',
     'services.companyFormation.comingSoon': 'Service coming soon',
