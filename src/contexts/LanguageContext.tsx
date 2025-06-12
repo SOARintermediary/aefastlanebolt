@@ -112,39 +112,6 @@ const translations = {
     'common.submit': 'Submit',
     'common.cancel': 'Cancel',
     
-    // Blog Posts
-    'blog.posts.freeZoneVsMainland.title': 'Free Zone vs Mainland: Which is Right for Your UAE Business?',
-    'blog.posts.freeZoneVsMainland.excerpt': 'Discover the key differences between free zone and mainland business setup in the UAE, and learn which option best suits your business goals and requirements.',
-    
-    'blog.posts.startingBusiness.title': 'Starting a Business in the UAE as a Foreigner',
-    'blog.posts.startingBusiness.excerpt': 'Everything foreign entrepreneurs need to know about starting a business in the UAE, from legal requirements to practical considerations.',
-    
-    'blog.posts.businessActivities.title': 'Business Activities & Licensing Categories Explained',
-    'blog.posts.businessActivities.excerpt': 'Navigate the complex world of UAE business activities and licensing categories. Learn how to choose the right classification for your venture.',
-    
-    'blog.posts.mainlandLicense.title': 'How to Open a Mainland Business License in Dubai',
-    'blog.posts.mainlandLicense.excerpt': 'A comprehensive step-by-step guide to obtaining your mainland business license in Dubai, including requirements, procedures, and expert tips.',
-    
-    'blog.posts.freeZoneSetup.title': 'Step-by-Step Guide to Setting Up a Free Zone Company',
-    'blog.posts.freeZoneSetup.excerpt': 'Complete walkthrough of the free zone company setup process, from choosing the right zone to final license approval.',
-    
-    'blog.posts.visaTypes.title': 'Visa Types and Their Benefits for Business Owners',
-    'blog.posts.visaTypes.excerpt': 'Understanding the different visa options available to business owners in the UAE, from investor visas to Golden Visa opportunities.',
-    
-    'blog.posts.residenceVisa.title': 'How to Apply for UAE Residence Visa Through Your Company',
-    'blog.posts.residenceVisa.excerpt': 'Once your business license is issued, learn how to apply for UAE residence visa through your company with AEFastLane\'s expert guidance.',
-    
-    'blog.posts.goldenVisa.title': 'Golden Visa Eligibility & Application Process Explained',
-    'blog.posts.goldenVisa.excerpt': 'The UAE\'s Golden Visa offers long-term residency to investors, entrepreneurs, and professionals. Find out if you qualify and how to apply.',
-    
-    'blog.posts.familyVisa.title': 'Family and Dependents Visa Sponsorship Made Easy',
-    'blog.posts.familyVisa.excerpt': 'Want to bring your family to the UAE? Learn how AEFastLane can help you sponsor dependents smoothly and efficiently.',
-    
-    'blog.posts.govApprovals.title': 'How AEFastLane Streamlines Government Approvals & Documentation',
-    'blog.posts.govApprovals.excerpt': 'Learn how our expert team simplifies complex government procedures and ensures your business stays compliant with UAE regulations.',
-    
-    'blog.posts.renewals.title': 'Understanding UAE Company Renewals, Modifications & Closures',
-    'blog.posts.renewals.excerpt': 'Essential guide to maintaining your UAE business license, making modifications, and understanding closure procedures when needed.',
     
     // Blog Coming Soon
     'blog.comingSoon.title': 'More Expert Content Coming Soon',
