@@ -70,18 +70,7 @@ const translations = {
     'pricing.categories.translation': 'Translation Services',
     'pricing.categories.attestation': 'Certificate Attestation',
     
-    // Contact Form
-    'contact.title': 'Contact Us',
-    'contact.subtitle': 'Get in touch for a free consultation',
-    'contact.name': 'Full Name',
-    'contact.email': 'Email',
-    'contact.phone': 'Phone Number',
-    'contact.company': 'Company Name (if applicable)',
-    'contact.service': 'Service Interested In',
-    'contact.message': 'Message',
-    'contact.submit': 'Send Message',
-    'contact.required': 'is required',
-    'contact.invalidEmail': 'Invalid email address',
+
     
     // Footer
     'footer.description': 'From company setup to HR and PRO — we can advise on it all.',
