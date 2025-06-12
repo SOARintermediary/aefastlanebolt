@@ -189,18 +189,7 @@ const translations = {
     'pricing.categories.translation': 'خدمات الترجمة',
     'pricing.categories.attestation': 'تصديق الشهادات',
     
-    // Contact Form
-    'contact.title': 'اتصل بنا',
-    'contact.subtitle': 'تواصل معنا للحصول على استشارة مجانية',
-    'contact.name': 'الاسم الكامل',
-    'contact.email': 'البريد الإلكتروني',
-    'contact.phone': 'رقم الهاتف',
-    'contact.company': 'اسم الشركة (إن وجد)',
-    'contact.service': 'الخدمة المطلوبة',
-    'contact.message': 'الرسالة',
-    'contact.submit': 'إرسال الرسالة',
-    'contact.required': 'مطلوب',
-    'contact.invalidEmail': 'بريد إلكتروني غير صالح',
+
     
     // Footer
     'footer.description': 'شريكك الشامل في تأسيس الأعمال في الإمارات',
