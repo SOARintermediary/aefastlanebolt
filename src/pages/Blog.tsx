@@ -1,123 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Calendar, ArrowRight, Building2, FileText, Globe, BarChart3, Settings, RefreshCw, Plane, Star, Users, Heart } from 'lucide-react';
+import { Calendar, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
-const blogPosts = [
-  // Getting Started
-  {
-    id: 'free-zone-vs-mainland',
-    titleKey: 'blog.posts.freeZoneVsMainland.title',
-    excerptKey: 'blog.posts.freeZoneVsMainland.excerpt',
-    icon: Building2,
-    readTime: 8,
-    categoryKey: 'blog.categories.gettingStarted',
-    path: '/blog/free-zone-vs-mainland'
-  },
-  {
-    id: 'starting-business-uae-foreigner',
-    titleKey: 'blog.posts.startingBusiness.title',
-    excerptKey: 'blog.posts.startingBusiness.excerpt',
-    icon: Globe,
-    readTime: 12,
-    categoryKey: 'blog.categories.gettingStarted',
-    path: '/blog/starting-business-uae-foreigner'
-  },
-  {
-    id: 'business-activities-licensing',
-    titleKey: 'blog.posts.businessActivities.title',
-    excerptKey: 'blog.posts.businessActivities.excerpt',
-    icon: BarChart3,
-    readTime: 10,
-    categoryKey: 'blog.categories.gettingStarted',
-    path: '/blog/business-activities-licensing'
-  },
-  
-  // Setup Guides
-  {
-    id: 'mainland-business-license-dubai',
-    titleKey: 'blog.posts.mainlandLicense.title',
-    excerptKey: 'blog.posts.mainlandLicense.excerpt',
-    icon: FileText,
-    readTime: 10,
-    categoryKey: 'blog.categories.setupGuides',
-    path: '/blog/mainland-business-license-dubai'
-  },
-  {
-    id: 'free-zone-company-setup',
-    titleKey: 'blog.posts.freeZoneSetup.title',
-    excerptKey: 'blog.posts.freeZoneSetup.excerpt',
-    icon: Building2,
-    readTime: 9,
-    categoryKey: 'blog.categories.setupGuides',
-    path: '/blog/free-zone-company-setup'
-  },
-  
-  // Visa & Immigration
-  {
-    id: 'visa-types-business-owners',
-    titleKey: 'blog.posts.visaTypes.title',
-    excerptKey: 'blog.posts.visaTypes.excerpt',
-    icon: Plane,
-    readTime: 11,
-    categoryKey: 'blog.categories.visaImmigration',
-    path: '/blog/visa-types-business-owners'
-  },
-  {
-    id: 'uae-residence-visa-application',
-    titleKey: 'blog.posts.residenceVisa.title',
-    excerptKey: 'blog.posts.residenceVisa.excerpt',
-    icon: FileText,
-    readTime: 9,
-    categoryKey: 'blog.categories.visaImmigration',
-    path: '/blog/uae-residence-visa-application'
-  },
-  {
-    id: 'golden-visa-eligibility',
-    titleKey: 'blog.posts.goldenVisa.title',
-    excerptKey: 'blog.posts.goldenVisa.excerpt',
-    icon: Star,
-    readTime: 13,
-    categoryKey: 'blog.categories.visaImmigration',
-    path: '/blog/golden-visa-eligibility'
-  },
-  {
-    id: 'family-dependents-visa',
-    titleKey: 'blog.posts.familyVisa.title',
-    excerptKey: 'blog.posts.familyVisa.excerpt',
-    icon: Heart,
-    readTime: 10,
-    categoryKey: 'blog.categories.visaImmigration',
-    path: '/blog/family-dependents-visa'
-  },
-  
-  // Operations & Compliance
-  {
-    id: 'government-approvals-streamlined',
-    titleKey: 'blog.posts.govApprovals.title',
-    excerptKey: 'blog.posts.govApprovals.excerpt',
-    icon: Settings,
-    readTime: 7,
-    categoryKey: 'blog.categories.operations',
-    path: '/blog/government-approvals-streamlined'
-  },
-  {
-    id: 'company-renewals-closures',
-    titleKey: 'blog.posts.renewals.title',
-    excerptKey: 'blog.posts.renewals.excerpt',
-    icon: RefreshCw,
-    readTime: 11,
-    categoryKey: 'blog.categories.operations',
-    path: '/blog/company-renewals-closures'
-  }
-];
+const blogPosts = [];
 
-const categories = [
-  'blog.categories.gettingStarted',
-  'blog.categories.setupGuides',
-  'blog.categories.visaImmigration',
-  'blog.categories.operations'
-];
+const categories = [];
 
 const Blog = () => {
   const navigate = useNavigate();
@@ -156,10 +44,7 @@ const Blog = () => {
                   key={post.id}
                   className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer group overflow-hidden"
                   onClick={() => {
-                    // Only allow navigation for mainland business license article
-                    if (post.id === 'mainland-business-license-dubai') {
-                      navigate(post.path);
-                    }
+                    navigate(post.path);
                   }}
                 >
                   <div className="p-6">
