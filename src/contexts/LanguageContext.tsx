@@ -100,6 +100,18 @@ const translations = {
     'common.success': 'Success',
     'common.submit': 'Submit',
     'common.cancel': 'Cancel',
+
+    // Contact
+'contact.title': 'Contact Us',
+'contact.subtitle': 'We look forward to hearing from you',
+'contact.name': 'Name',
+'contact.email': 'Email',
+'contact.phone': 'Phone',
+'contact.company': 'Company (Optional)',
+'contact.message': 'Message',
+'contact.required': 'is required',
+'contact.invalidEmail': 'Please enter a valid email address',
+'contact.submit': 'Send Message',
     
     
     // Blog Coming Soon
@@ -219,6 +231,18 @@ const translations = {
     'common.success': 'تم بنجاح',
     'common.submit': 'إرسال',
     'common.cancel': 'إلغاء',
+
+    // Contact
+'contact.title': 'اتصل بنا',
+'contact.subtitle': 'نتطلع إلى تواصلكم',
+'contact.name': 'الاسم',
+'contact.email': 'البريد الإلكتروني',
+'contact.phone': 'رقم الهاتف',
+'contact.company': 'الشركة (اختياري)',
+'contact.message': 'الرسالة',
+'contact.required': 'مطلوب',
+'contact.invalidEmail': 'الرجاء إدخال عنوان بريد إلكتروني صالح',
+'contact.submit': 'إرسال الرسالة',
     
     
     // Blog Coming Soon
