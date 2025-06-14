@@ -37,7 +37,7 @@ const translations = {
     // Hero
     'hero.title1': 'Your UAE Partner for',
     'hero.title2': 'Business, Visas & Beyond',
-    'hero.description': 'Business formation, visas, HR & PRO — fast-tracked for success.',
+    'hero.description': 'Business formation, visas, HR & more — we advise on it all.',
     'hero.cta': 'Book a Free Consultation',
     
     // Services
