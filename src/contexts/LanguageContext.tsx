@@ -173,7 +173,7 @@ const translations = {
     
     // Services
     'services.title': 'خدماتنا',
-    'services.subtitle': 'خدمات شاملة لتأسيس وإدارة الأعمال في الإمارات',
+    'services.subtitle': 'نقدم الاستشارات والإرشادات حول الخدمات التالية في الإمارات العربية المتحدة',
     'services.companyFormation.title': 'تأسيس الشركات في الإمارات',
     'services.companyFormation.description': 'تأسيس شركات البر الرئيسي والمناطق الحرة (راكز، دي إم سي سي، إفزا) والشركات الخارجية.',
     'services.companyFormation.comingSoon': 'الخدمة قريباً',
@@ -204,7 +204,7 @@ const translations = {
 
     
     // Footer
-    'footer.description': 'شريكك الشامل في تأسيس الأعمال في الإمارات',
+    'footer.description': 'من تأسيس الشركة إلى الموارد البشرية وخدمات العلاقات العامة — يمكننا تقديم المشورة في كل ذلك.',
     'footer.contactUs': 'اتصل بنا',
     'footer.followUs': 'تابعنا',
     'footer.rights': 'جميع الحقوق محفوظة.',
