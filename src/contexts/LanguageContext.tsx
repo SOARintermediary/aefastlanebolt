@@ -12,9 +12,9 @@ interface LanguageContextType {
 const translations = {
   en: {
     // Features Section
-    'features.title': 'AEFastLane – Your Trusted UAE Business Setup Partner',
+    'features.title': 'AEFastLane – Your Trusted UAE Business Setup Consultant',
     'features.subtitle': 'Empowering Enterprises to Thrive in the Emirates',
-    'features.service.title': 'All-in-One Business Services',
+    'features.service.title': 'All-in-One Business Advisory Services',
     'features.service.description': 'Complete support from company formation to bank account opening',
     'features.plans.title': 'Tailored & Affordable Plans',
     'features.plans.description': 'Budget-friendly solutions designed around your business needs',
