@@ -73,7 +73,7 @@ const translations = {
 
     
     // Footer
-    'footer.description': 'AEFAstlane is a SOAR Consultancy FZ-LLC Company',
+    'footer.description': 'AEFastlane is a SOAR Consultancy FZ-LLC Company',
     'footer.contactUs': 'Contact Us',
     'footer.followUs': 'Follow Us',
     'footer.rights': 'All rights reserved.',
